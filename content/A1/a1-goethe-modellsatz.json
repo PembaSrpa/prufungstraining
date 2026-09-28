@@ -1,0 +1,303 @@
+{
+  "id": "a1-goethe-modellsatz",
+  "level": "A1",
+  "exam": "Goethe-Zertifikat A1: Start Deutsch 1",
+  "source_type": "official",
+  "source_url": "https://www.thelanguageoffice.com/wp-content/uploads/2018/12/Goethe-Institut-A1-sample-paper-01.pdf",
+  "edition": "7. Auflage, Januar 2013",
+  "skills": {
+    "hoeren": {
+      "timer_seconds": 1200,
+      "audio_url": "https://goethemp4s.akamaized.net/resources/files/mp430/pruefungstraining_1_hoeren_a1_erwachsene.mp4",
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Sie hoeren kurze Gespraeche und Ansagen. Zu jedem Text gibt es eine Aufgabe. Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hoeren jeden Text zweimal.",
+          "questions": [
+            {
+              "id": "h1-1",
+              "prompt": "Was kostet der Pullover?",
+              "options": ["Dreissig Euro.", "Neunzehn Euro fuenfundneunzig Cent.", "Fuenfundneunzig Euro."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-2",
+              "prompt": "Wie spaet ist es?",
+              "options": ["15 Uhr.", "Halb 5 Uhr.", "Gleich 5 Uhr."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h1-3",
+              "prompt": "Was isst die Frau im Restaurant?",
+              "options": ["Pommes.", "Wurst.", "Fisch."],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-4",
+              "prompt": "In welche Klasse geht Frau Hegers Sohn?",
+              "options": ["In die neunte Klasse.", "In die vierte Klasse.", "In die dritte Klasse."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h1-5",
+              "prompt": "Wie kommt die Frau in den 2. Stock?",
+              "options": ["Mit dem Aufzug.", "Mit der Rolltreppe.", "Auf der Treppe um die Ecke."],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-6",
+              "prompt": "Wohin faehrt Herr Albers?",
+              "options": ["Zur Arbeit.", "In Urlaub ans Meer.", "Zur Familie."],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Kreuzen Sie an: Richtig oder Falsch. Sie hoeren jeden Text einmal.",
+          "questions": [
+            {
+              "id": "h2-7",
+              "prompt": "Die Kunden sollen die Weihnachtsfeier besuchen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-8",
+              "prompt": "Die Fahrgaeste sollen sich im Restaurant treffen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-9",
+              "prompt": "Die Fahrgaeste sollen im Zug bleiben.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-10",
+              "prompt": "Der Herr soll sofort zum Schalter kommen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hoeren jeden Text zweimal.",
+          "questions": [
+            {
+              "id": "h3-11",
+              "prompt": "Die Nummer ist:",
+              "options": ["11833.", "11883.", "12833."],
+              "correct_answer": 0
+            },
+            {
+              "id": "h3-12",
+              "prompt": "Wo genau treffen sich die Maenner?",
+              "options": ["Am Zug.", "Am Bahnhof.", "An der Information."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h3-13",
+              "prompt": "Wie lange will der Mann noch warten?",
+              "options": ["20 Minuten.", "2 Minuten.", "10 Minuten."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h3-14",
+              "prompt": "An welchem Tag will die Frau kommen?",
+              "options": ["Am Montag.", "Am Sonntag.", "Am Samstag."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-15",
+              "prompt": "Was ist kaputt?",
+              "options": ["Der Fernseher.", "Der Computer.", "Das Handy."],
+              "correct_answer": 1
+            }
+          ]
+        }
+      ],
+      "transcripts": [
+        "Frau: Ach, Verzeihung, wo finde ich Herrn Schneider vom Betriebsrat? Mann: Schneider. Warten Sie mal. Ich glaube, der ist in Zimmer Nummer 254.",
+        "Kunde: Entschuldigung, was kostet dieser Pullover jetzt? Verkaeuferin: Einen Moment bitte, neunzehnfuenfundneunzig.",
+        "Passant: Wie spaet ist es bitte? Passantin: Jetzt ist es gleich 5 Uhr.",
+        "Kellner: Was wuenschen Sie bitte? Gast: Die Salatplatte ist leider aus. Gast: Dann wohl die Pommes.",
+        "Kollege: Haben Sie Kinder, Frau Heger? Kollegin: Ja, einen Sohn, neun Jahre, schon in die dritte Klasse.",
+        "Kundin: Wie komme ich in den zweiten Stock, die Rolltreppe ist kaputt. Verkaeufer: Gehen Sie rechts um die Ecke und nehmen den Aufzug.",
+        "Kollegin: So frueh schon bei der Arbeit? Kollege: Morgen fahre ich fuer drei Wochen zu meinen Verwandten nach Polen.",
+        "Ansage: Liebe Kunden, zu Weihnachten bieten wir Superpreise an, Wein im 3. Stock.",
+        "Ansage: Liebe Fahrgaeste, an der naechsten Raststaette halten wir eine Stunde, wir treffen uns wieder am Bus um halb eins.",
+        "Ansage: Liebe Fahrgaeste, das ist ein ausserplanmaessiger Halt, bitte hier nicht aussteigen.",
+        "Ansage: Herr Stefan Janda wird zum Schalter F7 gebeten.",
+        "Ansage: Die Rufnummer hat sich geaendert, rufen Sie die Telefon-Auskunft an unter 11833.",
+        "Boris: Ich bin noch im Zug, ich warte an der Information auf dich.",
+        "Boris: Ich bin jetzt am Bahnhof, zehn Minuten Zeit hast du noch, dann nehme ich ein Taxi.",
+        "Rogalla: Wir koennen am Samstag nicht kommen, am Sonntag haben wir Zeit.",
+        "Walter: Mein Computer hat einen Fehler, ich kann nichts drucken."
+      ]
+    },
+    "lesen": {
+      "timer_seconds": 1500,
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Lesen Sie die beiden Texte und die Aufgaben 1 bis 5. Kreuzen Sie an: Richtig oder Falsch.",
+          "text": "Text 1 (Karin an Li): Hallo Li, danke fuer deine Mail. Dein Zug kommt hier in Hannover um 12.36 Uhr an. Ich bin ab 12.15 Uhr im Hauptbahnhof und warte auf dich vor der Auskunft. Du kannst mich den ganzen Vormittag auf meinem Handy erreichen. Deine Karin. Text 2 (Ralf an Carmen): Liebe Carmen, am kommenden Sonntag habe ich Geburtstag. Ich moechte gerne mit dir feiern und lade dich herzlich zu meiner Party am Samstagabend ein. Wir fangen um 21 Uhr an. Es werden viele Leute da sein. Kannst du einen Salat mitbringen? Vergiss nicht einen Pullover, wir feiern draussen im Garten. Ralf.",
+          "questions": [
+            {
+              "id": "l1-1",
+              "prompt": "Lis Zug kommt nach halb eins an.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l1-2",
+              "prompt": "Karin wartet den ganzen Vormittag vor der Auskunft.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-3",
+              "prompt": "Ralf hatte am letzten Wochenende Geburtstag.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-4",
+              "prompt": "Ralf hat nur zwei oder drei Leute eingeladen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-5",
+              "prompt": "Die Party findet draussen statt.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Lesen Sie die Texte und die Aufgaben 6 bis 10. Wo finden Sie Informationen? Kreuzen Sie an: a oder b.",
+          "text": "Quellen: www.schiff-ruedesheim.de (Hotel-Pension Schiff, Zimmer, Restaurant), www.bingen-ruedesheimer.de (Rheinschiffe, Abfahrtszeiten und Preise), www.sprachenfuchs.de (Sprachinstitut Fuchs Dresden, Deutsch Englisch Franzoesisch Russisch), www.eviva.com (Sprachkurse fuer Deutsche, Spanisch auf Mallorca, Englisch auf Malta), www.DER.com (Deutsches Reisebuero, Ticketbestellungen Fluege, Deutsche Bahn), www.RED.com (Ticketservice Theater Konzerte Busreisen), www.bodensee.de (Touristeninformation Bodensee), www.rottenmeier.de (Ferienwohnungen am Bodensee), Bahnauskunft Wiesbaden ab 08.09 an Hamburg 12.40.",
+          "questions": [
+            {
+              "id": "l2-6",
+              "prompt": "Sie moechten mit dem Schiff auf dem Rhein fahren.",
+              "options": ["www.schiff-ruedesheim.de", "www.bingen-ruedesheimer.de"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-7",
+              "prompt": "Sie moechten Deutsch in Deutschland lernen.",
+              "options": ["www.sprachenfuchs.de", "www.eviva.com"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-8",
+              "prompt": "Sie moechten ein Zugticket im Internet kaufen.",
+              "options": ["www.DER.com", "www.RED.com"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-9",
+              "prompt": "Sie moechten Informationen ueber den Bodensee.",
+              "options": ["www.bodensee.de", "www.rottenmeier.de"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-10",
+              "prompt": "Sie sind in Wiesbaden und moechten mit dem Zug am Mittag in Hamburg sein.",
+              "options": ["Verbindung ab Wiesbaden 08.09 an Hamburg 12.40", "Verbindung ab Hamburg 12.18 an Wiesbaden 16.52"],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Lesen Sie die Texte und die Aufgaben 11 bis 15. Kreuzen Sie an: Richtig oder Falsch.",
+          "text": "Schild: Das Sprachzentrum ist umgezogen, Sie finden uns jetzt in der Beethovenstr. 23. Schild: In der 10-Uhr-Pause bekommen Sie an der Rezeption ein Fruehstueckspaket, belegte Broetchen und Getraenke fuer 2 Euro. Schild Post: Oeffnungszeiten montags-freitags 8-12 und 13-18, samstags 8-12. Schild Bahnhof: Auf dem gesamten Bahnhof ist das Rauchen verboten. Schild Restaurant Bavaria: Bayerischer Abend, Brezeln, Weisswuerste, Sauerkraut, Volksmusik, ab 20 Uhr Tanz. Schild Haltestelle: In der Neujahrsnacht Busverkehr bis 23.00 Uhr und von 1.00 Uhr bis 5.00 Uhr alle 30 Minuten.",
+          "questions": [
+            {
+              "id": "l3-11",
+              "prompt": "Zum Deutsch Lernen gehen Sie in die Beethovenstrasse 23.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l3-12",
+              "prompt": "In der Sprachschule koennen Sie etwas zu essen kaufen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l3-13",
+              "prompt": "Es ist Samstagnachmittag. Sie koennen auf der Post Briefmarken kaufen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l3-14",
+              "prompt": "Heute Abend koennen Sie in diesem Restaurant tanzen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l3-15",
+              "prompt": "Von 23 Uhr bis 1 Uhr faehrt kein Bus.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "timer_seconds": 1200,
+      "parts": [
+        {
+          "part_number": 1,
+          "task_instructions": "Ihre Freundin, Eva Kadavy, macht mit ihrem Mann und ihren beiden Soehnen (8 und 11 Jahre alt) Urlaub in Seeheim. Im Reisebuero bucht sie fuer den naechsten Sonntag eine Busfahrt um den Bodensee. Frau Kadavy hat keine Kreditkarte. In dem Formular fehlen fuenf Informationen. Helfen Sie Ihrer Freundin und schreiben Sie die fuenf fehlenden Informationen in das Formular.",
+          "task_prompt": "Formular ausfuellen: Familienname/Vorname, Anzahl der Personen, davon Kinder, Reisetermin, Zahlungsweise. Bereits bekannt: Urlaubsadresse Hotel Schoenblick, Burgstrasse 34, 78014, Unterschrift Eva Kadavy."
+        },
+        {
+          "part_number": 2,
+          "task_instructions": "Schreiben Sie zu jedem Punkt ein bis zwei Saetze auf den Antwortbogen (circa 30 Woerter). Schreiben Sie auch eine Anrede und einen Gruss.",
+          "task_prompt": "Sie moechten im August Dresden besuchen. Schreiben Sie an die Touristeninformation: Warum schreiben Sie? Informationen ueber Film, Museen usw. (Kulturprogramm)? Hoteladressen?"
+        }
+      ]
+    },
+    "sprechen": {
+      "parts": [
+        {
+          "part_number": 1,
+          "topic": "Sich vorstellen",
+          "example_questions": [
+            "Wer sind Sie? Erzaehlen Sie: Name, Herkunft, Wohnort, Sprachen, Hobby.",
+            "Koennen Sie das bitte buchstabieren?",
+            "Wie ist Ihre Telefonnummer oder Handynummer?"
+          ]
+        },
+        {
+          "part_number": 2,
+          "topic": "Um Informationen bitten und Informationen geben (Themen: Einkaufen, Wochenende)",
+          "example_questions": [
+            "Wo kann ich einen Stadtplan bekommen?",
+            "Fragen und Antworten zum Thema Einkaufen.",
+            "Fragen und Antworten zum Thema Wochenende."
+          ]
+        },
+        {
+          "part_number": 3,
+          "topic": "Bitten formulieren und darauf reagieren",
+          "example_questions": [
+            "Ein Glas Wasser, bitte!",
+            "Formulieren Sie eine Bitte zu einem Alltagsgegenstand und reagieren Sie auf die Bitte des Partners."
+          ]
+        }
+      ]
+    }
+  }
+}

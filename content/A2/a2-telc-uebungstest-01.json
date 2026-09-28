@@ -1,0 +1,464 @@
+{
+  "id": "a2-telc-uebungstest-01",
+  "level": "A2",
+  "exam": "telc Deutsch A2 (Start Deutsch 2)",
+  "source_type": "official",
+  "source_url": "https://www.sprachenatelier-berlin.de/kontext/controllers/document.php/686.7/7/88699e.pdf",
+  "edition": "8. Auflage 2017",
+  "skills": {
+    "lesen": {
+      "timer_seconds": 1800,
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Lesen Sie die Aufgaben 1-5 und die Information. Kreuzen Sie an: a, b oder c.",
+          "text": "Kaufhaus Waldheim. 4. Stock: SB-Restaurant, Wickelraum, Garderobe, Toilette, Fundbuero, Fernsprecher. 3. Stock: Computer, Technik, Software, Foto, Optiker, CD/DVD/Video, Radio/TV-Hi-Fi, Erste Hilfe, Autozubehoer, Fahrraeder, Sportartikel, Bade- und Strandmoden. 2. Stock: Betten, Matratzen, Bett- und Tischwaren, Frottierwaren, Gardinen, Dekostoffe, Herrenbekleidung, Spielwaren, Kinderwagen, Kinderbekleidung, Schreibwaren, Buecher. 1. Stock: Damenbekleidung, Pelze, Schuhe, Stock und Schirm, Nachtwaesche, Alles fuer die Kueche, Glas, Porzellan, Beleuchtung, Elektroartikel. Erdgeschoss: Kosmetik, Handarbeiten, Kurzwaren, Putz- und Waschmittel, Wechselkasse, Tax-Free-Service, Friseursalon.",
+          "questions": [
+            {
+              "id": "l1-1",
+              "prompt": "Sie suchen ein Buch fuer Ihre 12-jaehrige Nichte.",
+              "options": [
+                "Erdgeschoss",
+                "2. Stock",
+                "anderes Stockwerk"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-2",
+              "prompt": "Sie moechten einen Reisefuehrer ueber Berlin kaufen.",
+              "options": [
+                "Erdgeschoss",
+                "2. Stock",
+                "anderes Stockwerk"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-3",
+              "prompt": "Sie haben gestern im Kaufhaus Ihre Geldboerse verloren.",
+              "options": [
+                "Erdgeschoss",
+                "3. Stock",
+                "anderes Stockwerk"
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "l1-4",
+              "prompt": "Sie moechten Seife kaufen.",
+              "options": [
+                "Erdgeschoss",
+                "3. Stock",
+                "anderes Stockwerk"
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "l1-5",
+              "prompt": "Sie moechten eine Sonnenbrille kaufen.",
+              "options": [
+                "Erdgeschoss",
+                "2. Stock",
+                "anderes Stockwerk"
+              ],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Lesen Sie den Text und die Aufgaben 6-10. Sind die Aussagen richtig oder falsch?",
+          "text": "Peter Nohlen: Hochzeit in Las Vegas. Der deutsche Popsaenger Peter Nohlen (48) und seine Patricia (23) werden bald Hochzeit feiern. Ihre Mutter Maria Luisa Garcia Concha (48) ist erleichtert: Ich bin froh, dass er sie endlich heiraten will. Patricias Mutter machte sich Sorgen, weil ihre Tochter schon zwei Jahre mit Peter zusammenlebt. Peter ist nach drei gescheiterten Ehen und unzaehligen Affaeren nicht gerade ein Wunschkandidat fuer Schwiegermuetter. Maria Luisa stellte Nachforschungen an, mit positivem Ausgang: Patricia hat immer eine gute Wahl getroffen, wenn sie mit Peter gluecklich ist, soll er willkommen sein. Sie moechte bald Oma werden.",
+          "questions": [
+            {
+              "id": "l2-6",
+              "prompt": "Peter Nohlen wird bald heiraten.",
+              "options": [
+                "Richtig",
+                "Falsch"
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-7",
+              "prompt": "Maria Luisa ist gegen die Hochzeit.",
+              "options": [
+                "Richtig",
+                "Falsch"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-8",
+              "prompt": "Peter war mit Patricia vor zwei Jahren schon einmal verheiratet.",
+              "options": [
+                "Richtig",
+                "Falsch"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-9",
+              "prompt": "Peter ist genauso alt wie seine neue Schwiegermutter.",
+              "options": [
+                "Richtig",
+                "Falsch"
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-10",
+              "prompt": "Maria Luisa wuenscht sich ein Enkelkind.",
+              "options": [
+                "Richtig",
+                "Falsch"
+              ],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Lesen Sie die Anzeigen a-h und die Aufgaben 11-15. Welche Anzeige passt zu welcher Situation? Fuer eine Aufgabe gibt es keine Loesung, schreiben Sie X.",
+          "text": "a: bahn.de (Ferien in Deutschland, bringen Sie in alle Staedte). b: reiserat.com (Flussreisen Rhein/Main/Donau, Ferienhaus online buchen, Beispiel bereits verwendet). c: goodjob.de (Auslandsjobs, Stellenangebote fuer junge Deutsche im Ausland, auch Schueler- und Studentenjobs). d: schneider.de (Dr. Schneiders Sprachreisen, Grossbritannien, Portugal, Spanien, Frankreich, USA). e: sprachtreff.de (Sprachreisen und Sprachkurse fuer Erwachsene und Schueler in Deutschland und weltweit, viele Freizeitangebote). f: inforeisen.de (Urlaub in Deutschland, Luxus-Hotels, Ferienwohnungen, Mietwagen mit Fahrer, gehobene Gastronomie). g: billig.de (Online-Preisvergleich aller Anbieter fuer Deutschland-Reisen, Mietwagen). h: germanembassy-india.org (Arbeiten in Deutschland, Zollvorschriften, Studieren in Deutschland, Schueler- und Jugendaustausch).",
+          "questions": [
+            {
+              "id": "l3-11",
+              "prompt": "Sie moechten in Deutschland studieren und in den Semesterferien Geld verdienen. Sie suchen Informationen.",
+              "options": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "h",
+                "X (keine Loesung)"
+              ],
+              "correct_answer": 7
+            },
+            {
+              "id": "l3-12",
+              "prompt": "Ein Freund plant eine Deutschlandreise mit dem Mietwagen. Er sucht die guenstigsten Preise.",
+              "options": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "h",
+                "X (keine Loesung)"
+              ],
+              "correct_answer": 6
+            },
+            {
+              "id": "l3-13",
+              "prompt": "Sie lieben gutes Essen und moechten einen Kochkurs machen.",
+              "options": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "h",
+                "X (keine Loesung)"
+              ],
+              "correct_answer": 8
+            },
+            {
+              "id": "l3-14",
+              "prompt": "Ihre Freundin moechte Urlaub in Deutschland machen und Deutsch lernen.",
+              "options": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "h",
+                "X (keine Loesung)"
+              ],
+              "correct_answer": 4
+            },
+            {
+              "id": "l3-15",
+              "prompt": "Sie moechten eine Rundreise durch Deutschland machen und mit dem Zug von Stadt zu Stadt fahren.",
+              "options": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "h",
+                "X (keine Loesung)"
+              ],
+              "correct_answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "timer_seconds": 1800,
+      "audio_note": "Die Tonaufnahme zu diesem telc Uebungstest wird von telc nur separat verkauft und ist nicht frei verfuegbar.",
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Sie hoeren fuenf Ansagen am Telefon. Ergaenzen Sie die Telefonnotizen. Sie hoeren jeden Text zweimal.",
+          "questions": [
+            {
+              "id": "h1-1",
+              "prompt": "Telefonauskunft, Vorwahl 069, Rufnummer:",
+              "options": [
+                "168 85 38"
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-2",
+              "prompt": "Treffen mit Dimitri, nicht ..., Dimitri zurueckrufen:",
+              "options": [
+                "heute / heute Abend"
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-3",
+              "prompt": "Treffpunkt mit Sascha, wo?",
+              "options": [
+                "(am) Eingang"
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-4",
+              "prompt": "Frankfurt nach Koeln, Abfahrt 11.45 Uhr, Preis:",
+              "options": [
+                "45 Euro"
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-5",
+              "prompt": "Arbeit bei Firma Keller, wann? Dienstagvormittag und:",
+              "options": [
+                "Donnerstagnachmittag"
+              ],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Sie hoeren fuenf Informationen aus dem Radio. Kreuzen Sie an: a, b oder c. Sie hoeren jeden Text einmal.",
+          "questions": [
+            {
+              "id": "h2-6",
+              "prompt": "Was kommt nachmittags um drei Uhr?",
+              "options": [
+                "Das Mittagsprogramm",
+                "Eine Sendung fuer Kinder",
+                "Nachrichten"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-7",
+              "prompt": "Wie wird das Wetter morgen?",
+              "options": [
+                "Es gibt ein Gewitter.",
+                "Es gibt Regen.",
+                "Es wird warm."
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-8",
+              "prompt": "Wer oder was laeuft auf der Strasse?",
+              "options": [
+                "Ein Autofahrer",
+                "Ein Kind",
+                "Ein Tier"
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "h2-9",
+              "prompt": "Wer gratuliert zum Geburtstag?",
+              "options": [
+                "Josef, ein junger Mann",
+                "Josefs Familie",
+                "Josefs Kollege aus dem Radio"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-10",
+              "prompt": "Was kann man gewinnen?",
+              "options": [
+                "Eine Reise",
+                "Ein Buch",
+                "Ein Spiel"
+              ],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Sie hoeren ein Gespraech. Wo findet man diese Personen? Ordnen Sie zu.",
+          "questions": [
+            {
+              "id": "h3-11",
+              "prompt": "Leiterin Export",
+              "options": [
+                "im ersten Stock",
+                "gegenueber dem Chefbuero",
+                "am Empfang",
+                "neben der Teekueche",
+                "im Kopierraum",
+                "in der Werkstatt",
+                "ueber dem Computerraum",
+                "im Keller",
+                "im Schreibbuero"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-12",
+              "prompt": "Sohn vom Chef",
+              "options": [
+                "im ersten Stock",
+                "gegenueber dem Chefbuero",
+                "am Empfang",
+                "neben der Teekueche",
+                "im Kopierraum",
+                "in der Werkstatt",
+                "ueber dem Computerraum",
+                "im Keller",
+                "im Schreibbuero"
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "h3-13",
+              "prompt": "Hausarbeiter",
+              "options": [
+                "im ersten Stock",
+                "gegenueber dem Chefbuero",
+                "am Empfang",
+                "neben der Teekueche",
+                "im Kopierraum",
+                "in der Werkstatt",
+                "ueber dem Computerraum",
+                "im Keller",
+                "im Schreibbuero"
+              ],
+              "correct_answer": 5
+            },
+            {
+              "id": "h3-14",
+              "prompt": "Praktikantin",
+              "options": [
+                "im ersten Stock",
+                "gegenueber dem Chefbuero",
+                "am Empfang",
+                "neben der Teekueche",
+                "im Kopierraum",
+                "in der Werkstatt",
+                "ueber dem Computerraum",
+                "im Keller",
+                "im Schreibbuero"
+              ],
+              "correct_answer": 7
+            },
+            {
+              "id": "h3-15",
+              "prompt": "Sekretaerin",
+              "options": [
+                "im ersten Stock",
+                "gegenueber dem Chefbuero",
+                "am Empfang",
+                "neben der Teekueche",
+                "im Kopierraum",
+                "in der Werkstatt",
+                "ueber dem Computerraum",
+                "im Keller",
+                "im Schreibbuero"
+              ],
+              "correct_answer": 8
+            }
+          ]
+        }
+      ],
+      "transcripts": [
+        "Anruf: Die gewuenschte Nummer lautet 168 85 38, die Vorwahl ist 069.",
+        "Dimitri an Nana: Ich muss noch laenger arbeiten, wir koennen uns heute Abend nicht treffen, ruf mich auf dem Handy an.",
+        "Sascha an Ingo: Der Computerkurs findet Dienstag um 18 Uhr in Raum 136 statt, ich warte am Eingang auf dich.",
+        "Zugauskunft: Abfahrt Frankfurt 11.45 Uhr, Ankunft Koeln 14.00 Uhr, Preis ohne Bahn-Card 45 Euro.",
+        "Gudrun Stock, Firma Keller: Koennen Sie am Dienstagvormittag und Donnerstagnachmittag kommen, Frau Mueller ist krank geworden.",
+        "Radio: Nach den Nachrichten das Mittagsmagazin, um 15 Uhr Lilliputz das Kinderprogramm, um 16 Uhr Boulevard Europa.",
+        "Wetterbericht: Heute bleibt es schoen bis 25 Grad, gegen Abend Gewitterneigung, morgen nass und kuehler.",
+        "Verkehrsdurchsage: Auf der A2 bei Freiburg laeuft ein Schwein ueber die Autobahn, fahren Sie langsam.",
+        "Radio: Josef Hallhuber hat heute Geburtstag und wird 17, alles Gute wuenschen ihm seine Eltern und Geschwister.",
+        "Radio-Gewinnspiel: Wohin reisen die Deutschen am liebsten, Italien, Oesterreich oder Deutschland, gewinnen Sie eine Reise fuer zwei Personen an die Ostsee.",
+        "Herr Greiner fuehrt die Praktikantin durchs Haus: sein Buero im ersten Stock, Frau Klinger die Exportleiterin sitzt gegenueber, sein Sohn sitzt am Empfang, die Teekueche und daneben der Kopierraum, ein kaputter Stuhl gehoert in die Werkstatt wo der kranke Hausarbeiter normalerweise ist, der Computerraum im Keller wo die Praktikantin arbeiten wird, und die Sekretaerin Frau Schuster sitzt im Schreibbuero, Zimmer 2."
+      ]
+    },
+    "schreiben": {
+      "timer_seconds": 3000,
+      "parts": [
+        {
+          "part_number": 1,
+          "task_instructions": "Ihr Bekannter Miguel moechte im Internet Deutsch lernen und muss fuer die Anmeldung ein Formular ausfuellen. Er bittet Sie um Hilfe. Bekannte Daten: Miguel del Sol, geboren am 16.10.1972 in Valparaiso, wohnhaft Avenida de la Paz 25, Santiago, Chile. Er hat Medizin studiert, ist Arzt, verheiratet mit Natalie (28), zwei Toechter, Muttersprache Spanisch, spricht auch sehr gut Franzoesisch, noch kein Deutsch. Schreiben Sie die fuenf fehlenden Informationen in das Formular.",
+          "task_prompt": "Formularfelder: Wohnort (Santiago), Geburtsdatum (16.10.1972), Geburtsort (Valparaiso), Familienstand (verheiratet), Fremdsprachen (Franzoesisch)."
+        },
+        {
+          "part_number": 2,
+          "task_instructions": "Ihre Bekannte Paola heiratet naechsten Monat Stefan, die Hochzeit ist in Berlin, Paola hat Sie eingeladen. Antworten Sie mit einem Brief. Waehlen Sie drei der vier Punkte aus und schreiben Sie zu jedem ein bis zwei Saetze, circa 40 Woerter insgesamt.",
+          "task_prompt": "Waehlen Sie drei von vier Punkten: jemanden mitbringen, Geschenk, Stefan, Uebernachtung in Berlin."
+        }
+      ]
+    },
+    "sprechen": {
+      "parts": [
+        {
+          "part_number": 1,
+          "topic": "Sich vorstellen",
+          "example_questions": [
+            "Name?",
+            "Alter?",
+            "Land?",
+            "Wohnort?",
+            "Sprachen?",
+            "Beruf?",
+            "Hobby?"
+          ]
+        },
+        {
+          "part_number": 2,
+          "topic": "Ein Alltagsgespraech fuehren (Thema: Tagesablauf)",
+          "example_questions": [
+            "Was...? Wo...? Wann...? Wohin...? Wie oft...? Wie lange...?"
+          ]
+        },
+        {
+          "part_number": 3,
+          "topic": "Etwas aushandeln",
+          "example_questions": [
+            "Sie wollen zusammen ein Woerterbuch kaufen. Finden Sie anhand Ihrer beiden Terminkalender (Samstag, 17. Mai) einen gemeinsamen Termin."
+          ]
+        }
+      ]
+    }
+  }
+}

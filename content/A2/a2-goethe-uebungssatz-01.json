@@ -1,0 +1,560 @@
+{
+  "id": "a2-goethe-uebungssatz-01",
+  "level": "A2",
+  "exam": "Goethe-Zertifikat A2 (Erwachsene)",
+  "source_type": "official",
+  "source_url": "https://www.goethe.de/pro/relaunch/prf/materialien/A2/A2_Uebungssatz_Erwachsene.pdf",
+  "edition": "1. Auflage, Januar 2021",
+  "skills": {
+    "lesen": {
+      "timer_seconds": 1800,
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Sie lesen in einer Zeitung diesen Text. Waehlen Sie fuer die Aufgaben 1 bis 5 die richtige Loesung a, b oder c.",
+          "text": "Artikel ueber gesundes Essen im Job. Theo kauft mittags schnell eine Bratwurst am Kiosk, weil er keine Zeit hat. Die Firma Gutbrecht hat eigene Kuechen fuer Mitarbeiter gebaut, jeder kann in der Pause fuer sich kochen, das ist guenstiger als das Restaurant. Lena kocht jetzt mit frischem Gemuese und hat zwei Kilo verloren, muss aber die Kueche putzen. Der Chef freut sich ueber mehr Kontakte und bessere Teamarbeit, findet aber die Mittagspause jetzt zu lang.",
+          "questions": [
+            {
+              "id": "l1-1",
+              "prompt": "Ungesundes Essen ...",
+              "options": [
+                "ist besonders teuer.",
+                "kauft man oft unterwegs.",
+                "moegen viele nicht."
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-2",
+              "prompt": "In der Pause ...",
+              "options": [
+                "geht Theo ins Restaurant.",
+                "hat Theo nur wenig Zeit zum Essen.",
+                "isst Theo einen Salat."
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-3",
+              "prompt": "In der Firma Gutbrecht ...",
+              "options": [
+                "bauen die Mitarbeiter Kuechen.",
+                "ist das Essen kostenlos.",
+                "kann jeder selbst sein Mittagessen machen."
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "l1-4",
+              "prompt": "Lena findet die Idee gut, weil ...",
+              "options": [
+                "die anderen die Kueche putzen.",
+                "sie mehr gesundes Essen isst.",
+                "sie nicht mehr zu Hause kochen muss."
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-5",
+              "prompt": "Der Chef der Firma ist zufrieden, weil ...",
+              "options": [
+                "die Mitarbeiter gut zusammenarbeiten.",
+                "die Mitarbeiter lange Pausen machen.",
+                "die Kuechen nicht viel gekostet haben."
+              ],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Sie sind auf einer Reisemesse. Wohin gehen Sie? Waehlen Sie a, b oder c.",
+          "text": "Messe Reisen international. Halle A: Urlaub und Gesundheit, Geld im Urlaub, Buchvorstellung Reisen mit dem Zug wie frueher. Halle B: Medikamente im Urlaub, Ferienjobs fuer Schueler ab 16, Urlaub mit der Grossfamilie, Geldautomat. Halle C: Gruppenreisen fuer Schulklassen, Fotoausstellung Bahn, Restaurant, Apotheke und Arzt. Halle D: Buchen uebers Internet online Geld sparen, deutsche Sprachschulen, Reisen mit Bus/Bahn/Faehre fuer die Umwelt. Halle E: Ferienreisen fuer Schueler ohne Eltern, Busreisen fuer Menschen ab 50, Fotoausstellung Norddeutschland, Toiletten.",
+          "questions": [
+            {
+              "id": "l2-6",
+              "prompt": "Sie wollen in Urlaub fahren und nicht viel Geld ausgeben.",
+              "options": [
+                "Halle A",
+                "Halle D",
+                "andere Halle"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-7",
+              "prompt": "Sie moechten fuer Ihren Grossvater eine Reise buchen.",
+              "options": [
+                "Halle A",
+                "Halle E",
+                "andere Halle"
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-8",
+              "prompt": "Sie suchen nach einem Reiseangebot fuer Ihr 16-jaehriges Kind.",
+              "options": [
+                "Halle B",
+                "Halle E",
+                "andere Halle"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-9",
+              "prompt": "Sie haben sich wehgetan und suchen einen Arzt.",
+              "options": [
+                "Halle A",
+                "Halle B",
+                "andere Halle"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-10",
+              "prompt": "Sie moechten mit dem Zug verreisen.",
+              "options": [
+                "Halle B",
+                "Halle D",
+                "andere Halle"
+              ],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Sie lesen eine E-Mail. Waehlen Sie fuer die Aufgaben 11 bis 15 die richtige Loesung a, b oder c.",
+          "text": "Marta an Rosa: Letzte Woche bin ich umgezogen, zuerst dachte ich das Auto sei zu klein, aber am Umzugstag haben viele Freunde geholfen. Ich bin jetzt mit dem Fahrrad in zehn Minuten im Buero statt frueher mit zwei Strassenbahnen. Nebenan gibt es eine Katze, die neuen Nachbarn sind nett. Ich habe jetzt ein Gaestezimmer, du musst nicht mehr im Hotel uebernachten, wenn du zu Besuch kommst. Wie geht es dir in Paris, ich freue mich schon, dich dort zu besuchen.",
+          "questions": [
+            {
+              "id": "l3-11",
+              "prompt": "Marta hatte beim Umzug ...",
+              "options": [
+                "das falsche Auto.",
+                "keine Probleme.",
+                "nicht genug Leute zum Helfen."
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "l3-12",
+              "prompt": "Auf dem Weg zur Arbeit kann Marta jetzt ...",
+              "options": [
+                "den schnellen Bus nehmen.",
+                "mit verschiedenen Strassenbahnen fahren.",
+                "mehr Zeit sparen als frueher."
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "l3-13",
+              "prompt": "Marta hat in der neuen Wohnung ...",
+              "options": [
+                "eine eigene Katze.",
+                "freundliche Nachbarn.",
+                "Probleme mit dem Vermieter."
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l3-14",
+              "prompt": "Rosa kann waehrend ihres Besuchs ...",
+              "options": [
+                "bei Martas Familie wohnen.",
+                "in einem Hotel uebernachten.",
+                "in Martas Wohnung schlafen."
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "l3-15",
+              "prompt": "Marta moechte bald ...",
+              "options": [
+                "ihren Bruder besuchen.",
+                "Franzoesisch lernen.",
+                "Paris kennenlernen."
+              ],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Sechs Personen interessieren sich fuer Musik und suchen im Internet nach Informationen. Welche Anzeige (a bis f) passt zu welcher Person (16 bis 20)? Fuer eine Aufgabe gibt es keine Loesung.",
+          "text": "a: Gitarrenkurs fuer Kinder ab 6 Jahren, Klassik/Pop, 25 Euro fuer 45 Minuten, Gruppenrabatt. b: Klavierkonzert von Peter Tschaikowski im Konzerthaus, beruehmter Kuenstler. c: Gitarren-Reparaturwerkstatt in Halle. d: Klavierverkauf und -reparatur, Lieferung nach Hause auch am Wochenende. e: Musikunterricht zu Hause fuer Erwachsene, abends oder am Wochenende, Gruppenermaessigung. f: Flohmarkt: CDs, kaputte Instrumente, Buecher und Filme ueber Musiker, alles supersguenstig.",
+          "questions": [
+            {
+              "id": "l4-16",
+              "prompt": "Thomas interessiert sich fuer einen beruehmten Klavierspieler und sucht Informationen ueber ihn.",
+              "options": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "X (keine Loesung)"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-17",
+              "prompt": "Sarahs Gitarre ist kaputt. Jemand soll die Gitarre reparieren.",
+              "options": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "X (keine Loesung)"
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "l4-18",
+              "prompt": "Andreas hat ein Klavier gekauft und moechte zu Hause Unterricht haben.",
+              "options": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "X (keine Loesung)"
+              ],
+              "correct_answer": 4
+            },
+            {
+              "id": "l4-19",
+              "prompt": "Christiane moechte eine neue Gitarre kaufen und wenig Geld ausgeben.",
+              "options": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "X (keine Loesung)"
+              ],
+              "correct_answer": 5
+            },
+            {
+              "id": "l4-20",
+              "prompt": "Susanne moechte mit ihrer Freundin am Wochenende ausgehen und Musik hoeren.",
+              "options": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "X (keine Loesung)"
+              ],
+              "correct_answer": 6
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "timer_seconds": 1800,
+      "audio_url": "https://goethemp4s.akamaized.net/resources/files/mp38/pruefungstraining_2_hoeren_a2_erwachsene.mp3",
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Sie hoeren fuenf kurze Texte, jeden Text zweimal. Waehlen Sie a, b oder c.",
+          "questions": [
+            {
+              "id": "h1-1",
+              "prompt": "Wo findet das Konzert statt?",
+              "options": [
+                "Auf dem Marktplatz.",
+                "In einer Halle.",
+                "Im Festzelt."
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-2",
+              "prompt": "Was soll Frauke machen?",
+              "options": [
+                "Einen Kuchen backen.",
+                "Ein Geschenk kaufen.",
+                "Getraenke organisieren."
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "h1-3",
+              "prompt": "Warum moechte der Mann das Treffen am Samstag verschieben?",
+              "options": [
+                "Weil er mit Freunden ausgehen moechte.",
+                "Weil seine Frau verabredet ist.",
+                "Weil seine Eltern zu Besuch kommen."
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-4",
+              "prompt": "Wie wird das Wetter im Sueden?",
+              "options": [
+                "Kuehl und trocken.",
+                "Warm und es gibt Gewitter.",
+                "Warm und es regnet."
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "h1-5",
+              "prompt": "Was sollen Fahrgaeste tun, wenn sie nach Frankfurt wollen?",
+              "options": [
+                "Den ICE nehmen.",
+                "Im Zug warten.",
+                "Mit der S-Bahn fahren."
+              ],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Sie hoeren ein Gespraech einmal. Was hat die Frau in Koeln an jedem Tag gemacht?",
+          "needs_review": true,
+          "review_note": "The original task matches each day to one of nine pictures (a-i). No images are available in this extraction, so activities are given directly as text.",
+          "questions": [
+            {
+              "id": "h2-6",
+              "prompt": "Samstag",
+              "options": [
+                "Restaurant essen",
+                "Theater (Museum war geschlossen)",
+                "Stadt und Sehenswuerdigkeiten",
+                "Klavierkonzert",
+                "Radtour am Fluss"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-7",
+              "prompt": "Sonntag",
+              "options": [
+                "Restaurant essen",
+                "Theater",
+                "Stadt und Sehenswuerdigkeiten (keine Konzertkarten mehr)",
+                "Klavierkonzert",
+                "Radtour am Fluss"
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "h2-8",
+              "prompt": "Montag",
+              "options": [
+                "Restaurant essen",
+                "Theater",
+                "Stadt und Sehenswuerdigkeiten",
+                "Klavierkonzert (abends)",
+                "Radtour am Fluss"
+              ],
+              "correct_answer": 3
+            },
+            {
+              "id": "h2-9",
+              "prompt": "Dienstag",
+              "options": [
+                "Restaurant essen",
+                "Theater",
+                "Stadt und Sehenswuerdigkeiten",
+                "Klavierkonzert",
+                "Radtour am Fluss (statt Schifffahrt)"
+              ],
+              "correct_answer": 4
+            },
+            {
+              "id": "h2-10",
+              "prompt": "Mittwoch",
+              "options": [
+                "Restaurant essen",
+                "Museum/Ausstellung (Regen, Strassenfest fiel aus)",
+                "Stadt und Sehenswuerdigkeiten",
+                "Klavierkonzert",
+                "Radtour am Fluss"
+              ],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Sie hoeren fuenf kurze Gespraeche einmal. Waehlen Sie a, b oder c.",
+          "needs_review": true,
+          "review_note": "The original options are pictures (a/b/c) rather than text. Text options below are reconstructed from the transcript for reference.",
+          "questions": [
+            {
+              "id": "h3-11",
+              "prompt": "Was kauft der Mann?",
+              "options": [
+                "Das Sofa",
+                "Den Wohnzimmertisch",
+                "Die vier Stuehle"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-12",
+              "prompt": "Welcher Vorschlag fuer den Firmenausflug gefaellt beiden?",
+              "options": [
+                "Stadtfuehrung (schon letztes Jahr gemacht)",
+                "Kunstausstellung",
+                "Wanderung am See"
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "h3-13",
+              "prompt": "Wie faehrt die Frau zur Arbeit?",
+              "options": [
+                "Mit dem Zug",
+                "Sie faehrt im Auto des Nachbarn mit",
+                "Mit dem eigenen Auto"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-14",
+              "prompt": "Was ist kaputt?",
+              "options": [
+                "Die Dusche",
+                "Die Waschmaschine",
+                "Die Toilette"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-15",
+              "prompt": "Warum kann der Mann nicht zur Arbeit kommen?",
+              "options": [
+                "Er ist selbst krank.",
+                "Seine Tochter hat eine Grippe und muss zum Arzt.",
+                "Seine Frau ist krank."
+              ],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Sie hoeren ein Interview zweimal. Waehlen Sie Ja oder Nein.",
+          "questions": [
+            {
+              "id": "h4-16",
+              "prompt": "Frau Plessing findet es schade, dass ihre Kinder nicht mehr zu Hause wohnen.",
+              "options": [
+                "Ja",
+                "Nein"
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "h4-17",
+              "prompt": "Herr Plessing hat frueher als Koch gearbeitet.",
+              "options": [
+                "Ja",
+                "Nein"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h4-18",
+              "prompt": "Herr und Frau Plessing wissen, was Familien im Urlaub brauchen.",
+              "options": [
+                "Ja",
+                "Nein"
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "h4-19",
+              "prompt": "Die Ferienwohnungen im Hotel sind besonders beliebt.",
+              "options": [
+                "Ja",
+                "Nein"
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "h4-20",
+              "prompt": "Im Hotel gibt es immer viele Gaeste.",
+              "options": [
+                "Ja",
+                "Nein"
+              ],
+              "correct_answer": 1
+            }
+          ]
+        }
+      ],
+      "transcripts": [
+        "Ansage: Wegen Regens kann das Konzert nicht auf dem Marktplatz stattfinden, es findet in der grossen Halle am Bahnhof statt, Beginn 18.30 Uhr.",
+        "Nachricht an Frauke: Ich backe morgen einen Kuchen, Paul kuemmert sich um das Geschenk, kannst du dich um Saft, Wasser und Kaffee kuemmern?",
+        "Clemens an Paul: Koennen wir statt Samstag am Sonntagabend etwas trinken gehen, meine Frau geht Samstag mit Freunden aus und ich passe auf die Kinder auf, Sonntag kommen noch meine Eltern zu Besuch, ab 19 Uhr habe ich Zeit.",
+        "Wetter: Im Sueden wird es morgen bis 30 Grad warm, am spaeten Nachmittag soll es dort etwas regnen. Im Westen Gewitter, im Norden und Osten kuehl und trocken.",
+        "Ansage: Dieser Zug faehrt wegen eines technischen Problems nicht weiter, Fahrgaeste nach Frankfurt nehmen den ICE 562 um 14.15 Uhr von Gleis 1.",
+        "Sonja erzaehlt von Koeln: Freitag Restaurant mit Julia, Samstag Museum geschlossen also Theater, Sonntag keine Konzertkarten mehr also den Tag Sehenswuerdigkeiten angesehen, Montagabend Klavierkonzert, Dienstag statt Schifffahrt eine Radtour am Fluss, Mittwoch hat es geregnet, Strassenfest fiel aus, sie waren im Museum in der Ausstellung.",
+        "Anruf wegen Moebelverkauf: Das Sofa ist zu gross fuers Auto, der Mann nimmt stattdessen den Wohnzimmertisch, die Stuehle hat er schon selbst.",
+        "Kollegen planen Firmenausflug: Stadtfuehrung gab es letztes Jahr schon, Kunstausstellung findet der Mann nicht interessant, eine Wanderung am See gefaellt beiden.",
+        "Nachbarn: Die Frau hat den Zug verpasst, ihr Auto ist in der Werkstatt, der Nachbar nimmt sie im Auto mit in die Stadt.",
+        "Anruf beim Handwerker: Wasser im Badezimmer, die Dusche ist trocken, das Problem liegt bei der Waschmaschine im Keller unter der Toilette.",
+        "Anruf: Der Mann kann nicht zur Arbeit kommen, seine Tochter hat eine Grippe und er muss mit ihr zum Arzt, seine Frau fliegt beruflich nach London.",
+        "Interview mit Frau Plessing: Sie und ihr Mann fuehren seit einem Jahr das erste Familienhotel der Stadt, ihre vier erwachsenen Kinder wohnen nicht mehr zu Hause, ihr Mann arbeitete an der Rezeption, sie kochte im Hotelrestaurant, drei Wohnungen mit Kueche waren fast immer vermietet, im Sommer war das Hotel voll, jetzt gibt es nicht viele Reservierungen."
+      ]
+    },
+    "schreiben": {
+      "timer_seconds": 1800,
+      "parts": [
+        {
+          "part_number": 1,
+          "task_instructions": "Sie sind letzte Woche umgezogen und wohnen jetzt in einer neuen Wohnung. Schreiben Sie Ihrem Freund Leonhard eine SMS: Informieren Sie ihn, wo Sie jetzt wohnen. Schreiben Sie, was Ihnen dort gefaellt. Laden Sie Ihren Freund in die neue Wohnung ein. Schreiben Sie 20-30 Woerter zu allen drei Punkten.",
+          "task_prompt": "SMS an Leonhard: neuer Wohnort, was gefaellt, Einladung."
+        },
+        {
+          "part_number": 2,
+          "task_instructions": "Sie haben ein Hotelzimmer gebucht und wollten eigentlich am Freitag kommen, koennen aber erst am Sonntag kommen. Schreiben Sie eine E-Mail an Frau Yilmaz vom Hotel: Erklaeren Sie, warum Sie schreiben. Informieren Sie, wie lange Sie jetzt bleiben moechten. Fragen Sie nach einem neuen Preisangebot. Schreiben Sie 30-40 Woerter zu allen drei Punkten.",
+          "task_prompt": "E-Mail an Frau Yilmaz: Grund nennen, neue Aufenthaltsdauer, nach Preis fragen."
+        }
+      ]
+    },
+    "sprechen": {
+      "parts": [
+        {
+          "part_number": 1,
+          "topic": "Fragen zur Person (mit vier Karten)",
+          "example_questions": [
+            "Ausbildung/Studium?",
+            "Eltern?",
+            "Musik?",
+            "Familienname?"
+          ]
+        },
+        {
+          "part_number": 2,
+          "topic": "Von sich erzaehlen",
+          "example_questions": [
+            "Was machen Sie mit Ihrer Familie? Essen, Feste, spazieren gehen, fernsehen.",
+            "Was machen Sie, wenn Sie am Abend ausgehen? Essen, Konzert, Theater, Club/Disko."
+          ]
+        },
+        {
+          "part_number": 3,
+          "topic": "Etwas zusammen planen",
+          "example_questions": [
+            "Ihr Deutschkurs ist zu Ende, Sie planen eine Party. Was wollen Sie organisieren? (Termin, Essen, Tanzen, Quiz, Ort, Getraenke, Einladung, Fotos, Musik)"
+          ]
+        }
+      ]
+    }
+  }
+}

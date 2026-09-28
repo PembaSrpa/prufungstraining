@@ -1,0 +1,558 @@
+{
+  "id": "a2-goethe-modellsatz",
+  "level": "A2",
+  "exam": "Goethe-Zertifikat A2 (Erwachsene)",
+  "source_type": "official",
+  "source_url": "https://bean.ninjateam.org/wp-content/uploads/2023/08/Modellsatz.pdf",
+  "edition": "2. Auflage, Februar 2021",
+  "skills": {
+    "lesen": {
+      "timer_seconds": 1800,
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Sie lesen einen Zeitungstext. Waehlen Sie fuer die Aufgaben 1 bis 5 die richtige Loesung a, b oder c.",
+          "text": "Portraet des TV-Kochs Stefan Berger. Sein Restaurant Bremer Lokal hat wenige Tische, man muss vorher anrufen und einen Tisch bestellen. Er will kein zweites Lokal aufmachen, obwohl er dadurch reich werden koennte. Er wurde 1968 im Rheinland geboren, lernte in einem grossen Hotel kochen, machte nach der Ausbildung eine zweijaehrige Reise durch die Welt, kam wegen einer Frau nach Bremen, uebernahm das Bremer Lokal und kaufte es drei Jahre spaeter. Bekannt ist er vor allem durch seine Fernsehshow Berger kocht.",
+          "questions": [
+            {
+              "id": "l1-1",
+              "prompt": "Die Gaeste im Bremer Lokal ...",
+              "options": [
+                "finden immer einen Tisch.",
+                "muessen anrufen und Essen bestellen.",
+                "sollen Plaetze reservieren."
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "l1-2",
+              "prompt": "Stefan Berger moechte ...",
+              "options": [
+                "ein neues Restaurant eroeffnen.",
+                "mit seinem Restaurant mehr Geld verdienen.",
+                "nur ein Restaurant haben."
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "l1-3",
+              "prompt": "Sofort nach der Ausbildung ...",
+              "options": [
+                "arbeitete er in einem grossen Hotel.",
+                "kaufte er ein Restaurant.",
+                "machte er eine lange Reise."
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "l1-4",
+              "prompt": "Stefan Berger ist bekannt durch ...",
+              "options": [
+                "eine Fernsehsendung.",
+                "Lieder und Filme.",
+                "sein Restaurant."
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "l1-5",
+              "prompt": "Dieser Text informiert ueber ...",
+              "options": [
+                "den Berufsweg eines Kochs.",
+                "einen Koch in einem Hotel.",
+                "eine neue Berufsausbildung."
+              ],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Sie lesen die Informationstafel in einem Kaufhaus. In welchen Stock gehen Sie? Waehlen Sie a, b oder c.",
+          "text": "Kaufhaus Alexa. 4. Stock: Buecher, Geschenke, Spielsachen, Taschen, Cafe, Friseur. 3. Stock: Handys, Computer, Software, Sportkleidung, Arbeitskleidung. 2. Stock: Herrenmode, Moebel fuer Wohnzimmer/Bad/Kueche, Teppiche, Lampen. 1. Stock: Damenmode, Kinderbekleidung, Schuhe, Geschirr, Toepfe. EG: Information, Uhren, Schmuck, Parfuem, Reisefuehrer, Schuhwerkstatt, Schluesseldienst, Blumenladen. UG: Baecker, Supermarkt, Fotoservice, Reisebuero, Geldautomat.",
+          "questions": [
+            {
+              "id": "l2-6",
+              "prompt": "Sie moechten einer Freundin Rosen schenken.",
+              "options": [
+                "1. Stock",
+                "4. Stock",
+                "anderer Stock (EG, Blumenladen)"
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "l2-7",
+              "prompt": "Sie moechten Ihre Urlaubsbilder drucken lassen.",
+              "options": [
+                "3. Stock",
+                "UG",
+                "anderer Stock"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-8",
+              "prompt": "Sie moechten einen Tee trinken gehen.",
+              "options": [
+                "2. Stock",
+                "UG",
+                "anderer Stock (4. Stock, Cafe)"
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "l2-9",
+              "prompt": "Sie wollen Ihre Schuhe reparieren lassen.",
+              "options": [
+                "1. Stock",
+                "EG",
+                "anderer Stock"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-10",
+              "prompt": "Sie suchen eine Laufhose fuer Ihren Bruder zum Geburtstag.",
+              "options": [
+                "3. Stock",
+                "2. Stock",
+                "anderer Stock"
+              ],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Sie lesen eine E-Mail. Waehlen Sie fuer die Aufgaben 11 bis 15 die richtige Loesung a, b oder c.",
+          "text": "Gülcan an Sonja: Ich bin jetzt vier Wochen in Hamburg und lebe mich noch ein, an der Uni ist vieles anders organisiert. Studenten haben uns die Uni gezeigt (Bibliothek, Cafeteria, Multimedia-Raeume), Hamburg habe ich alleine mit dem Stadtplan kennengelernt. Ich wohne mit drei Studenten aus Italien, Japan und Mexiko, freitags kocht immer einer von uns etwas aus seinem Land. Wir sprechen oft Englisch, aber ich moechte dieses Jahr moeglichst viel Deutsch lernen. Am meisten Spass macht mir der Literaturkurs bei Herrn Hahn. Ich freue mich auf deinen Besuch im Maerz, dann fahren wir an die Ostsee, du kannst bei Mario schlafen, der faehrt in den Ferien nach Genua.",
+          "questions": [
+            {
+              "id": "l3-11",
+              "prompt": "Guelcan sagt ueber ihr Leben in Hamburg, dass ...",
+              "options": [
+                "das Studium wie in ihrem Heimatland ist.",
+                "im Alltag einiges wie zu Hause ist.",
+                "im Moment vieles neu fuer sie ist."
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "l3-12",
+              "prompt": "Die Studentengruppe hat ...",
+              "options": [
+                "den Neuen die Hochschule gezeigt.",
+                "fuer neue Studenten eine Stadtfuehrung gemacht.",
+                "Guelcan anderen Studenten vorgestellt."
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "l3-13",
+              "prompt": "In der Wohnung ...",
+              "options": [
+                "kochen alle zusammen.",
+                "kocht Guelcan immer fuer alle.",
+                "kocht jeder einmal fuer die anderen."
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "l3-14",
+              "prompt": "Guelcan ist es wichtig ...",
+              "options": [
+                "auch Englisch zu ueben.",
+                "Deutsch zu sprechen.",
+                "Herrn Hahn kennenzulernen."
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l3-15",
+              "prompt": "Im Maerz ...",
+              "options": [
+                "besuchen sie Mario zu Hause.",
+                "machen Sonja und Guelcan Urlaub am Meer.",
+                "uebernachtet Sonja in Marios Zimmer."
+              ],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Sechs Personen suchen im Internet nach Lokalen. Welche Anzeige (a bis f) passt zu welcher Person (16 bis 20)? Fuer eine Aufgabe gibt es keine Loesung.",
+          "text": "Anzeigen: park-cafe.de (selbstgemachte Torten, Kuchen, Eis, Sonnenterrasse mit Spielplatz), weinhaus-walter.de (internationale Spezialitaeten, beste Weine, 3-Gaenge-Menue, Garten, hinter dem Rathaus), towabu.de (ueber 2500 qm Spielflaeche, Geburtstagspartys mit Programm, Getraenke inklusive), feine-speisen.de (Lieferservice fuer Hochzeiten und private Feiern, Hochzeitsmenue, bayerisches Buffet, Tische/Stuehle/Personal), cafe-sand.de (taeglich ab 10 Uhr, Samstag und Sonntag grosses Fruehstueck, ab Mai Party mit Live-Musik), hansen-im-moor.de (norddeutsche Kueche, Terrasse am See, Raeume fuer 150 Personen fuer Familienfest/Hochzeit/Firmenfeier).",
+          "questions": [
+            {
+              "id": "l4-16",
+              "prompt": "Sarah heiratet bald und moechte mit vielen Gaesten in einem Lokal feiern.",
+              "options": [
+                "park-cafe.de",
+                "weinhaus-walter.de",
+                "towabu.de",
+                "feine-speisen.de",
+                "cafe-sand.de",
+                "hansen-im-moor.de",
+                "X (keine Loesung)"
+              ],
+              "correct_answer": 5
+            },
+            {
+              "id": "l4-17",
+              "prompt": "Petra will mit Geschaeftspartnern in der Stadt essen gehen und ueber die Arbeit sprechen.",
+              "options": [
+                "park-cafe.de",
+                "weinhaus-walter.de",
+                "towabu.de",
+                "feine-speisen.de",
+                "cafe-sand.de",
+                "hansen-im-moor.de",
+                "X (keine Loesung)"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-18",
+              "prompt": "Jens feiert seinen Geburtstag zu Hause und moechte guten Wein anbieten.",
+              "options": [
+                "park-cafe.de",
+                "weinhaus-walter.de",
+                "towabu.de",
+                "feine-speisen.de",
+                "cafe-sand.de",
+                "hansen-im-moor.de",
+                "X (keine Loesung)"
+              ],
+              "correct_answer": 6
+            },
+            {
+              "id": "l4-19",
+              "prompt": "Karsten laedt am Abend Gaeste zu sich nach Hause ein, moechte aber nicht kochen.",
+              "options": [
+                "park-cafe.de",
+                "weinhaus-walter.de",
+                "towabu.de",
+                "feine-speisen.de",
+                "cafe-sand.de",
+                "hansen-im-moor.de",
+                "X (keine Loesung)"
+              ],
+              "correct_answer": 3
+            },
+            {
+              "id": "l4-20",
+              "prompt": "Gabriele und ihre Tochter feiern Kindergeburtstag und moechten Kuchen essen gehen.",
+              "options": [
+                "park-cafe.de",
+                "weinhaus-walter.de",
+                "towabu.de",
+                "feine-speisen.de",
+                "cafe-sand.de",
+                "hansen-im-moor.de",
+                "X (keine Loesung)"
+              ],
+              "correct_answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "timer_seconds": 1800,
+      "audio_url": "https://goethemp4s.akamaized.net/resources/files/mp434/pruefungstraining_1_hoeren_a2_erwachsene.mp4",
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Sie hoeren fuenf kurze Texte, jeden Text zweimal. Waehlen Sie a, b oder c.",
+          "questions": [
+            {
+              "id": "h1-1",
+              "prompt": "Wo kann man noch parken?",
+              "options": [
+                "Am Bahnhof.",
+                "Am Einkaufszentrum.",
+                "Bei der Olympia-Halle."
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-2",
+              "prompt": "Was soll Sabine nicht vergessen?",
+              "options": [
+                "Das Geschenk.",
+                "Den Anzug.",
+                "Die Blumen."
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-3",
+              "prompt": "Wo findet das Treffen statt?",
+              "options": [
+                "Am Bahnhof.",
+                "Im Buero.",
+                "Im Hotel Leopold."
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "h1-4",
+              "prompt": "Wie wird das Wetter am Sonntag?",
+              "options": [
+                "Im Norden trocken.",
+                "Im Norden und Sueden nass.",
+                "Im Sueden trocken."
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-5",
+              "prompt": "Was sollen die Hoererinnen und Hoerer tun?",
+              "options": [
+                "Den Namen des Saengers sagen.",
+                "Eine Konzertkarte kaufen.",
+                "Ein neues Lied singen."
+              ],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Sie hoeren ein Gespraech einmal. Ein Paar plant seine Urlaubswoche. Ordnen Sie jedem Wochentag die passende Aktivitaet zu.",
+          "review_note": "The original task matches each day to one of nine pictures (a-i) rather than text; activities below are confirmed correct against the full official transcript, just presented as text instead of pictures. Adapt the UI accordingly.",
+          "questions": [
+            {
+              "id": "h2-6",
+              "prompt": "Montag",
+              "options": [
+                "Kino (Filmermaessigung)",
+                "Theater",
+                "Fahrradausflug",
+                "Kochen bei Freunden",
+                "Konzert vor dem Rathaus"
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-7",
+              "prompt": "Dienstag",
+              "options": [
+                "Kino",
+                "Theater",
+                "Fahrradausflug",
+                "Kochen bei Freunden",
+                "Konzert vor dem Rathaus"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-8",
+              "prompt": "Mittwoch",
+              "options": [
+                "Kino",
+                "Theater",
+                "Fahrradausflug",
+                "Kochen bei Freunden",
+                "Konzert vor dem Rathaus"
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "h2-9",
+              "prompt": "Donnerstag",
+              "options": [
+                "Kino",
+                "Eis essen bei Francesco",
+                "Kochen bei Julia und Tim",
+                "Konzert vor dem Rathaus",
+                "Schifffahrt"
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "h2-10",
+              "prompt": "Freitag",
+              "options": [
+                "Kino",
+                "Theater",
+                "Konzert vor dem Rathaus",
+                "Schifffahrt auf der Elbe",
+                "Schwimmbad"
+              ],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Sie hoeren fuenf kurze Gespraeche einmal. Waehlen Sie a, b oder c.",
+          "review_note": "The original options are pictures (a/b/c) rather than text; the answers below are confirmed correct against the full official transcript, just presented as text instead of pictures. Adapt the UI accordingly.",
+          "questions": [
+            {
+              "id": "h3-11",
+              "prompt": "Was hat das Maedchen gestern Abend gegessen?",
+              "options": [
+                "Hamburger",
+                "Fisch",
+                "Haehnchen"
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "h3-12",
+              "prompt": "Fuer welches Kleidungsstueck interessiert sich die Frau?",
+              "options": [
+                "Die Jacke mit weissen Buchstaben (nicht mehr in ihrer Groesse)",
+                "Die Jeansjacke",
+                "Der blaue Mantel"
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "h3-13",
+              "prompt": "Was fehlt fuer die Anmeldung?",
+              "options": [
+                "Das ausgefuellte Formular",
+                "Ein Foto",
+                "Die Unterschrift"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-14",
+              "prompt": "Was ist kaputt?",
+              "options": [
+                "Der Aufzug",
+                "Die Lampe am Eingang",
+                "Die Heizung"
+              ],
+              "correct_answer": 2
+            },
+            {
+              "id": "h3-15",
+              "prompt": "Wohin soll der Mann gehen?",
+              "options": [
+                "Zur Information warten",
+                "Direkt in den Sportraum",
+                "Zur Arztpraxis Vollmer"
+              ],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Sie hoeren ein Interview zweimal. Waehlen Sie Ja oder Nein.",
+          "questions": [
+            {
+              "id": "h4-16",
+              "prompt": "Sarah hatte am Anfang in Deutschland Probleme.",
+              "options": [
+                "Ja",
+                "Nein"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h4-17",
+              "prompt": "Ihre Geschwister haben ihr das Fussballspielen gezeigt.",
+              "options": [
+                "Ja",
+                "Nein"
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "h4-18",
+              "prompt": "Ihr Lehrer hat ihr einen Verein empfohlen.",
+              "options": [
+                "Ja",
+                "Nein"
+              ],
+              "correct_answer": 0
+            },
+            {
+              "id": "h4-19",
+              "prompt": "Sarah hat schon bei vielen internationalen Spielen mitgespielt.",
+              "options": [
+                "Ja",
+                "Nein"
+              ],
+              "correct_answer": 1
+            },
+            {
+              "id": "h4-20",
+              "prompt": "Sie studiert jetzt Sport an der Universitaet.",
+              "options": [
+                "Ja",
+                "Nein"
+              ],
+              "correct_answer": 1
+            }
+          ]
+        }
+      ],
+      "transcripts": [
+        "Ansage: Im Parkhaus am Einkaufszentrum gibt es noch freie Plaetze, nehmen Sie die Bahn, vom Hauptbahnhof gibt es kostenlose Busse zur Olympia-Halle.",
+        "Hallo Sabine, denk bitte an meinen dunklen Anzug, du wolltest ihn aus der Reinigung abholen. Das Geschenk hab ich schon gekauft, die Blumen holen wir erst morgen.",
+        "Ingrid Sollms: Der Termin findet nicht in meinem Buero statt, ich habe im Hotel Leopold einen Raum reserviert, bitte kommen Sie um 10 Uhr direkt dorthin.",
+        "Wetter: Am Wochenende im Norden windig und bewoelkt mit Regen, im Sueden am Samstag sonnig, am Sonntag kommt das Regenwetter auch nach Sueddeutschland.",
+        "Radio: Um 7 Uhr spielen wir ein neues Lied, wenn Sie wissen wie der Saenger heisst, rufen Sie uns an.",
+        "Paar plant die Urlaubswoche: Montag Kino mit Ermaessigung, Dienstag statt Tanzkurs ins Theater, Mittwoch Fahrradausflug statt Schwimmen, Donnerstag Kochen bei Julia und Tim statt Eis essen, Freitag Konzert vor dem Rathaus, Samstag Schifffahrt auf der Elbe.",
+        "Junge und Maedchen: Ich wollte einen Hamburger, aber im Fischrestaurant habe ich Haehnchen genommen.",
+        "Frau im Laden: Die Jacke mit weissen Buchstaben gibt es nicht mehr in ihrer Groesse, angeboten werden Jeansjacke oder blauer Mantel, beides gefaellt ihr nicht wirklich.",
+        "Sportverein: Das Formular ist da, aber fuer den Ausweis fehlt noch ein Foto.",
+        "Hausverwaltung: Aufzug und Lampe wurden schon repariert, jetzt wird die Heizung nicht mehr warm.",
+        "Arztpraxis Vollmer: Termin naechste Woche Montag und Donnerstag um 16 Uhr, gehen Sie direkt in den Sportraum, bringen Sie Rezept und Sportkleidung.",
+        "Interview mit Sarah: kam kurz nach ihrem fuenften Geburtstag aus Ghana nach Deutschland, fand schnell Freunde beim Strassenfussball mit ihren Bruedern, der Sportlehrer empfahl ihr einen Fussballverein, spielt seit 14 Jahren und ist seit zwei Wochen in der Nationalmannschaft, hofft auf ein internationales Spiel, will spaeter Sport studieren."
+      ]
+    },
+    "schreiben": {
+      "timer_seconds": 1800,
+      "parts": [
+        {
+          "part_number": 1,
+          "task_instructions": "Sie sind unterwegs in der Stadt und schreiben eine SMS an Ihre Freundin Ekaterini. Entschuldigen Sie sich, dass Sie zu spaet kommen, schreiben Sie warum, und nennen Sie einen neuen Ort und eine neue Uhrzeit fuer das Treffen. Schreiben Sie 20-30 Woerter zu allen drei Punkten.",
+          "task_prompt": "SMS an Ekaterini: Entschuldigung fuer Verspaetung, Grund nennen, neuer Ort und neue Uhrzeit vorschlagen."
+        },
+        {
+          "part_number": 2,
+          "task_instructions": "Ihr Chef, Herr Lehmann, hat bald Geburtstag und hat Ihnen eine Einladung zu seiner Feier geschickt. Schreiben Sie Herrn Lehmann eine E-Mail: Bedanken Sie sich und sagen Sie, dass Sie kommen. Informieren Sie, dass Sie jemanden mitbringen. Fragen Sie nach dem Weg. Schreiben Sie 30-40 Woerter zu allen drei Punkten.",
+          "task_prompt": "E-Mail an Herrn Lehmann: Danken, Zusage, Begleitung ankuendigen, nach dem Weg fragen."
+        }
+      ]
+    },
+    "sprechen": {
+      "parts": [
+        {
+          "part_number": 1,
+          "topic": "Fragen zur Person (mit vier Karten)",
+          "example_questions": [
+            "Geburtstag?",
+            "Wohnort?",
+            "Beruf?",
+            "Hobby?"
+          ]
+        },
+        {
+          "part_number": 2,
+          "topic": "Von sich erzaehlen",
+          "example_questions": [
+            "Was machen Sie mit Ihrem Geld? Lebensmittel, Miete, Sparen, Reisen, Kleidung.",
+            "Was machen Sie oft am Wochenende? Jemanden besuchen, mit wem, wo, Sport?"
+          ]
+        },
+        {
+          "part_number": 3,
+          "topic": "Etwas zusammen planen",
+          "example_questions": [
+            "Ihr Freund Patrick hat Geburtstag. Sie moechten ein Geschenk fuer ihn kaufen. Finden Sie mit Ihrem Partner einen gemeinsamen Termin anhand der beiden Wochenplaene."
+          ]
+        }
+      ]
+    }
+  }
+}
