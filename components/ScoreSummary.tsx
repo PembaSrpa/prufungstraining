@@ -5,14 +5,18 @@ interface ScoreSummaryProps {
   parts: HoerenLesenPart[];
   answers: Record<string, number>;
   level: string;
+  onRetryWrong?: (questionIds: string[]) => void;
 }
 
-export default function ScoreSummary({ parts, answers, level }: ScoreSummaryProps) {
+export default function ScoreSummary({ parts, answers, level, onRetryWrong }: ScoreSummaryProps) {
   const allQuestions = parts.flatMap((part) => part.questions);
   const gradable = allQuestions.filter((q) => q.correct_answer !== null);
   const correctCount = gradable.filter(
     (q) => answers[q.id] === q.correct_answer
   ).length;
+  const wrongIds = gradable
+    .filter((q) => answers[q.id] !== q.correct_answer)
+    .map((q) => q.id);
 
   return (
     <div className="score-panel">
@@ -53,6 +57,15 @@ export default function ScoreSummary({ parts, answers, level }: ScoreSummaryProp
       })}
 
       <div className="exam-footer" style={{ padding: "32px 0 0" }}>
+        {onRetryWrong && wrongIds.length > 0 && (
+          <button
+            type="button"
+            className="primary-button"
+            onClick={() => onRetryWrong(wrongIds)}
+          >
+            Nochmal nur Fehler ueben
+          </button>
+        )}
         <Link href="/" className="secondary-button">
           Zurueck zur Uebersicht
         </Link>

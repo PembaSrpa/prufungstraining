@@ -6,6 +6,7 @@ interface AudioPlayerProps {
   src: string;
   audioRef: RefObject<HTMLAudioElement>;
   started: boolean;
+  paused: boolean;
 }
 
 function formatClock(seconds: number): string {
@@ -15,32 +16,54 @@ function formatClock(seconds: number): string {
   return `${m}:${s.toString().padStart(2, "0")}`;
 }
 
-export default function AudioPlayer({ src, audioRef, started }: AudioPlayerProps) {
+export default function AudioPlayer({ src, audioRef, started, paused }: AudioPlayerProps) {
   const [elapsed, setElapsed] = useState(0);
-  const [duration, setDuration] = useState(0);
+  const [duration, setDuration] = useState<number | null>(null);
   const [ended, setEnded] = useState(false);
   const [failed, setFailed] = useState(false);
 
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
+
+    const updateDuration = () => {
+      if (Number.isFinite(audio.duration) && audio.duration > 0) {
+        setDuration(audio.duration);
+      }
+    };
+
     const onTime = () => setElapsed(audio.currentTime);
-    const onMeta = () => setDuration(audio.duration);
     const onEnded = () => setEnded(true);
     const onError = () => setFailed(true);
+
     audio.addEventListener("timeupdate", onTime);
-    audio.addEventListener("loadedmetadata", onMeta);
+    audio.addEventListener("loadedmetadata", updateDuration);
+    audio.addEventListener("durationchange", updateDuration);
+    audio.addEventListener("canplay", updateDuration);
     audio.addEventListener("ended", onEnded);
     audio.addEventListener("error", onError);
+
+    updateDuration();
+
     return () => {
       audio.removeEventListener("timeupdate", onTime);
-      audio.removeEventListener("loadedmetadata", onMeta);
+      audio.removeEventListener("loadedmetadata", updateDuration);
+      audio.removeEventListener("durationchange", updateDuration);
+      audio.removeEventListener("canplay", updateDuration);
       audio.removeEventListener("ended", onEnded);
       audio.removeEventListener("error", onError);
     };
-  }, [audioRef]);
+  }, [audioRef, src]);
 
-  const progress = duration > 0 ? Math.min(100, (elapsed / duration) * 100) : 0;
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio || !started) return;
+    if (paused) audio.pause();
+    else audio.play().catch(() => undefined);
+  }, [paused, started, audioRef]);
+
+  const knownDuration = duration !== null;
+  const progress = knownDuration && duration! > 0 ? Math.min(100, (elapsed / duration!) * 100) : 0;
 
   return (
     <div className="audio-panel">
@@ -51,12 +74,15 @@ export default function AudioPlayer({ src, audioRef, started }: AudioPlayerProps
             ? "Audio konnte nicht geladen werden"
             : ended
               ? "Hoertext beendet"
-              : started
-                ? "Hoertext laeuft"
-                : "Hoertext bereit"}
+              : paused
+                ? "Audio pausiert"
+                : started
+                  ? "Hoertext laeuft"
+                  : "Hoertext bereit"}
         </span>
         <span className="audio-clock">
-          {formatClock(elapsed)} / {formatClock(duration)}
+          {formatClock(elapsed)}
+          {knownDuration ? ` / ${formatClock(duration!)}` : ""}
         </span>
       </div>
       <div className="audio-track" aria-hidden="true">

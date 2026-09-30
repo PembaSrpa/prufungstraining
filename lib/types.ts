@@ -1,4 +1,6 @@
 export type Level = "A1" | "A2";
+export type ExamMode = "practice" | "exam";
+
 export type Skill = "hoeren" | "lesen" | "schreiben" | "sprechen";
 export type SourceType = "official" | "unofficial";
 

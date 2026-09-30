@@ -6,17 +6,24 @@ interface QuestionRendererProps {
   question: Question;
   selected: number | undefined;
   submitted: boolean;
+  active?: boolean;
   onSelect: (questionId: string, optionIndex: number) => void;
+  onActivate?: (questionId: string) => void;
 }
 
 export default function QuestionRenderer({
   question,
   selected,
   submitted,
-  onSelect
+  active,
+  onSelect,
+  onActivate
 }: QuestionRendererProps) {
   return (
-    <div className="question-block">
+    <div
+      className={`question-block${active ? " question-active" : ""}`}
+      onClick={() => onActivate?.(question.id)}
+    >
       <p className="question-prompt">{question.prompt}</p>
       {question.needs_review && (
         <span className="review-flag">Antwort noch nicht bestaetigt</span>
@@ -38,8 +45,13 @@ export default function QuestionRenderer({
                 type="button"
                 className={className}
                 disabled={submitted}
-                onClick={() => onSelect(question.id, index)}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onActivate?.(question.id);
+                  onSelect(question.id, index);
+                }}
               >
+                <span className="option-key">{index + 1}</span>
                 {option}
               </button>
             </li>
