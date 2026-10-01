@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import ThemeToggle from "@/components/ThemeToggle";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,9 +16,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
       <body>
-        <div className="theme-toggle-wrap">
-          <ThemeToggle />
-        </div>
         {children}
       </body>
     </html>
