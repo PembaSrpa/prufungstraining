@@ -228,26 +228,3 @@ export function clearVocab(): void {
   if (typeof window === "undefined") return;
   window.localStorage.setItem(VOCAB_KEY, JSON.stringify([]));
 }
-
-const THEME_KEY = "pruefungstraining.theme";
-
-export type Theme = "light" | "dark";
-
-export function getStoredTheme(): Theme | null {
-  if (typeof window === "undefined") return null;
-  try {
-    const raw = window.localStorage.getItem(THEME_KEY);
-    return raw === "light" || raw === "dark" ? raw : null;
-  } catch {
-    return null;
-  }
-}
-
-export function setStoredTheme(theme: Theme): void {
-  if (typeof window === "undefined") return;
-  try {
-    window.localStorage.setItem(THEME_KEY, theme);
-  } catch {
-    return;
-  }
-}
