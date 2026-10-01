@@ -161,19 +161,6 @@ export function saveNote(setId: string, text: string): void {
   }
 }
 
-const THEME_KEY = "pruefungstraining.theme";
-
-export function getStoredTheme(): "light" | "dark" | null {
-  if (typeof window === "undefined") return null;
-  const value = window.localStorage.getItem(THEME_KEY);
-  return value === "dark" || value === "light" ? value : null;
-}
-
-export function setStoredTheme(theme: "light" | "dark"): void {
-  if (typeof window === "undefined") return;
-  window.localStorage.setItem(THEME_KEY, theme);
-}
-
 const VOCAB_KEY = "pruefungstraining.vocab";
 
 export interface VocabEntry {

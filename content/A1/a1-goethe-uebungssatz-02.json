@@ -201,7 +201,7 @@
           "instructions": "Lesen Sie die beiden Texte und die Aufgaben 1 bis 5. Kreuzen Sie an: Richtig oder Falsch.",
           "text": "Text 1 (Winfried Beck an Frau Dehner): Vielen Dank fuer die Einladung zu Ihrem Jazz-Konzert. Ich komme gern. Ich danke Ihnen, dass ich in Ihrem Gaestezimmer schlafen kann und kein Hotel suchen muss. Mein Zug kommt schon um circa 16 Uhr an. Kann ich Ihnen am Nachmittag vor dem Konzert etwas helfen? Text 2: Quelle nicht vollstaendig extrahiert, betrifft eine Frau Stein in Berlin und einen Termin mit Dr. Falk.",
           "needs_review": true,
-          "review_note": "Text 2 content for questions 3-5 was not fully captured from the source PDF extraction and should be re-checked against the original before use.",
+          "review_note": "Text 2 (Frau Stein/Dr. Falk, questions 3-5) does not extract as text, confirmed across two independent source copies of this PDF plus a targeted web search; almost certainly embedded as an image in the original document.",
           "questions": [
             {
               "id": "l1-1",
@@ -310,7 +310,7 @@
           "instructions": "Lesen Sie die Texte und die Aufgaben 11 bis 15. Kreuzen Sie an: Richtig oder Falsch.",
           "text": "Blumenladen-Schild: Ab sofort auch sonntags von 9-12 Uhr geoeffnet. Restaurant-Schild: Im naechsten Monat kocht ein Koch aus Kalkutta indische Spezialitaeten. Strassenbahn-Schild: Linie 8 ab 1.5. nur bis Hauptbahnhof, Weiterfahrt nach Huchting mit Linie 1 oder Bus 53. Haustuer- und Bahnhof-Schilder fuer Fragen 14 und 15 nicht vollstaendig extrahiert.",
           "needs_review": true,
-          "review_note": "Sign texts for questions 14 and 15 were not captured in the source extraction and need to be re-checked against the original before use.",
+          "review_note": "Sign texts for questions 14 and 15 do not extract from the source PDF, confirmed across two independent source copies; almost certainly embedded as images in the original document.",
           "questions": [
             {
               "id": "l3-11",

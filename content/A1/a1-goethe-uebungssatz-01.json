@@ -201,7 +201,7 @@
           "instructions": "Lesen Sie die beiden Texte und die Aufgaben 1 bis 5. Kreuzen Sie an: Richtig oder Falsch.",
           "text": "Text 1 (Renate an Nora): Ich bin naechste Woche drei Tage, von Montag bis Mittwoch, in Weimar. Ich muss viel arbeiten, habe viele Termine. Aber am Dienstag ab 18 Uhr habe ich Zeit. Ich wohne im Hotel Drei Kronen in der Parkstrasse, das Hotel hat ein sehr gutes Restaurant, wir koennen dorthin gehen. Text 2: Inhalt zu den Sportsfreunden und ihrem Sommerausflug wurde in der Quellenextraktion nicht vollstaendig erfasst.",
           "needs_review": true,
-          "review_note": "Text 2 (Sportsfreunde Ausflug, questions 3-5) does not extract as text from the source PDF at all, confirmed across two fetch attempts; it is very likely embedded as an image in the original document.",
+          "review_note": "Text 2 (Sportsfreunde Ausflug, questions 3-5) does not extract as text, confirmed across three independent source copies of this PDF plus a targeted web search; almost certainly embedded as an image in the original document.",
           "questions": [
             {
               "id": "l1-1",
@@ -258,7 +258,7 @@
           "instructions": "Wo finden Sie Informationen? Kreuzen Sie an: a oder b.",
           "text": "www.goetheuni-frankfurt.de (Wohnen in Frankfurt, WGs, Studentenwohnheim, Ein- und Zweizimmerwohnungen, neues Zuhause finden) vs www.agentur-spiess.com (guenstige Kaufangebote, Haeuser, Wohnungen, Apartments). www.travel-muenchen.de (Reiseangebote Spanien und Tuerkei mit Preisen) vs www.lastminute.de (Reiseladen, Vortragsabend, keine konkreten Angebote). www.st.peter-ording.de/mietwohnungen (3-Zimmerwohnung, 5 Minuten zum Meer, keine Kueche) vs www.ferienandernordsee.de (Ferienhaeuser und -wohnungen, alle Groessen, das ganze Jahr, auch auf den Inseln). www.goal.de vs www.vereinssport.de fuer Frage 10.",
           "needs_review": true,
-          "review_note": "Full ad text for questions 7 and 10 does not extract from the source PDF at all (likely embedded as images), confirmed across two fetch attempts. Question 9 has now been confirmed with full source text and its needs_review flag removed.",
+          "review_note": "Full ad text for questions 7 and 10 does not extract from the source PDF, confirmed across three independent source copies; almost certainly embedded as images. Question 9 is confirmed correct against full source text.",
           "questions": [
             {
               "id": "l2-6",
@@ -314,7 +314,7 @@
           "instructions": "Lesen Sie die Texte und die Aufgaben 11 bis 15. Kreuzen Sie an: Richtig oder Falsch.",
           "text": "Fahrkartenautomat: Bayern-Ticket, ein Tag, fuenf Personen, 29 Euro, Montag und Freitag ab 9 Uhr, am Wochenende von 6 bis 24 Uhr. Hotelzimmer-Schild: Ab 21 Uhr ist die Haustuer geschlossen, bitte nehmen Sie Ihren Zimmerschluessel mit, er ist auch der Hausschluessel. Kultur-Verein/Bahnhof-Schild: Kartenverkauf an Schalter 1 bis 3, Informationen an Schalter 4. Ab sofort jeden Samstag um 20 Uhr Filmabend, am 3.5. Im Juli von Fatih Akin, Eintritt 2 Euro. Restaurant-Eingangsschild fuer Frage 13 nicht vollstaendig extrahiert.",
           "needs_review": true,
-          "review_note": "The restaurant sign text for question 13 does not extract as text from the source PDF, confirmed across two fetch attempts; likely embedded as an image.",
+          "review_note": "The restaurant sign text for question 13 does not extract as text, confirmed across three independent source copies of this PDF; almost certainly embedded as an image in the original document.",
           "questions": [
             {
               "id": "l3-11",

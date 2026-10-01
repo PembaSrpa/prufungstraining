@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { listSets } from "@/lib/content";
-import ThemeToggle from "@/components/ThemeToggle";
 import type { Level, SetSummary, Skill } from "@/lib/types";
 
 const SKILL_LABEL: Record<Skill, string> = {
@@ -51,7 +50,6 @@ export default function HomePage() {
         <Link href="/vocab" className="skill-link">
           Vokabeln
         </Link>
-        <ThemeToggle />
       </div>
 
       {(["A1", "A2"] as Level[]).map((level) => (
