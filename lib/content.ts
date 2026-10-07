@@ -3,7 +3,7 @@ import path from "path";
 import type { ExamSet, Level, SetSummary, Skill } from "./types";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
-const LEVELS: Level[] = ["A1", "A2"];
+const LEVELS: Level[] = ["A1", "A2", "B1"];
 
 function readSetFile(level: Level, filename: string): ExamSet {
   const fullPath = path.join(CONTENT_DIR, level, filename);

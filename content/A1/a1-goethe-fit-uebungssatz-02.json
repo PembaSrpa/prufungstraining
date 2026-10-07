@@ -1,0 +1,230 @@
+{
+  "id": "a1-goethe-fit-uebungssatz-02",
+  "level": "A1",
+  "exam": "Goethe-Zertifikat A1: Fit in Deutsch 1 (Jugendliche)",
+  "source_type": "official",
+  "source_url": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_fit/fit1_uebungssatz_02.pdf",
+  "edition": "Ueberarbeitete Auflage von 2017, Nachdruck September 2025",
+  "skills": {
+    "hoeren": {
+      "timer_seconds": 1200,
+      "audio_url": "https://goethemp4s.akamaized.net/resources/files/mp430/pruefungstraining_2_hoeren_a1_jugendliche.mp4",
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Du hoerst drei Nachrichten am Telefon. Zu jeder Nachricht gibt es Aufgaben. Kreuze an: a, b oder c. Du hoerst jede Nachricht zweimal.",
+          "questions": [
+            {
+              "id": "h1-1",
+              "prompt": "Nora kann nicht ...",
+              "options": ["zum Schulfest.", "zum Schwimmen.", "zum Reiten."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-2",
+              "prompt": "Sie hat Zeit:",
+              "options": ["am Dienstag.", "Dienstag in zwei Wochen.", "naechsten Donnerstag."],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-3",
+              "prompt": "Manuel kommt ...",
+              "options": ["mit dem Fahrrad.", "mit dem Auto.", "mit dem Bus."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-4",
+              "prompt": "Manuel bringt zu Monas Party mit:",
+              "options": ["einen Film.", "etwas zu essen.", "CDs."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h1-5",
+              "prompt": "Paul ...",
+              "options": ["spielt Klavier.", "spielt Gitarre.", "singt."],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-6",
+              "prompt": "Die Musikschule ist ...",
+              "options": ["neben der Schule.", "am Bahnhof.", "am Marktplatz."],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Du hoerst zwei Gespraeche. Zu jedem Gespraech gibt es Aufgaben. Kreuze an: richtig oder falsch. Du hoerst jedes Gespraech zweimal.",
+          "questions": [
+            {
+              "id": "h2-7",
+              "prompt": "Die Englischarbeit war ganz leicht.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-8",
+              "prompt": "Florian will David helfen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-9",
+              "prompt": "Sie treffen sich am Wochenende.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-10",
+              "prompt": "Sina und Claudia wohnen in Berlin.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-11",
+              "prompt": "Sina feiert heute ihren Geburtstag.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-12",
+              "prompt": "Sina ist an Weihnachten zu Hause.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            }
+          ]
+        }
+      ],
+      "transcripts": [
+        "Nora an Petra: Ich kann heute nicht mit dir schwimmen gehen, mein kleiner Bruder wird fuenf, Kindergeburtstag feiern, vielleicht klappt es naechsten Dienstag.",
+        "Manuel an Alex: Du gehst doch auch zu Monas Party, meine Mutter bringt mich mit dem Auto, ich spiele den DJ und kann meine vielen CDs nicht auf dem Fahrrad mitnehmen.",
+        "Paul an Jana: Wir haben morgen in der Musikschule ein Konzert, ich spiele ein Solostueck am Klavier, das Konzert ist um 16 Uhr, die Musikschule ist direkt am Marktplatz.",
+        "Simone: Ich habe in Mathematik eine Eins und deshalb laedt mich meine Mutter heute zum Eisessen ein. David und Florian: Mir geht es nicht so gut, die Englischarbeit war total schwer. Ich war letztes Jahr in England, lernen wir doch naechstes Wochenende zusammen, Samstagnachmittag um drei passt.",
+        "Claudia und Sina: Ich denke du wohnst gar nicht mehr in Berlin? Ich bin mit meinen Eltern nach Stuttgart gezogen, aber heute feiert meine beste Freundin Geburtstag. In den Weihnachtsferien sind wir auf jeden Fall zu Hause in Stuttgart."
+      ]
+    },
+    "lesen": {
+      "timer_seconds": 1200,
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Lies bitte die zwei Anzeigen aus der Zeitung. Aufgaben 1 bis 6, kreuze an: a, b oder c.",
+          "text": "Anzeige 1 (Schauspieler gesucht): Wir machen einen Film ueber einen Jungen mit Schulproblemen und suchen fuer die Hauptrolle einen Schauspieler ab 14 Jahren, du bist im Film der Sohn von Diane Kruger. Komm am Montag den 28. August zwischen 16 und 19 Uhr ins Hotel Estrel und stell dich vor. Anzeige 2 (Schuelerclub Oase): Ab 1. September gibt es an unserer Schule einen Schuelerclub fuer Schuelerinnen und Schueler aus allen Klassen. Man kann Sport machen, im Schulgarten arbeiten, eine Zeitung machen, im Schulkiosk mitarbeiten, Hilfe bei den Hausaufgaben bekommen. Treffpunkt jeden Tag 13.30 Uhr am Schulkiosk, dann zusammen in den Musikraum.",
+          "questions": [
+            {
+              "id": "l1-1",
+              "prompt": "Der Junge in dem Film hat Probleme ...",
+              "options": ["mit seiner Mutter.", "in der Schule.", "mit seinen Freunden."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-2",
+              "prompt": "Die Schauspielerin Diane Kruger spielt in dem Film ...",
+              "options": ["die Direktorin.", "eine Lehrerin.", "die Mutter."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l1-3",
+              "prompt": "Du willst in dem Film mitspielen? Dann musst du ...",
+              "options": ["dich vorstellen.", "eine E-Mail schreiben.", "anrufen."],
+              "correct_answer": 0
+            },
+            {
+              "id": "l1-4",
+              "prompt": "Der Schuelerclub ist fuer ...",
+              "options": ["Maedchen.", "alle Klassen.", "die unteren Klassen."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-5",
+              "prompt": "Im Schuelerclub kann man ...",
+              "options": ["einen Computerkurs machen.", "einen Film machen.", "Hausaufgaben machen."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l1-6",
+              "prompt": "Der Schuelerclub ist im ...",
+              "options": ["Kiosk.", "Musikraum.", "Schulgarten."],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "In einer Zeitschrift findest du zwei Texte ueber Jugendliche in Deutschland. Aufgaben 7 bis 12, kreuze an: Richtig oder Falsch.",
+          "text": "Beschreibung 1 (Dagmar): Ich bin 13 und habe einen kleinen Bruder, der ist neun, mit ihm streite ich leider oft. Ich bin auf dem Gymnasium in der 7. Klasse. Ich wohne genau gegenueber der Schule, mein Schulweg ist kurz und ich kann morgens laenger schlafen. Ich trinke schnell eine Tasse Tee, erst in der grossen Pause esse ich ein Brot. Beschreibung 2 (Martin): Ich bin 16, wohne in Berlin, gehe auf ein deutsch-franzoesisches Gymnasium. Viele Schueler in meiner Klasse sprechen zu Hause Franzoesisch, ich lerne auch ganz toll Franzoesisch. Meine Hobbys sind Schwimmen, Rad fahren, ins Kino gehen. Manchmal muss ich mit meinem Vater Tennis spielen, aber das finde ich bloed.",
+          "questions": [
+            {
+              "id": "l2-7",
+              "prompt": "Dagmars Schulweg ist sehr weit.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-8",
+              "prompt": "Dagmar steht immer frueh auf.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-9",
+              "prompt": "Dagmar fruehstueckt in der Schule.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-10",
+              "prompt": "Martin geht in Frankreich in die Schule.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-11",
+              "prompt": "Martin lernt viel Franzoesisch.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-12",
+              "prompt": "Martin spielt gern Tennis.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "timer_seconds": 1200,
+      "parts": [
+        {
+          "part_number": 1,
+          "task_instructions": "Du hast diese E-Mail bekommen. Antworte auf die E-Mail und die Frage am Ende. Schreibe mindestens 30 Woerter.",
+          "task_prompt": "Jan schreibt aus Sindelfingen: er ist in den Ferien bei seiner Oma und findet die kleine Stadt langweilig, kennt niemanden dort. Er fragt: Was machst du in den Ferien? Wie geht es deiner Familie?"
+        }
+      ]
+    },
+    "sprechen": {
+      "parts": [
+        {
+          "part_number": 1,
+          "topic": "Sich vorstellen (mit vier Karten)",
+          "example_questions": ["Name?", "Alter?", "Land?", "Wohnort?", "Schule?", "Sprachen?", "Hobby?"]
+        },
+        {
+          "part_number": 2,
+          "topic": "Fragen stellen und auf Fragen antworten (Themen: Reisen, Gesundheit)",
+          "example_questions": [
+            "Thema Reisen: fliegen, mit Freundinnen/Freunden, Feriencamp, Zug/Auto/Rad, Urlaub mit den Eltern, ins Ausland, Sprachkurs machen.",
+            "Thema Gesundheit: Schokolade, schlafen, trinken, Krankenhaus, Sport machen, krank sein."
+          ]
+        },
+        {
+          "part_number": 3,
+          "topic": "Bitten, Aufforderungen oder Fragen formulieren und darauf reagieren",
+          "example_questions": ["Karten mit Themen wie Kino, Biologie, Stadttheater (Ausrufezeichen = Bitte, Fragezeichen = Frage)."]
+        }
+      ]
+    }
+  }
+}

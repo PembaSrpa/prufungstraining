@@ -1,0 +1,497 @@
+{
+  "id": "b1-goethe-modellsatz-erwachsene",
+  "level": "B1",
+  "exam": "Goethe-Zertifikat B1 (Erwachsene)",
+  "source_type": "official",
+  "source_url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/b1_modellsatz_erwachsene.pdf",
+  "edition": "2. ueberarbeitete Auflage Januar 2015",
+  "skills": {
+    "lesen": {
+      "timer_seconds": 3900,
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Waehlen Sie: Richtig oder Falsch. Arbeitszeit: 10 Minuten.",
+          "text": "Blogeintrag von Susanne: Als ich zu Mittag in der Kueche stand, laeutete mein Handy. Eine Frauenstimme erklaerte mir, dass meine Brieftasche in der Bankfiliale abgegeben worden war. Mir war noch gar nicht aufgefallen, dass sie fehlte. Ich suchte in meiner Handtasche, konnte sie nicht finden. Ich machte mich auf den Weg zur Bank und ueberlegte, ich hatte sie sicherlich im Supermarkt an der Kasse liegen gelassen. Die Bankangestellte teilte mir mit, dass ein junger Mann die Brieftasche auf dem Parkplatz vor dem Supermarkt gefunden hatte. Der Weg zum Fundbuero war ihm zu weit, also suchte er auf meiner Bankomatkarte nach dem Namen meiner Bank, fuhr in die naechste Filiale, und dank der Computervernetzung konnte meine Telefonnummer schnell herausgefunden werden. Zum Glueck war alles noch da! Nun weiss ich leider gar nicht, wie ich dem ehrlichen Finder danken kann.",
+          "questions": [
+            {
+              "id": "l1-1",
+              "prompt": "Erst durch den Anruf bemerkte Susanne das Fehlen ihrer Brieftasche.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l1-2",
+              "prompt": "Susanne glaubte, die Brieftasche beim Bezahlen vergessen zu haben.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l1-3",
+              "prompt": "Der Finder hatte die Brieftasche ins Fundbuero gebracht.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-4",
+              "prompt": "Die Telefonnummer der Bank war in der Brieftasche.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-5",
+              "prompt": "In Susannes Brieftasche fehlte nichts.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l1-6",
+              "prompt": "Susanne konnte dem Finder persoenlich fuer seine Ehrlichkeit danken.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Lesen Sie die Texte aus der Presse und die Aufgaben 7 bis 12. Waehlen Sie a, b oder c. Arbeitszeit: 20 Minuten.",
+          "text": "Text 1 (Ein Dorf fuer gruene Energie): Das Dorf Feldheim in Brandenburg macht sich unabhaengig von Oel und Kohle. Seit Kurzem deckt das Dorf seinen kompletten Strombedarf durch eine moderne Bio-Gas-Anlage: Abfall von Tieren, Getreide und Holz werden erwaermt, ein Motor verbrennt das Gas, erzeugt Waerme und treibt einen Generator an, der Strom produziert. Die Idee entstand an der Universitaet Goettingen, Ziel war zu zeigen, dass ein Dorf komplett mit erneuerbaren Energien versorgt werden kann. Die Anlage erzeugt doppelt so viel Strom wie die Gemeinde verbraucht, der Rest geht kostenlos an andere Doerfer. Das Konzept koennte anderswo genauso aufgebaut werden, der Raumbedarf ist gering, man braucht vor allem aktive und begeisterte Einwohner. Text 2 (Tour durch Murtens Geschichte): Mit der Rundfahrt 'Zeitreise per Velo' koennen Touristen Murten sportlich neu entdecken. Sportliche steigen aufs eigene oder gemietete Velo, weniger Sportliche aufs Elektro-Velo, beides am Bahnhof mietbar. Der Geschaeftsfuehrer von Murten Tourismus moechte das Angebot fuer aktive Radfahrer erweitern und den Trend zum E-Bike unterstuetzen.",
+          "questions": [
+            {
+              "id": "l2-7",
+              "prompt": "In diesem Text geht es um ein Dorf, das ...",
+              "options": ["gehoert Eckhard Meier.", "gibt es seit einem Dreivierteljahr.", "produziert Strom und Waerme."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l2-8",
+              "prompt": "Die Wissenschaftler wollten zeigen, dass ...",
+              "options": ["ein ganzes Dorf von modernen Energien leben kann.", "eine Bio-Gasanlage mehr Strom produziert, als ein Dorf braucht.", "man groessere Mengen Strom sparen kann."],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-9",
+              "prompt": "Damit die Idee auch in anderen Doerfern funktioniert, ...",
+              "options": ["benoetigt man viel Geld.", "braucht man genug Platz fuer die Technik.", "muss die Bevoelkerung dafuer sein."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l2-10",
+              "prompt": "In diesem Text geht es darum, dass ...",
+              "options": ["die Geschichte von Murten neu erzaehlt wird.", "es ein neues Tourismus-Angebot gibt.", "man in Murten neue Velo-Wege bauen will."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-11",
+              "prompt": "Fuer die Rundfahrt ...",
+              "options": ["braucht man ein eigenes Velo.", "muss man nicht sportlich sein.", "sollte man mit der Bahn anreisen."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-12",
+              "prompt": "Der Geschaeftsfuehrer von Murten Tourismus will, dass ...",
+              "options": ["es in Murten mehr Stadtfuehrungen fuer Gruppen gibt.", "die Leute normale Velos statt Elektro-Velos benutzen.", "mehr Velo-Touristen in die Region kommen."],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen. Welche Anzeige passt zu welcher Situation? Fuer eine Situation gibt es keine passende Anzeige. Arbeitszeit: 10 Minuten.",
+          "text": "Anzeigen: Trainingsprogramm Deutsch (Lernportal im Internet, gratis Kurslektionen und Grammatik, fuer alle ohne Zeit fuer Kurse). Schweizer Autoren, leicht gemacht (vereinfachte Originalversionen Schweizer Literatur zum Lesevergnuegen). Neues Computerprogramm von Digital Learning (Buero management und Buchhaltung, englisch/deutsch). Deutsch in Linz (Intensivkurse, flexible Kurszeiten fuer Berufstaetige). Verlag fuer deutsche Literatur sucht Lektor/-in (Stellenangebot, keine Lernmoeglichkeit). Deutsch erLesen (Monatsmagazin mit aktuellen Originalartikeln aus der deutschen Presse). Sprachschule Orion sucht Trainer/-innen (Stellenangebot fuer Lehrkraefte, keine Lernmoeglichkeit). Job & Sprache-Net (Ferienjobs in Hotel und Restaurant in D/A/CH, bis zu 3 Monate Juni-August, perfektioniert nebenbei die Sprache). Deutsch in der Schweiz (Intensivkurse, Schreibkurse auch als Fernstudium, Sommerkurse, nur Tageskurse). Sprache und Kultur in Wien (Deutschkurse ganzjaehrig, Spezialangebote fuer den Sommer).",
+          "needs_review": true,
+          "review_note": "The original ads are labeled a-j in a two-column layout that PDF text extraction does not reliably preserve; the worked example given in the source ties letter i to the Wien ad, which conflicts with a simple sequential reading of the extracted text. Options below use the business names directly instead of single letters to sidestep this unreliable mapping; all correct_answer values are derived from content matching, not from the original lettering.",
+          "questions": [
+            {
+              "id": "l3-13",
+              "prompt": "Leon moechte im Sommer im Tourismus-Bereich arbeiten, um sein Deutsch zu verbessern.",
+              "options": ["Trainingsprogramm Deutsch", "Schweizer Autoren leicht gemacht", "Deutsch in Linz", "Deutsch erLesen", "Job & Sprache-Net", "Deutsch in der Schweiz", "Sprache und Kultur in Wien", "X (keine Loesung)"],
+              "correct_answer": 4
+            },
+            {
+              "id": "l3-14",
+              "prompt": "Giovanna sucht deutsche Hoerbuecher, damit sie unterwegs Deutsch lernen kann.",
+              "options": ["Trainingsprogramm Deutsch", "Schweizer Autoren leicht gemacht", "Deutsch in Linz", "Deutsch erLesen", "Job & Sprache-Net", "Deutsch in der Schweiz", "Sprache und Kultur in Wien", "X (keine Loesung)"],
+              "correct_answer": 7
+            },
+            {
+              "id": "l3-15",
+              "prompt": "Mirjeta hat keine Zeit fuer einen Kurs, moechte sich aber regelmaessig ueber Neuigkeiten aus Deutschland informieren.",
+              "options": ["Trainingsprogramm Deutsch", "Schweizer Autoren leicht gemacht", "Deutsch in Linz", "Deutsch erLesen", "Job & Sprache-Net", "Deutsch in der Schweiz", "Sprache und Kultur in Wien", "X (keine Loesung)"],
+              "correct_answer": 3
+            },
+            {
+              "id": "l3-16",
+              "prompt": "Maria moechte am Computer Deutsch lernen.",
+              "options": ["Trainingsprogramm Deutsch", "Schweizer Autoren leicht gemacht", "Deutsch in Linz", "Deutsch erLesen", "Job & Sprache-Net", "Deutsch in der Schweiz", "Sprache und Kultur in Wien", "X (keine Loesung)"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l3-17",
+              "prompt": "Susan liest am liebsten Literatur, wenn die Texte nicht zu schwierig sind.",
+              "options": ["Trainingsprogramm Deutsch", "Schweizer Autoren leicht gemacht", "Deutsch in Linz", "Deutsch erLesen", "Job & Sprache-Net", "Deutsch in der Schweiz", "Sprache und Kultur in Wien", "X (keine Loesung)"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l3-18",
+              "prompt": "Miroslav will den schriftlichen Ausdruck verbessern, weil er im Studium viel schreiben muss.",
+              "options": ["Trainingsprogramm Deutsch", "Schweizer Autoren leicht gemacht", "Deutsch in Linz", "Deutsch erLesen", "Job & Sprache-Net", "Deutsch in der Schweiz", "Sprache und Kultur in Wien", "X (keine Loesung)"],
+              "correct_answer": 5
+            },
+            {
+              "id": "l3-19",
+              "prompt": "Juan kann nur am Abend einen Kurs besuchen.",
+              "options": ["Trainingsprogramm Deutsch", "Schweizer Autoren leicht gemacht", "Deutsch in Linz", "Deutsch erLesen", "Job & Sprache-Net", "Deutsch in der Schweiz", "Sprache und Kultur in Wien", "X (keine Loesung)"],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Lesen Sie die Kommentare 20 bis 26 zu einem Artikel ueber ein Verbot von 'Killerspielen'. Ist die Person fuer ein Verbot? Waehlen Sie Ja oder Nein. Arbeitszeit: 15 Minuten.",
+          "text": "20 Stefan, 19: Ein verbotenes Spiel ist noch interessanter, es ist unmoeglich alle Killerspiele abzuschaffen, warum verbieten wenn es sowieso alle spielen. 21 Dagmar, 23: Wer entscheidet, welche Spiele wir nicht brauchen? Wichtiger ist, dass Kinder lernen, zwischen virtueller und realer Gewalt zu unterscheiden. 22 Kathleen, 49: Die Einstellung dahinter ist Ausdruck von Gleichgueltigkeit, das muss man stoppen, und zwar schnell. 23 Marius, 34: Es waere besser, die Altersbeschraenkung auf 18 Jahre festzulegen und sie strikt einzuhalten. 24 Jonny, 21: Killerspiele machen aggressiv und abhaengig, das sind Gruende, warum man endlich etwas gegen diese Spiele tun sollte. 25 Robert, 18: Man spielt im Team, das staerkt den Teamgeist, die Taktik steht im Vordergrund, das foerdert logisches Denken. 26 Marinette, 38: Ein Verbot scheint mir sinnvoll, auch wenn es allein wahrscheinlich nicht viel nuetzt.",
+          "questions": [
+            {
+              "id": "l4-20",
+              "prompt": "Stefan",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-21",
+              "prompt": "Dagmar",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-22",
+              "prompt": "Kathleen",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-23",
+              "prompt": "Marius",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-24",
+              "prompt": "Jonny",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-25",
+              "prompt": "Robert",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-26",
+              "prompt": "Marinette",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 5,
+          "instructions": "Sie informieren sich ueber die Hausordnung des Dresdner Berufsbildungszentrums BZW. Lesen Sie die Aufgaben 27 bis 30 und waehlen Sie a, b oder c. Arbeitszeit: 10 Minuten.",
+          "text": "Hausordnung BZW: Unterrichtszeiten verbindlich. In Klassenraeumen ist es untersagt, etwas an die Waende zu kleben oder zu schreiben. Alkohol- und Drogenkonsum ist auf dem Schulareal verboten, in Ausnahmefaellen kann die Schulleitung den Konsum von Alkohol erlauben. Rauchen nur im Freien in vorgesehenen Zonen. Die Schule stellt Lernenden und Mitarbeitenden kostenlos Schliessfaecher zur Verfuegung, fuer verlorene Schluessel wird eine Gebuehr von 50 Euro erhoben. Fahrraeder muessen in den dafuer vorgesehenen Fahrradkeller gebracht und abgeschlossen werden, Mopeds und Motorraeder sind auf dem Schulareal nicht erlaubt.",
+          "questions": [
+            {
+              "id": "l5-27",
+              "prompt": "Schueler ...",
+              "options": ["duerfen keine Fahrraeder mit zur Schule bringen.", "duerfen ihre Fahrraeder auf den Schulhof stellen.", "muessen ihre Fahrraeder in einen speziellen Raum stellen."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l5-28",
+              "prompt": "Fuer die Klassenraeume des BZW gilt:",
+              "options": ["Schueler duerfen keine Poster aufhaengen.", "Schueler muessen dort selber aufraeumen.", "Schueler koennen dort nach dem Unterricht lernen."],
+              "correct_answer": 0
+            },
+            {
+              "id": "l5-29",
+              "prompt": "Um die verschliessbaren Faecher benutzen zu koennen, muss man ...",
+              "options": ["einen Schluessel im Sekretariat verlangen.", "einmalig 50 Euro zahlen.", "Schueler sein oder im BZW arbeiten."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l5-30",
+              "prompt": "Das Trinken von Alkohol ...",
+              "options": ["kann von der Schulleitung genehmigt werden.", "muss der Lehrperson gemeldet werden.", "ist ohne Ausnahme verboten."],
+              "correct_answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "timer_seconds": 2400,
+      "audio_url": "https://goethemp4s.akamaized.net/resources/files/mp430/b1_modellsatz_erwachsene.mp4",
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Sie hoeren fuenf kurze Texte, jeden Text zweimal. Zu jedem Text loesen Sie zwei Aufgaben.",
+          "questions": [
+            {
+              "id": "h1-1",
+              "prompt": "Der Termin von Frau Stein wird verschoben.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-2",
+              "prompt": "Frau Stein soll ...",
+              "options": ["die Chipkarte mitbringen.", "zehn Euro bezahlen.", "zurueckrufen."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h1-3",
+              "prompt": "Herr Thomas informiert Frau Brahms ueber neue Versicherungstarife.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-4",
+              "prompt": "Herr Thomas ...",
+              "options": ["moechte, dass Frau Brahms einen neuen Vertrag abschliesst.", "braucht Zeugnisse von Frau Brahms.", "ruft spaeter noch einmal an."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-5",
+              "prompt": "Sie hoeren Veranstaltungstipps fuer Muenchen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-6",
+              "prompt": "Auf der Autobahn gibt es Stau wegen ...",
+              "options": ["einer Baustelle.", "des Berufsverkehrs.", "eines Unfalls."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h1-7",
+              "prompt": "Sie hoeren eine Information fuer eine Reisegruppe.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-8",
+              "prompt": "Welcher Zug faellt aus? Der Zug nach ...",
+              "options": ["Bern.", "Genf.", "Lausanne."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-9",
+              "prompt": "Das Wetter wird im Osten Deutschlands besser.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-10",
+              "prompt": "Vorausgesagt werden ...",
+              "options": ["Gewitter an der Elbe.", "Temperaturen unter 10 Grad.", "starke Regenfaelle im Westen."],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Sie hoeren einmal einen Text. Sie nehmen an einer Fuehrung durch das Muenchner Stadtmuseum teil.",
+          "questions": [
+            {
+              "id": "h2-11",
+              "prompt": "Das Museum ist ...",
+              "options": ["sehr voll.", "teilweise geschlossen.", "ziemlich leer."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h2-12",
+              "prompt": "Was zeigt der Museumsfuehrer den Touristen?",
+              "options": ["alle Ausstellungen", "die Hauptausstellung", "die Sonderausstellungen"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-13",
+              "prompt": "Wo ist der Treffpunkt am Nachmittag?",
+              "options": ["am Eingang", "an der Garderobe", "im Cafe"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-14",
+              "prompt": "Die Ausstellung beschaeftigt sich mit ...",
+              "options": ["dem Oktoberfest.", "der bayerischen Kueche.", "der Geschichte Muenchens."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h2-15",
+              "prompt": "Der Museumsfuehrer empfiehlt den Teilnehmern einen ...",
+              "options": ["Restaurantbesuch.", "Cafebesuch.", "Biergartenbesuch."],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Sie hoeren einmal ein Gespraech an einer Bushaltestelle zwischen Nadia und Florian ueber ein Fest.",
+          "questions": [
+            {
+              "id": "h3-16",
+              "prompt": "Bei dem Fest wurde der Geburtstag von Annas Mann gefeiert.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-17",
+              "prompt": "Nadia ist vom Haus der Gastgeber begeistert.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h3-18",
+              "prompt": "Nadia arbeitet beim Fernsehen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-19",
+              "prompt": "Das Essen war ausgezeichnet.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h3-20",
+              "prompt": "Nadia hat zusammen mit dem Musiker gespielt.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-21",
+              "prompt": "Nadia hat auch Jazz gespielt.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-22",
+              "prompt": "Das Fest dauerte bis nach 12 Uhr nachts.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Sie hoeren zweimal eine Diskussion zwischen dem Moderator, Dana Schneider und Florian Bader zum Thema Kinderkrippe. Wer sagt was?",
+          "questions": [
+            {
+              "id": "h4-23",
+              "prompt": "Kinder lernen soziales Verhalten erst ab einem bestimmten Alter.",
+              "options": ["Moderator", "Dana Schneider", "Florian Bader"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h4-24",
+              "prompt": "Fuer den Erfolg im Beruf ist es wichtig, immer zu arbeiten.",
+              "options": ["Moderator", "Dana Schneider", "Florian Bader"],
+              "correct_answer": 2
+            },
+            {
+              "id": "h4-25",
+              "prompt": "Es ist moeglich, Kinder zu haben und auch zu arbeiten.",
+              "options": ["Moderator", "Dana Schneider", "Florian Bader"],
+              "correct_answer": 2
+            },
+            {
+              "id": "h4-26",
+              "prompt": "In der Krippe lernen Kinder andere Dinge als zu Hause.",
+              "options": ["Moderator", "Dana Schneider", "Florian Bader"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h4-27",
+              "prompt": "In Krippen muessen Erzieherinnen viele Kinder gleichzeitig betreuen.",
+              "options": ["Moderator", "Dana Schneider", "Florian Bader"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h4-28",
+              "prompt": "Kinder sollen lernen, sich auch mal alleine zu beschaeftigen.",
+              "options": ["Moderator", "Dana Schneider", "Florian Bader"],
+              "correct_answer": 2
+            },
+            {
+              "id": "h4-29",
+              "prompt": "Manche Kindertagesstaetten haben zu wenig Geld.",
+              "options": ["Moderator", "Dana Schneider", "Florian Bader"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h4-30",
+              "prompt": "Auch Familien mit wenig Geld sollen Kinder haben koennen.",
+              "options": ["Moderator", "Dana Schneider", "Florian Bader"],
+              "correct_answer": 1
+            }
+          ]
+        }
+      ],
+      "transcripts": [
+        "Nummer 1: Hallo Frau Stein, hier ist die Praxis Dr. Becker. Frau Dr. Becker muss zu einer Operation, koennten Sie auch am Freitag um 14 Uhr kommen? Geben Sie mir bitte heute noch Bescheid. Ach, und Ihre Chipkarte ist bei uns, Sie haben sie vergessen.",
+        "Nummer 2: Hallo Frau Brahms, Ulf Thomas hier von der HGB-Versicherung. Sie haben sich als Verkaufsleiterin beworben, doch es fehlen zwei Zeugnisse fuer die Computer- und Englischkurse. Bitte schicken Sie diese Unterlagen so schnell wie moeglich.",
+        "Nummer 3: Achtung Autofahrer, auf der A8 Stuttgart Richtung Muenchen hat sich ein Unfall ereignet, der rechte Fahrstreifen ist blockiert, 12 Kilometer Stau. Im Stadtgebiet Muenchen Behinderungen wegen des Berufsverkehrs, Stau auch wegen einer Baustelle.",
+        "Nummer 4: Gleis 13, Einfahrt des Interregio nach Bern. Eine wichtige Information fuer die Passagiere nach Genf: der Intercity faellt wegen einer Weichenstoerung aus, die naechste Verbindung ist ueber Lausanne um 09.45 von Gleis 11.",
+        "Nummer 5: Der Wetterbericht: im Westen gering bewoelkt und meist trocken, sonst kraeftige Regenguesse und Gewitter von Thueringen bis an die Elbe im Osten, dort lokal schwere Unwetter, Temperaturen sinken auf 17 bis 12 Grad.",
+        "Museumsfuehrer Jan Kiefer: wir haben das Museum fast fuer uns, die meisten sind im Biergarten. Wir besuchen zunaechst die Hauptausstellung, danach koennen Sie die Sonderausstellung im 2. Stock besuchen. Um 16 Uhr treffen wir uns im Eingangsbereich. Wir gehen heute historisch der Frage nach, wofuer Muenchen steht. Im Anschluss sollten Sie einen Biergarten besuchen.",
+        "Nadia und Florian an der Bushaltestelle: Anna, die Freundin von Nadias Mutter, wurde 50, ihr Mann ist Diplomat, grosses Fest mit 60 Leuten, traumhaftes Haus. Nadias Mutter stellte sie als Medienwissenschaft-Studentin vor, die spaeter zum Fernsehen will. Das Essen war vom Feinsten. Nadia spielte waehrend der Pause des Pianisten allein Klavier, ein Gast wollte Jazz hoeren, aber der Pianist kam rechtzeitig zurueck und spielte noch nach Mitternacht Jazz.",
+        "Radiodiskussion Kinderkrippe: Dana Schneider sagt die ersten drei Jahre sind wichtig, Kinder brauchen eine feste Bezugsperson, soziales Verhalten lernen sie erst spaeter im Kindergarten, Erzieherinnen haben bei vielen Kindern keine Zeit, manche Kindertagesstaetten haben zu wenig Geld, aber auch arme Familien sollen Kinder haben koennen. Florian Bader sagt seine Kinder lernen in der Krippe auf andere zu hoeren, man kann Karriere und Kinder haben, Kinder sollen lernen sich allein zu beschaeftigen. Der Moderator merkt an, dass Kinder in der Krippe Dinge lernen, die Eltern zu Hause nicht bieten koennen."
+      ]
+    },
+    "schreiben": {
+      "timer_seconds": 3600,
+      "parts": [
+        {
+          "part_number": 1,
+          "task_instructions": "Sie haben vor einer Woche Ihren Geburtstag gefeiert. Ein Freund/Eine Freundin konnte nicht kommen, weil er/sie krank war. Beschreiben Sie wie die Feier war, begruenden Sie welches Geschenk Sie besonders toll finden und warum, machen Sie einen Vorschlag fuer ein Treffen. E-Mail, circa 80 Woerter. Arbeitszeit: 20 Minuten.",
+          "task_prompt": "E-Mail an einen Freund/eine Freundin: Wie war die Feier?, welches Geschenk toll und warum?, Vorschlag fuer ein Treffen."
+        },
+        {
+          "part_number": 2,
+          "task_instructions": "Sie haben im Fernsehen eine Diskussionssendung zum Thema 'Persoenliche Kontakte und Internet' gesehen. Im Online-Gaestebuch steht die Meinung, dass persoenliche Treffen immer seltener werden, Internet sie aber nicht ersetzen kann. Schreiben Sie Ihre eigene Meinung dazu, circa 80 Woerter. Arbeitszeit: 25 Minuten.",
+          "task_prompt": "Ihre Meinung zum Thema 'Persoenliche Kontakte und Internet'."
+        },
+        {
+          "part_number": 3,
+          "task_instructions": "Ihre Kursleiterin, Frau Mueller, hat Sie zu einem Gespraech ueber Ihre persoenlichen Lernziele eingeladen. Zu dem Termin koennen Sie nicht kommen. Schreiben Sie an Frau Mueller, entschuldigen Sie sich hoeflich und berichten Sie, warum Sie nicht kommen koennen. Circa 40 Woerter. Arbeitszeit: 15 Minuten.",
+          "task_prompt": "E-Mail an Frau Mueller: Entschuldigung und Grund nennen."
+        }
+      ]
+    },
+    "sprechen": {
+      "parts": [
+        {
+          "part_number": 1,
+          "topic": "Gemeinsam etwas planen (circa 3 Minuten)",
+          "example_questions": [
+            "Ein Teilnehmer aus dem Deutschkurs hatte einen Unfall und liegt im Krankenhaus. Planen Sie den Besuch und die Hilfe danach: Wann besuchen? Wie hinkommen? Was mitnehmen? Wie kann man helfen?"
+          ]
+        },
+        {
+          "part_number": 2,
+          "topic": "Ein Thema praesentieren (circa 3 Minuten, ein Thema waehlen)",
+          "example_questions": [
+            "Praesentieren Sie ein aktuelles Thema zu 5 Folien: Thema vorstellen, eigene Erfahrungen, Situation im Heimatland, Vor- und Nachteile mit Meinung, Abschluss und Dank."
+          ]
+        },
+        {
+          "part_number": 3,
+          "topic": "Ueber ein Thema sprechen (circa 2 Minuten)",
+          "example_questions": [
+            "Geben Sie Rueckmeldung zur Praesentation Ihres Partners/Ihrer Partnerin und stellen Sie eine Frage dazu."
+          ]
+        }
+      ]
+    }
+  }
+}

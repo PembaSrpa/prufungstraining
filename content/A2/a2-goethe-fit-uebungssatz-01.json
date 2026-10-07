@@ -1,0 +1,371 @@
+{
+  "id": "a2-goethe-fit-uebungssatz-01",
+  "level": "A2",
+  "exam": "Goethe-Zertifikat A2 Fit in Deutsch (Jugendliche)",
+  "source_type": "official",
+  "source_url": "https://www.goethe.de/pro/relaunch/prf/materialien/A2_fit/A2_Uebungssatz_Jugendliche.pdf",
+  "edition": "1. Auflage Januar 2021",
+  "skills": {
+    "lesen": {
+      "timer_seconds": 1800,
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Du liest in einer Zeitung diesen Text. Waehle fuer die Aufgaben 1 bis 5 die richtige Loesung a, b oder c.",
+          "text": "Spass in den Ferien: Ab 1. August gibt es wieder ein kostenloses Ferienangebot im Stadtpark. Wenn die Eltern arbeiten, koennen Schueler von Montag bis Freitag Sport machen. In den letzten drei Wochen koennen Maedchen dienstags und donnerstags das Reiten versuchen, 14 bis 17.30 Uhr. Juri Meier organisiert das Programm, Anmeldung online mindestens eine Woche vor Ferienbeginn ueber www.hamburgindenferien.de. Jeder kann mitmachen, man kann jeden Tag verschiedene Kurse waehlen: Tennis, Basketball, Fussball. Sportkleidung einpacken, umziehen vor Ort moeglich, Mineralwasser gibt es, Saft oder Cola am Kiosk. Immer mehr Jugendliche kommen, deshalb gibt es diesen Winter zum ersten Mal auch ein Ferienprogramm.",
+          "questions": [
+            {
+              "id": "l1-1",
+              "prompt": "Die Schuelerinnen und Schueler koennen beim Ferienangebot ...",
+              "options": ["in den letzten drei Wochen mit dem Reiten anfangen.", "Kurse besuchen und fuer die Schule lernen.", "taeglich ausser am Wochenende trainieren."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l1-2",
+              "prompt": "Die Eltern buchen das Sportprogramm fuer ihre Kinder ...",
+              "options": ["bei Juri Meier.", "im Internet.", "im Rathaus."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-3",
+              "prompt": "Wer am Ferienprogramm teilnimmt, ...",
+              "options": ["kann taeglich etwas anderes machen.", "muss besonders sportlich sein.", "muss sehr gut Tennis spielen."],
+              "correct_answer": 0
+            },
+            {
+              "id": "l1-4",
+              "prompt": "Die Jugendlichen muessen ...",
+              "options": ["etwas zu essen mitbringen.", "in Sportkleidung zum Stadtpark kommen.", "Mineralwasser am Kiosk kaufen."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-5",
+              "prompt": "Das Ferienangebot ...",
+              "options": ["findet dieses Jahr zum ersten Mal statt.", "gibt es immer auch im Winter.", "gefaellt einer immer groesseren Zahl Kinder und Jugendlicher."],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Du bist auf einer Veranstaltung und liest das Programm. Welcher Ort passt? Waehle a, b oder c.",
+          "text": "Freizeitprogramm: Schulzentrum am Stadtwald (Fussball-Ausstellung, Theaterverein, kostenlose Gitarrenstunde). Sportverein TSV 05 (Joggen durch den Stadtwald, Tanzkurs mit besten Taenzern, offenes Fussballtraining 8-14 Jahre). Sprachschule Schiller (Sprachlehrer-Bewerbung, Schreibwettbewerb Thema Natur, Disko). Konzerthaus am Marktplatz (internationale Studentengruppen stellen Sprachen vor, Jugendgruppe spielt Instrumente aus aller Welt, Musik und Natur im Garten). Rathausplatz (Kartenspiele aus aller Welt, Hip-Hop-Konzert, grosser Fussballtag fuer Erwachsene und Kinder).",
+          "questions": [
+            {
+              "id": "l2-6",
+              "prompt": "Du moechtest gegen deinen Vater Fussball spielen.",
+              "options": ["TSV 05", "Rathausplatz", "anderer Ort"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-7",
+              "prompt": "Du willst etwas in der Natur unternehmen.",
+              "options": ["Schulzentrum Stadtwald", "Sprachschule Schiller", "anderer Ort"],
+              "correct_answer": 2
+            },
+            {
+              "id": "l2-8",
+              "prompt": "Du moechtest ein Instrument spielen lernen.",
+              "options": ["Schulzentrum Stadtwald", "Konzerthaus", "anderer Ort"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-9",
+              "prompt": "Du moechtest eine neue Sprache kennenlernen.",
+              "options": ["Sprachschule Schiller", "Konzerthaus", "anderer Ort"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-10",
+              "prompt": "Du moechtest besser tanzen lernen.",
+              "options": ["Schulzentrum Stadtwald", "Rathausplatz", "anderer Ort"],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Du liest eine E-Mail. Waehle fuer die Aufgaben 11 bis 15 die richtige Loesung a, b oder c.",
+          "text": "Maria an Laura: Ich bin seit drei Monaten in Norddeutschland, meine Familie fehlt mir. Meine Eltern kommen, wenn sie Urlaub haben. Der Unterricht ist anders als in Portugal, ich spreche aber schon sehr gut Deutsch. Meine Gastfamilie ist nett, ich mag die zwei kleinen Jungen, ich passe manchmal auf sie auf. Die Eltern teilen sich den Haushalt. Nach dem Mittagessen soll ich immer mit Bella, dem Hund, nach draussen, das stoert mich etwas. Lisa, meine neue Schulfreundin, hat ein Pferd und reitet gut, wir gehen oft an den Strand und ich mache mit dem Handy tolle Bilder von ihr. Ich schwimme gern, aber das Meer war bisher zu kalt. Heute fahre ich ins Stadtzentrum, Lisa hat Geburtstag, ich moechte ihr einen Krimi kaufen. Ist deine Mutter wieder gesund? Sag ihr, ich denke an sie. Morgen rufe ich dich ab 18 Uhr an.",
+          "questions": [
+            {
+              "id": "l3-11",
+              "prompt": "Maria ist in Deutschland, weil sie ...",
+              "options": ["als Gast in eine deutsche Schule geht.", "ihr Deutsch verbessern muss.", "mit ihrer Familie die Ferien dort verbringt."],
+              "correct_answer": 0
+            },
+            {
+              "id": "l3-12",
+              "prompt": "Nach der Schule muss Maria ...",
+              "options": ["ihre Hausaufgaben machen.", "im Haushalt helfen.", "sich um das Haustier kuemmern."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l3-13",
+              "prompt": "Was macht Maria in ihrer Freizeit? Sie ...",
+              "options": ["fotografiert gerne.", "reitet am Strand.", "schwimmt bei jedem Wetter."],
+              "correct_answer": 0
+            },
+            {
+              "id": "l3-14",
+              "prompt": "Was will Maria in der Stadt machen?",
+              "options": ["Allein einen Film sehen.", "Ein Buch ausleihen.", "Ein Geschenk suchen."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l3-15",
+              "prompt": "Was soll Laura machen?",
+              "options": ["Ihre Mutter gruessen.", "Maria anrufen.", "Weihnachten mit Maria feiern."],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Sechs Jugendliche suchen auf der Website ihrer Schule nach Angeboten fuer die Sommerferien. Welche Anzeige (a bis f) passt zu welcher Person (16 bis 20)? Fuer eine Aufgabe gibt es keine Loesung.",
+          "text": "a: Schulreisen, Gruppenreisen ins In- und Ausland mit Kultur- und Fitnessprogramm fuer 16- bis 21-Jaehrige. b: Sommer mit Spass, fuer 14- bis 17-Jaehrige ohne Eltern, Strandpartys und Sonne. c: Sprachreisen, Sprachkenntnisse verbessern, junge Leute und fremde Kulturen ohne Eltern kennenlernen, Ausfluege ins Museum oder in die Natur. d: Keine Lust auf Langeweile, taeglich in Sportkursen aktiv sein und selbst Unterricht geben, 15 Euro pro Stunde. e: Aktiv in der Natur, guenstige Unterkuenfte im Werdenfelser Land fuer die ganze Familie, Wanderwege. f: Ein tierischer Sommer, auf einem Bauernhof bei alten und kranken Pferden helfen, kostenlose Unterkunft mit Vollpension.",
+          "questions": [
+            {
+              "id": "l4-16",
+              "prompt": "Maya moechte mit ihrem fuenfjaehrigen Bruder und ihren Eltern Ferien machen.",
+              "options": ["a", "b", "c", "d", "e", "f", "X (keine Loesung)"],
+              "correct_answer": 6
+            },
+            {
+              "id": "l4-17",
+              "prompt": "Finn moechte in den Ferien Geld verdienen.",
+              "options": ["a", "b", "c", "d", "e", "f", "X (keine Loesung)"],
+              "correct_answer": 3
+            },
+            {
+              "id": "l4-18",
+              "prompt": "Anna moechte mit Jugendlichen aus aller Welt Natur und Technik verstehen lernen.",
+              "options": ["a", "b", "c", "d", "e", "f", "X (keine Loesung)"],
+              "correct_answer": 2
+            },
+            {
+              "id": "l4-19",
+              "prompt": "Lena moechte in den Ferien freiwillig und ohne Bezahlung arbeiten.",
+              "options": ["a", "b", "c", "d", "e", "f", "X (keine Loesung)"],
+              "correct_answer": 5
+            },
+            {
+              "id": "l4-20",
+              "prompt": "Zoe moechte allein ans Meer fahren und andere Jugendliche treffen.",
+              "options": ["a", "b", "c", "d", "e", "f", "X (keine Loesung)"],
+              "correct_answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "timer_seconds": 1800,
+      "audio_url": "https://goethemp4s.akamaized.net/resources/files/mp310/pruefungstraining_2_hoeren_a2_jugendliche.mp3",
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Du hoerst fuenf kurze Texte, jeden Text zweimal. Waehle a, b oder c.",
+          "questions": [
+            {
+              "id": "h1-1",
+              "prompt": "Wann feiert Katja ihren Geburtstag?",
+              "options": ["Am Wochenende.", "In zwei Tagen.", "Heute Abend."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-2",
+              "prompt": "Nina findet das Lied gut, weil sie ...",
+              "options": ["den Text gut findet.", "mag, wie Maren singt.", "selbst Klavier spielt."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-3",
+              "prompt": "Der Vater soll Tobias ...",
+              "options": ["bei den Hausaufgaben helfen.", "bei Stefan zu Hause anrufen.", "von Stefans Haus abholen."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h1-4",
+              "prompt": "Was sollen Fahrgaeste tun, wenn sie nach Frankfurt wollen?",
+              "options": ["Den ICE nehmen.", "Im Zug warten.", "Mit der S-Bahn fahren."],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-5",
+              "prompt": "Wo findet das Konzert statt?",
+              "options": ["Auf dem Marktplatz.", "Im Festzelt.", "In einer Halle."],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Du hoerst ein Gespraech einmal. Wo haben Jonas, Lisa und ihre Freunde ihr Praktikum gemacht?",
+          "needs_review": true,
+          "review_note": "The original task matches each person to one of nine pictures (a-i). No images are available in this extraction, so the workplace is given directly as text.",
+          "questions": [
+            {
+              "id": "h2-6",
+              "prompt": "Lisa",
+              "options": ["Bibliothek (Buecher aufraeumen)", "Arztpraxis", "Baeckerei", "Bahn", "Computerspiele-Firma"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-7",
+              "prompt": "Rebecca",
+              "options": ["Bibliothek", "Arztpraxis", "Baeckerei", "Bahn", "Computerspiele-Firma"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-8",
+              "prompt": "Martha",
+              "options": ["Bibliothek", "Arztpraxis", "Baeckerei (Broetchen und Kuchen backen)", "Bahn", "Computerspiele-Firma"],
+              "correct_answer": 2
+            },
+            {
+              "id": "h2-9",
+              "prompt": "Dennis",
+              "options": ["Bibliothek", "Arztpraxis", "Baeckerei", "Bahn", "Computerspiele-Firma"],
+              "correct_answer": 3
+            },
+            {
+              "id": "h2-10",
+              "prompt": "Chris",
+              "options": ["Bibliothek", "Arztpraxis", "Baeckerei", "Bahn", "Computerspiele-Firma (durfte ein Spiel testen)"],
+              "correct_answer": 4
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Du hoerst fuenf kurze Gespraeche, jeden Text einmal. Waehle a, b oder c.",
+          "needs_review": true,
+          "review_note": "The original options are pictures rather than text. Text options below are reconstructed from the transcript for reference.",
+          "questions": [
+            {
+              "id": "h3-11",
+              "prompt": "Was wollen die beiden am Schulfest machen?",
+              "options": ["Mit der Band der 7b spielen.", "Einen Malwettbewerb organisieren.", "Ein Theaterstueck mit Onkels Hilfe machen."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h3-12",
+              "prompt": "Was moechte Kevin mit seinem Geld machen?",
+              "options": ["Computerspiele kaufen.", "Auf Konzerte gehen.", "Fuer eine E-Gitarre sparen."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h3-13",
+              "prompt": "Was macht der Junge am Wochenende?",
+              "options": ["Er bringt Zeitungen aus.", "Er hilft seinem Bruder beim Umzug.", "Er macht Mathe-Hausaufgaben."],
+              "correct_answer": 0
+            },
+            {
+              "id": "h3-14",
+              "prompt": "Was machen die Schuelerinnen und Schueler heute?",
+              "options": ["Schwimmen gehen.", "In der Jugendherberge bleiben und spielen.", "Draussen Fussball spielen."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-15",
+              "prompt": "Wo moechte Jens sich noch fuer ein Praktikum bewerben?",
+              "options": ["Im Buchladen.", "Im Zoo.", "In der Werkstatt seines Vaters."],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Du hoerst ein Interview zweimal. Waehle Ja oder Nein.",
+          "questions": [
+            {
+              "id": "h4-16",
+              "prompt": "Robin hat seinen ersten Film in der Schule gemacht.",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h4-17",
+              "prompt": "Er macht in den Ferien viel mit seinen Freunden.",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h4-18",
+              "prompt": "Robin spart sein Geld.",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h4-19",
+              "prompt": "Robin macht in seiner Freizeit gerne Sport.",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h4-20",
+              "prompt": "Nach dem Abitur moechte Robin am Theater arbeiten.",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            }
+          ]
+        }
+      ],
+      "transcripts": [
+        "Katja an Marie: Ich war letztes Wochenende krank, jetzt plane ich fuer uebermorgen eine Party in unserem Garten, sag mir bis heute Abend Bescheid.",
+        "Nina: Darf ich mir den neuen Song von Maren Martins wuenschen, wenn Maren spielt und singt, bin ich richtig gluecklich, den Text finde ich allerdings zu traurig.",
+        "Tobias an seinen Vater: Ich bin noch bei Stefan, Stefans Mutter hilft uns bei den Hausaufgaben, holst du mich mit dem Auto ab, wenn du fertig bist.",
+        "Zugbegleiter: Dieser Zug kann wegen eines technischen Problems nicht weiterfahren, Fahrgaeste nach Frankfurt fahren bitte mit dem ICE 562 um 14.15 Uhr von Gleis 1.",
+        "Moderatorin: Wegen des Regens kann das Konzert heute Abend nicht draussen auf dem Marktplatz stattfinden, es findet in der grossen Halle am Bahnhof statt, Beginn 18.30 Uhr.",
+        "Jonas und Lisa ueber Praktika: Jonas war bei der Post, Lisa wollte ins Schwimmbad aber hatte keine Erfahrung und raeumte stattdessen in der Bibliothek Buecher auf, Rebecca wollte in die Apotheke aber war dann in einer Arztpraxis, Martha war in einer Baeckerei, Dennis wollte zur Polizei aber arbeitet jetzt bei der Bahn, Chris hilft in einer Firma fuer Computerspiele.",
+        "Leonie und Jannik planen das Schulfest: die Klasse 7b hat eine Band, ein Malwettbewerb wie letztes Jahr nicht noch einmal, Janniks Onkel ist Schauspieler und hilft mit einem Theaterstueck.",
+        "Radio-Interview mit Kevin: Fruher gab er sein Geld fuer Computerspiele und Konzerte aus, jetzt spart er alles fuer eine neue E-Gitarre.",
+        "Lehrer und Schueler: keine Mathe-Hausaufgaben, Thomas bringt samstags Zeitungen aus, Leonies Bruder zieht um aber sie haben genug Helfer.",
+        "Lehrerin und Sandra in der Jugendherberge: heute bleiben sie drin und planen die Woche, schwimmen gehen sie erst morgen, draussen Fussball geht wegen Regen nicht, es gibt Spiele drinnen.",
+        "Jens und Herr Fischer: der Praktikumsplatz im Buchladen hat nicht geklappt, im Zoo suchen sie Helfer, so muss Jens das Praktikum nicht in der Werkstatt seines Vaters machen.",
+        "Interview mit Robin: Schauspieler seit fuenf Jahren, begann mit Theater in der Schule, zwei Jahre spaeter kam der erste Film durch einen Bekannten der Mutter, in den Ferien wenig Zeit fuer Freunde, spart das Geld fuer spaeter, liest in der Freizeit lieber statt Sport, nach dem Abitur wahrscheinlich ein Studium statt einer Schauspielausbildung."
+      ]
+    },
+    "schreiben": {
+      "timer_seconds": 1800,
+      "parts": [
+        {
+          "part_number": 1,
+          "task_instructions": "Deine Eltern haben ein Haus mit Garten gekauft und ihr seid am Wochenende umgezogen. Schreibe deinem Freund Leon eine SMS: Informiere, wo du jetzt wohnst. Beschreibe dein neues Zimmer. Lade Leon fuer das Wochenende zu dir ein. Schreibe 20-30 Woerter zu allen drei Punkten.",
+          "task_prompt": "SMS an Leon: neuer Wohnort, neues Zimmer beschreiben, Einladung fuers Wochenende."
+        },
+        {
+          "part_number": 2,
+          "task_instructions": "Deine Kunstlehrerin Frau Lange organisiert fuer Freitagnachmittag einen Ausflug ins Museum. Du kannst nicht mitgehen. Schreibe eine E-Mail an deine Lehrerin: Entschuldige dich. Erklaere, warum du nicht mitgehen kannst. Mache einen Vorschlag fuer den naechsten Ausflug. Schreibe 30-40 Woerter zu allen drei Punkten.",
+          "task_prompt": "E-Mail an Frau Lange: Entschuldigung, Grund nennen, Vorschlag fuer naechsten Ausflug."
+        }
+      ]
+    },
+    "sprechen": {
+      "parts": [
+        {
+          "part_number": 1,
+          "topic": "Fragen zur Person (mit vier Karten)",
+          "example_questions": ["Traumberuf?", "Grosseltern?", "Musik?", "Familienname?"]
+        },
+        {
+          "part_number": 2,
+          "topic": "Von sich erzaehlen",
+          "example_questions": [
+            "Teilnehmer/-in A: Was machst du mit deinen Grosseltern? Essen, spielen, fernsehen, Hausaufgaben.",
+            "Teilnehmer/-in B: Was machst du mit deinen Freunden am Samstagabend? Kochen, Musik, Kino, ausgehen."
+          ]
+        },
+        {
+          "part_number": 3,
+          "topic": "Etwas zusammen planen (Schulfest)",
+          "example_questions": [
+            "Partner/-in A: Termin, Essen, Tanzen, Spiele.",
+            "Partner/-in B: Raum, Getraenke, Wettbewerb, Fotos."
+          ]
+        }
+      ]
+    }
+  }
+}

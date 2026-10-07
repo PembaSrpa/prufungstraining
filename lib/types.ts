@@ -1,4 +1,4 @@
-export type Level = "A1" | "A2";
+export type Level = "A1" | "A2" | "B1";
 export type ExamMode = "practice" | "exam";
 
 export type Skill = "hoeren" | "lesen" | "schreiben" | "sprechen";

@@ -13,14 +13,25 @@ const EXAM_LABEL: Record<string, string> = {
   "a1-goethe-modellsatz": "Goethe Modellsatz",
   "a1-goethe-uebungssatz-01": "Goethe Uebungssatz 01",
   "a1-goethe-uebungssatz-02": "Goethe Uebungssatz 02",
+  "a1-goethe-fit-uebungssatz-01": "Goethe Fit in Deutsch Uebungssatz 01",
+  "a1-goethe-fit-uebungssatz-02": "Goethe Fit in Deutsch Uebungssatz 02",
   "a2-goethe-modellsatz": "Goethe Modellsatz",
   "a2-goethe-fit-modellsatz": "Goethe Fit in Deutsch Modellsatz",
+  "a2-goethe-fit-uebungssatz-01": "Goethe Fit in Deutsch Uebungssatz 01",
   "a2-goethe-uebungssatz-01": "Goethe Uebungssatz 01",
-  "a2-telc-uebungstest-01": "telc Uebungstest 01"
+  "a2-telc-uebungstest-01": "telc Uebungstest 01",
+  "a2-oif-dtoe-modelltest": "OeIF Deutsch-Test fuer Oesterreich (A2/B1)",
+  "b1-goethe-uebungssatz-erwachsene-01": "Goethe Uebungssatz Erwachsene"
+};
+
+const LEVEL_LABEL: Record<Level, string> = {
+  A1: "Start Deutsch 1",
+  A2: "Goethe-Zertifikat A2",
+  B1: "Goethe-Zertifikat B1"
 };
 
 function groupByLevel(sets: SetSummary[]): Record<Level, SetSummary[]> {
-  const grouped: Record<Level, SetSummary[]> = { A1: [], A2: [] };
+  const grouped: Record<Level, SetSummary[]> = { A1: [], A2: [], B1: [] };
   for (const set of sets) {
     grouped[set.level].push(set);
   }
@@ -52,10 +63,10 @@ export default function HomePage() {
         </Link>
       </div>
 
-      {(["A1", "A2"] as Level[]).map((level) => (
+      {(["A1", "A2", "B1"] as Level[]).map((level) => (
         <section key={level}>
           <h2 className="level-heading">
-            <span>{level === "A1" ? "Start Deutsch 1" : "Goethe-Zertifikat A2"}</span>
+            <span>{LEVEL_LABEL[level]}</span>
             <span className={`level-tag ${level.toLowerCase()}`}>{level}</span>
           </h2>
           <ul className="toc-list">

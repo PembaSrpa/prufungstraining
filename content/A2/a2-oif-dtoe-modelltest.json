@@ -1,0 +1,405 @@
+{
+  "id": "a2-oif-dtoe-modelltest",
+  "level": "A2",
+  "exam": "Deutsch-Test fuer Oesterreich (DToe) - OeIF, A2/B1 Stufentest",
+  "source_type": "official",
+  "source_url": "https://www.integrationsfonds.at/fileadmin/content/AT/Downloads/Sprache/DTOE_Modelltest.pdf.pdf",
+  "edition": "1. Auflage 2011, Oesterreichischer Integrationsfonds / telc GmbH",
+  "note": "Dies ist ein kombinierter A2/B1-Stufentest der oesterreichischen Regierung (OeIF), kein reiner A2-Test. Wer im Hoeren/Lesen-Teil 20 bis 32 von 45 Punkten erreicht, gilt als A2; ab 33 Punkten als B1. Das Niveau liegt damit leicht ueber reinem A2 und ist als anspruchsvolleres Zusatztraining gedacht.",
+  "skills": {
+    "hoeren": {
+      "timer_seconds": 1500,
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Sie hoeren vier Ansagen. Zu jeder Ansage gibt es eine Aufgabe. Welche Loesung (a, b oder c) passt am besten?",
+          "questions": [
+            {
+              "id": "h1-1",
+              "prompt": "Was soll Frau Dembrowa machen?",
+              "options": ["Frau Oberhauser heute anrufen.", "Morgen bei der Volksbank anrufen.", "Morgen zur Volksbank gehen."],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-2",
+              "prompt": "Was soll Herr Gruber machen?",
+              "options": ["Eine Nachricht schreiben.", "Herrn Leitner anrufen.", "Zum Arbeitsmarktservice gehen."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h1-3",
+              "prompt": "Wie lange kann man heute einkaufen?",
+              "options": ["Bis 4 Uhr am Nachmittag.", "Bis 6 Uhr am Abend.", "Bis 7 Uhr abends."],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-4",
+              "prompt": "Was soll Frau Li machen?",
+              "options": ["Einen Termin machen.", "Herrn Schrader schnell anrufen.", "Zum Wohnungsamt gehen."],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Sie hoeren fuenf Ansagen aus dem Radio. Welche Loesung (a, b oder c) passt am besten?",
+          "questions": [
+            {
+              "id": "h2-5",
+              "prompt": "Im Westen wird es morgen ...",
+              "options": ["kaelter als heute.", "waermer als heute.", "windig."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-6",
+              "prompt": "Die Musiksendung kommt auf ...",
+              "options": ["Antenne 3.", "Oe6.", "Radio FM."],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-7",
+              "prompt": "Was hoeren Sie?",
+              "options": ["Nachrichten", "Verkehrshinweise", "Wetterbericht"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-8",
+              "prompt": "Wo sind Tiere auf der Autobahn?",
+              "options": ["A1", "A2", "A22"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-9",
+              "prompt": "Wo koennen Sie Vitafix kaufen?",
+              "options": ["In Apotheken und Drogerien.", "In Supermaerkten.", "Nur in Apotheken."],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Sie hoeren vier Gespraeche. Zu jedem Gespraech gibt es zwei Aufgaben: Richtig/Falsch und eine Mehrfachauswahl.",
+          "questions": [
+            {
+              "id": "h3-10",
+              "prompt": "Die Personen sind Nachbarn.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h3-11",
+              "prompt": "Herr Brunner ...",
+              "options": ["findet Urlaub auf dem Bauernhof langweilig.", "moechte auch Urlaub auf dem Bauernhof machen.", "will seiner Schwester die Adresse vom Bauernhof geben."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h3-12",
+              "prompt": "Herr Huber sucht Arbeit.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h3-13",
+              "prompt": "Der Computerkurs ...",
+              "options": ["dauert eine Woche.", "ist fuer Herrn Huber nicht interessant.", "wird vom Arbeitsmarktservice bezahlt."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h3-14",
+              "prompt": "Die Frau und der Mann sind Arbeitskollegen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-15",
+              "prompt": "Claudia ...",
+              "options": ["ist in Chemie nicht so gut.", "soll an einem Wettbewerb teilnehmen.", "soll nach Salzburg fahren."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-16",
+              "prompt": "Die Gastherme von Frau Schuster ist kaputt.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-17",
+              "prompt": "Herr Fuchs ...",
+              "options": ["gibt Frau Schuster seinen Wohnungsschluessel.", "ist am Dienstag nicht zuhause.", "nimmt Dienstag Urlaub."],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Sie hoeren Aussagen zu einem Thema (Sport). Welcher der Saetze a bis f passt zu den Aussagen 18 bis 20?",
+          "questions": [
+            {
+              "id": "h4-18",
+              "prompt": "Sprecher 1 (Arzt seit ueber 30 Jahren)",
+              "options": ["Am besten sollte man jeden Tag Sport machen.", "Sport ist nicht gut fuer aeltere Leute.", "Nicht alle haben Zeit fuer Sport.", "Sport ist gut gegen Erkaeltung.", "Sport macht nur zusammen mit anderen Spass.", "Zu viel Sport kann auch schaden."],
+              "correct_answer": 5
+            },
+            {
+              "id": "h4-19",
+              "prompt": "Sprecherin 2 (hat mit 50 Jahren angefangen)",
+              "options": ["Am besten sollte man jeden Tag Sport machen.", "Sport ist nicht gut fuer aeltere Leute.", "Nicht alle haben Zeit fuer Sport.", "Sport ist gut gegen Erkaeltung.", "Sport macht nur zusammen mit anderen Spass.", "Zu viel Sport kann auch schaden."],
+              "correct_answer": 4
+            },
+            {
+              "id": "h4-20",
+              "prompt": "Sprecher 3 (hat jetzt seinen Traumjob)",
+              "options": ["Am besten sollte man jeden Tag Sport machen.", "Sport ist nicht gut fuer aeltere Leute.", "Nicht alle haben Zeit fuer Sport.", "Sport ist gut gegen Erkaeltung.", "Sport macht nur zusammen mit anderen Spass.", "Zu viel Sport kann auch schaden."],
+              "correct_answer": 2
+            }
+          ]
+        }
+      ],
+      "transcripts": [
+        "Volksbank: Frau Dembrowa, hier spricht Gabriele Oberhauser von der Volksbank, ich wollte Sie ueber neue Sparmoeglichkeiten informieren, rufen Sie mich zurueck, es geht nur noch heute, weil ich ab morgen auf Urlaub bin.",
+        "Arbeitsmarktservice: Herr Gruber, hier ist Karl Leitner, wir haben ein passendes Stellenangebot fuer Sie, kommen Sie morgen von 8 bis 12 Uhr bei uns vorbei.",
+        "Geschaeft: Heute schliessen wir wegen Renovierungsarbeiten schon um 16 Uhr, morgen sind wir wieder bis 19 Uhr fuer Sie da.",
+        "Wohnungsamt: Frau Li, hier ist Andreas Schrader, fuer Ihren Antrag auf Wohnungszuschuss fehlt noch Ihre Unterschrift, kommen Sie bitte so schnell wie moeglich vorbei, wir sind taeglich von 9 bis 16 Uhr da, Sie brauchen keinen Termin.",
+        "Wetter: Im Osten und Suedosten bleibt es morgen neblig bei aehnlichen Temperaturen wie heute, im Westen wird es sonnig und mit 10 Grad deutlich waermer als heute.",
+        "Radio-Tipps: Heute Abend auf Radio FM ein Bericht ueber das neue Wiener Musiktheater, auf Oe6 eine Diskussion zur Gesundheitspolitik, auf Antenne 3 ab 19 Uhr Melodien von heute und morgen.",
+        "Nachrichten: Wien, Wohnservice zufrieden mit dem letzten Jahr, Linz, Bau der Autobahn soll beginnen, Salzburg, Theaterfest ein grosser Erfolg.",
+        "Verkehrsdurchsage: Geisterfahrer-Warnung auf der A22 zwischen Stockerau und Wien, auf der A1 Richtung Salzburg befinden sich Kuehe auf der Fahrbahn, die A2 Richtung Wien ist nach einem Unfall gesperrt.",
+        "Werbung: Vitafix mit wichtigen Vitaminen und Mineralstoffen, als Tabletten oder Saft, erhaeltlich in Apotheken und auch in Drogerien.",
+        "Frau Eder und Herr Brunner: Wir haben zwei Wochen Urlaub auf dem Bauernhof gemacht, die Buben konnten den ganzen Tag draussen spielen, koennten Sie mir die Adresse geben, meine Schwester moechte auch dort Urlaub machen.",
+        "Frau Winkler und Herr Huber: Ich habe schon viele Bewerbungen geschrieben aber keine Stelle gefunden, mir fehlen Computerkenntnisse. Sie koennen einen zweiwoechigen Computerkurs machen, das Arbeitsmarktservice uebernimmt die Kosten.",
+        "Herr Krauss und Frau Hartl: Ihre Tochter Claudia ist sehr gut in Chemie, im naechsten Monat findet in Wien eine Chemieolympiade statt, koennten Sie mit ihr dorthin fahren.",
+        "Frau Schuster und Herr Fuchs: Die Gastherme muss einmal im Jahr vom Installateur geprueft werden, ich habe Dienstag 8 Uhr vereinbart, sonst koennten Sie einem Nachbarn den Schluessel geben. Ich nehme mir am Dienstag frei.",
+        "Sprecher ueber Sport: Ich laufe am Wochenende mindestens 30 Minuten im Prater, wenn jeder Sport machen wuerde, waeren die Leute nicht so oft verkuehlt.",
+        "Arzt ueber Sport: Seit ueber 30 Jahren arbeite ich als Arzt, manche Patienten uebernehmen sich beim Sport, das kann sogar gefaehrlich werden, zu viel Sport ist auch nicht gesund.",
+        "Frau ueber Sport: Ich habe erst mit 50 Jahren angefangen, allein haette ich das nie gemacht, aber zusammen mit einer Freundin im Sportverein macht es richtig Spass.",
+        "Mann ueber Sport: Vor ein paar Jahren habe ich fast jeden Tag Sport gemacht, jetzt mit meinem Traumjob weiss ich nicht mehr, wann ich dafuer noch Zeit haben sollte."
+      ]
+    },
+    "lesen": {
+      "timer_seconds": 2700,
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Sie sind beim Buergerservice Ihrer Stadtverwaltung. Lesen Sie die Aufgaben und den Wegweiser. In welches Zimmer (a, b oder c) gehen Sie?",
+          "text": "Wegweiser Buerger-Service Salzburg. 4. OG Kinder und Jugendliche (Kindergaerten, Urlaub in Jugendgruppen, Sportangebote fuer Jugendliche). 3. OG Bildung und Weiterbildung (Nachmittagsbetreuung, Schulservice, Studium, Volkshochschule). 2. OG Senioren-Service, Allgemeine Einrichtungen (Fotoautomat, Kopierer, WC). 1. OG Integrationsbuero (finanzielle Unterstuetzung, Beratung, Hilfe bei Wohnungssuche und Umzug, Melde-Service, Fuehrerscheinstelle, Reisepaesse). EG Eltern und Kind (Schwangerschaftsbegleitung, Vermittlung von Babysittern, Erziehungsberatung), Freizeit (Gesangs- und Musikvereine, Sportvereine).",
+          "questions": [
+            {
+              "id": "l1-21",
+              "prompt": "Sie moechten umziehen und brauchen Unterstuetzung.",
+              "options": ["EG", "1. OG", "anderes Stockwerk"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-22",
+              "prompt": "Sie suchen einen Babysitter.",
+              "options": ["1. OG", "3. OG", "anderes Stockwerk"],
+              "correct_answer": 2
+            },
+            {
+              "id": "l1-23",
+              "prompt": "Sie moechten sich ueber Freizeitangebote informieren.",
+              "options": ["2. OG", "3. OG", "anderes Stockwerk"],
+              "correct_answer": 2
+            },
+            {
+              "id": "l1-24",
+              "prompt": "Sie moechten sich ueber Urlaub fuer Ihren Sohn (14 Jahre) informieren.",
+              "options": ["EG", "4. OG", "anderes Stockwerk"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-25",
+              "prompt": "Sie moechten ein Passbild machen.",
+              "options": ["1. OG", "2. OG", "anderes Stockwerk"],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Lesen Sie die Situationen und die Anzeigen. Finden Sie fuer jede Situation die passende Anzeige. Fuer eine Aufgabe gibt es keine Loesung.",
+          "text": "Second-Hand-Laden Cordoba (guenstige Kleidung fuer Kinder bis 8 Jahre). Kinderarztpraxis Dr. Sandlhofer Linz (Buerokraft gesucht, ca. 20 Stunden pro Woche, auch ohne Ausbildung, Einarbeitung). Spiele ohne Grenzen (sammelt gebrauchte Spielwaren und Stofftiere fuer Kinder in aermeren Laendern, kostenlose Abholung). NEUEROEFFNUNG Spielwaren Huettl (Holzspielwaren und Lernspielzeug fuer Kinder bis 6 Jahre, Sonderrabatt). Verkaeufer/in gesucht Supermarkt Gasser (Vollzeitstelle Feinkostabteilung). DER LUSTIGE BAUERNHOF (neues Kartenspiel fuer Kinder von 6 bis 12 Jahren). LUDWIGSHOF Tagesausflug (Tagesbesuch auf dem Bauernhof in der Steiermark mit Streichelzoo, kein Uebernachtungsangebot). Kinderspielgruppe Sterntaler (Montag bis Freitag 16-18 Uhr fuer Kinder von 3 bis 6 Jahren, Eltern bekommen Kaffee und Kuchen und koennen sich unterhalten).",
+          "questions": [
+            {
+              "id": "l2-26",
+              "prompt": "Sie moechten mit anderen Eltern ueber kleine Kinder reden.",
+              "options": ["Second-Hand-Laden Cordoba", "Kinderarztpraxis Dr. Sandlhofer", "Spiele ohne Grenzen", "Spielwaren Huettl", "Supermarkt Gasser", "Der lustige Bauernhof", "Ludwigshof Tagesausflug", "Kinderspielgruppe Sterntaler", "X (keine Loesung)"],
+              "correct_answer": 7
+            },
+            {
+              "id": "l2-27",
+              "prompt": "Sie suchen eine Teilzeitstelle. Sie haben eine Ausbildung als Verkaeuferin.",
+              "options": ["Second-Hand-Laden Cordoba", "Kinderarztpraxis Dr. Sandlhofer", "Spiele ohne Grenzen", "Spielwaren Huettl", "Supermarkt Gasser", "Der lustige Bauernhof", "Ludwigshof Tagesausflug", "Kinderspielgruppe Sterntaler", "X (keine Loesung)"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-28",
+              "prompt": "Sie moechten mit Ihrer Familie Urlaub auf dem Bauernhof machen.",
+              "options": ["Second-Hand-Laden Cordoba", "Kinderarztpraxis Dr. Sandlhofer", "Spiele ohne Grenzen", "Spielwaren Huettl", "Supermarkt Gasser", "Der lustige Bauernhof", "Ludwigshof Tagesausflug", "Kinderspielgruppe Sterntaler", "X (keine Loesung)"],
+              "correct_answer": 8
+            },
+            {
+              "id": "l2-29",
+              "prompt": "Sie suchen ein Geschenk fuer Ihre 3-jaehrige Nichte.",
+              "options": ["Second-Hand-Laden Cordoba", "Kinderarztpraxis Dr. Sandlhofer", "Spiele ohne Grenzen", "Spielwaren Huettl", "Supermarkt Gasser", "Der lustige Bauernhof", "Ludwigshof Tagesausflug", "Kinderspielgruppe Sterntaler", "X (keine Loesung)"],
+              "correct_answer": 3
+            },
+            {
+              "id": "l2-30",
+              "prompt": "Sie moechten altes Spielzeug von Ihren Kindern abgeben.",
+              "options": ["Second-Hand-Laden Cordoba", "Kinderarztpraxis Dr. Sandlhofer", "Spiele ohne Grenzen", "Spielwaren Huettl", "Supermarkt Gasser", "Der lustige Bauernhof", "Ludwigshof Tagesausflug", "Kinderspielgruppe Sterntaler", "X (keine Loesung)"],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Lesen Sie die drei Texte. Zu jedem Text gibt es zwei Aufgaben: Richtig/Falsch und eine Mehrfachauswahl.",
+          "text": "Text 1 (Zeitungsartikel): Bauarbeiten veraergern Buerger. Der Neubau des Wiener Hauptbahnhofs stoert Anrainer seit Monaten im Schlaf. Heinz Berger sammelte mit Nachbarn Unterschriften, danach wurde frueher Feierabend gemacht. Andere Nachbarn berichten, dass Bauarbeiter bereits um 5 Uhr frueh beginnen und manchmal auch samstags arbeiten. Text 2 (Elternbrief): Bald beginnen die Sommerferien und das Sommerfest. Frau Direktor Baumgartner geht in Pension, die Schule moechte ihr ein Bild von allen Schuelern und Eltern schenken, Treffen naechsten Samstag um 15 Uhr vor dem Schulgebaeude. Wer einen Salat oder Kuchen mitbringen moechte, soll sich bei Frau Wagner melden. Text 3 (Brief einer Versicherung): Wir haben Ihre Kuendigung der Haftpflichtversicherung erhalten und berücksichtigen den gewuenschten Termin. Als besonderes Angebot zahlen Sie die naechsten 6 Monate keinen Beitrag, der Versicherungsschutz bleibt bestehen.",
+          "questions": [
+            {
+              "id": "l3-31",
+              "prompt": "Herr Berger moechte Ruhe in der Nacht.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l3-32",
+              "prompt": "Die Arbeiter ...",
+              "options": ["arbeiten auch jetzt noch bis 21 Uhr.", "arbeiten am Morgen nie vor 6 Uhr.", "arbeiten manchmal auch am Wochenende."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l3-33",
+              "prompt": "Frau Baumgartner hoert bald auf zu arbeiten.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l3-34",
+              "prompt": "Die Eltern sollen ...",
+              "options": ["Frau Baumgartner ein Geschenk mitbringen.", "kommenden Samstag Getraenke mitbringen.", "sagen, ob sie kommenden Samstag Zeit haben."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l3-35",
+              "prompt": "Herr Sanchez hat seine Versicherung gekuendigt.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l3-36",
+              "prompt": "Die Versicherung bietet Herrn Sanchez an, dass er ...",
+              "options": ["ein halbes Jahr gratis versichert bleibt.", "eine neue Versicherung bekommt.", "einen besseren Service bekommt."],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Lesen Sie den Beipackzettel. Entscheiden Sie, ob die Aussagen richtig oder falsch sind.",
+          "text": "Alginal extra - Packungsbeilage. Entzuendungshemmendes und schmerzstillendes Arzneimittel gegen leichte bis maessig starke Schmerzen und Fieber. Darf nicht eingenommen werden bei Ueberempfindlichkeit, fruehreren Asthmaanfaellen nach Acetylsalicylsaeure, in der Schwangerschaft, von Kindern unter 6 Jahren. Einzeldosis fuer Kinder 6-14 Jahre: 1/2 Filmtablette, fuer Jugendliche ab 15 und Erwachsene 1/2 bis 1 Filmtablette. Taeglich duerfen Kinder bis 14 nicht mehr als 1/2 Tablette, Jugendliche und Erwachsene nicht mehr als 2 Tabletten einnehmen. Tabletten unzerkaut mit einem Glas Wasser waehrend einer Mahlzeit einnehmen.",
+          "questions": [
+            {
+              "id": "l4-37",
+              "prompt": "Auch Schwangere duerfen die Tabletten nehmen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-38",
+              "prompt": "Ein 13-jaehriges Kind darf eine Tablette pro Tag nehmen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-39",
+              "prompt": "Man soll die Tabletten vor dem Essen nehmen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 5,
+          "instructions": "Lesen Sie den Brief und schliessen Sie die Luecken. Welche Loesung (a, b oder c) passt am besten?",
+          "text": "Sehr geehrte Frau Schickl, letzte Woche habe ich bei (40) einen Pullover bestellt. (41) gestern das Paket kam, habe ich mich sehr gefreut. Aber leider haben Sie mir den falschen Pullover geschickt! Ich (42) einen blauen Pullover in Groesse L fuer 29,90 Euro, (43) ich habe einen roten bekommen. Was soll ich tun? Und (44) wann bekomme ich den richtigen Pullover? Bitte (45) Sie mir schnell! Mit freundlichen Gruessen, Maria Gruber.",
+          "questions": [
+            {
+              "id": "l5-40",
+              "prompt": "Luecke 40",
+              "options": ["Ihnen", "Euch", "Sie"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l5-41",
+              "prompt": "Luecke 41",
+              "options": ["Als", "Ob", "Wenn"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l5-42",
+              "prompt": "Luecke 42",
+              "options": ["mochte", "sollte", "wollte"],
+              "correct_answer": 2
+            },
+            {
+              "id": "l5-43",
+              "prompt": "Luecke 43",
+              "options": ["aber", "denn", "oder"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l5-44",
+              "prompt": "Luecke 44",
+              "options": ["bis", "seit", "von"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l5-45",
+              "prompt": "Luecke 45",
+              "options": ["antworten", "geben", "sagen"],
+              "correct_answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "timer_seconds": 1800,
+      "parts": [
+        {
+          "part_number": 1,
+          "task_instructions": "Waehlen Sie Aufgabe A oder Aufgabe B. Zeigen Sie, was Sie koennen. Schreiben Sie moeglichst viel.",
+          "task_prompt": "Aufgabe A: Sie suchen ein gebrauchtes Auto, Herr Brandmeyer verkauft eines, schreiben Sie eine E-Mail: Grund fuer Ihr Schreiben, Preis?, Alter/Zustand?, wann/wo anschauen? Aufgabe B: Ihre Krankenkasse will die Kosten fuer Ihre Zahnarztbehandlung nicht zahlen, schreiben Sie einen Brief: Grund fuer Ihr Schreiben, Grund fuer Ihren Besuch beim Zahnarzt, was Sie wollen, was Sie tun, wenn nichts passiert."
+        }
+      ]
+    },
+    "sprechen": {
+      "parts": [
+        {
+          "part_number": 1,
+          "topic": "Ueber sich sprechen",
+          "example_questions": ["Name?", "Geburtsort?", "Wohnort?", "Arbeit/Beruf?", "Familie?", "Sprachen?", "Wuerden Sie sich bitte vorstellen?"]
+        },
+        {
+          "part_number": 2,
+          "topic": "Ueber Erfahrungen sprechen (Foto beschreiben, dann Nachfragen zum Thema Arzt oder Winter/Schnee)",
+          "example_questions": [
+            "Was sehen Sie auf dem Foto? Was fuer eine Situation zeigt dieses Bild?",
+            "Waren Sie in Oesterreich schon einmal beim Arzt? Wie war das?",
+            "Wie ist das in Ihrem Heimatland: Gibt es da im Winter Schnee?"
+          ]
+        },
+        {
+          "part_number": 3,
+          "topic": "Gemeinsam etwas planen",
+          "example_questions": [
+            "Ein Bekannter will seine Kueche renovieren und braucht Hilfe: was machen, wann/wie lange, wer hilft, Kleidung, Werkzeug?",
+            "Ihr Deutschkurs will einen Ausflug in eine andere Stadt machen: welche Stadt, wie reisen, uebernachten, Essen/Getraenke, Sehenswuerdigkeiten?"
+          ]
+        }
+      ]
+    }
+  }
+}

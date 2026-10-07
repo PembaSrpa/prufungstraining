@@ -125,6 +125,10 @@ button {
   background: var(--n-700);
 }
 
+.level-tag.b1 {
+  background: var(--n-600);
+}
+
 .toc-list {
   list-style: none;
   margin: 16px 0 0;

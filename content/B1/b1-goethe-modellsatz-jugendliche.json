@@ -1,0 +1,498 @@
+{
+  "id": "b1-goethe-modellsatz-jugendliche",
+  "level": "B1",
+  "exam": "Goethe-Zertifikat B1 (Jugendliche)",
+  "source_type": "official",
+  "source_url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/b1_modellsatz_jugend.pdf",
+  "edition": "1. ueberarbeitete Auflage Januar 2015",
+  "skills": {
+    "lesen": {
+      "timer_seconds": 3900,
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Lies den Text und die Aufgaben 1 bis 6. Waehle: Richtig oder Falsch. Arbeitszeit: 10 Minuten.",
+          "text": "Blog von Anna: Ich war mit meiner Schwester Lisa und unseren Eltern in einem Zoo in Leipzig. Es gibt dort einen kuenstlichen tropischen Regenwald mit einem Fluesschen fuer Bootstouren, aber da meine Mutter schnell seekrank wird, liessen wir das. Zwei Aeffchen naeherten sich immer wieder neugierig den Leuten. Eine Tierpflegerin fuetterte die Pinguine, in kuerzester Zeit waren alle Fische verschlungen. Am allertollsten fanden wir die kleinen Baeren, denen haette ich stundenlang zusehen koennen. Insgesamt waren wir ueber sechs Stunden im Zoo. Am Schluss haben mir die Beine wehgetan, und ich war extrem froh, als wir auf dem Heimweg waren. Trotzdem war es ein genialer Tag!",
+          "questions": [
+            {
+              "id": "l1-1",
+              "prompt": "Anna erzaehlt von einem Ausflug mit ihrer Familie.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l1-2",
+              "prompt": "Als Anna mit dem Boot fuhr, wurde ihr schlecht.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-3",
+              "prompt": "Die kleinen Affen interessierten sich fuer die Zoo-Besucher.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l1-4",
+              "prompt": "Anna und Lisa durften die Pinguine fuettern.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-5",
+              "prompt": "Anna beobachtete den ganzen Nachmittag die jungen Baeren.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-6",
+              "prompt": "Anna waere gerne laenger im Zoo geblieben.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Lies die Texte aus der Presse und die Aufgaben 7 bis 12. Waehle a, b oder c. Arbeitszeit: 20 Minuten.",
+          "text": "Text 1 (Lesefieber): Rund vierzig Buecher sollen Kinder und Jugendliche zum Lesen bringen. Jede Lehrperson waehlt zufaellig zwei Buecher aus den Rucksaecken, die zwei ersten Schueler, die sie gelesen haben, bringen die Rucksaecke in die naechste Klasse. Die Lehrperson sucht den Kontakt zu einer anderen Schulklasse und vereinbart den Termin. Das Projekt laeuft seit 2000 in der deutschsprachigen Schweiz, Schulen nehmen kostenlos teil. Text 2 (Projekttag Behindertensport): Schueler der siebten Klasse lernten Rollstuhl-Basketball und Blinden-Fussball kennen. Im Basketball sind sie eigentlich fit, aber im Rollstuhl trifft selten jemand den Korb. Fuer das Blindenfussballtraining hat der Lehrer dunkle Skibrillen vorbereitet, Trainer Tobias Heim spielt selbst in der Nationalmannschaft der Blindenfussballer.",
+          "questions": [
+            {
+              "id": "l2-7",
+              "prompt": "In diesem Text geht es darum, dass Schueler ...",
+              "options": ["an Schulen aus deutschsprachigen Laendern teilnehmen.", "an Schulen gratis teilnehmen.", "an zweitausend Schulen teilnehmen."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-8",
+              "prompt": "Die Lehrperson ...",
+              "options": ["bestimmt, welche Klasse als naechstes die Buecher bekommt.", "nennt zwei Buecher, die alle Schueler lesen muessen.", "laesst die Schueler entscheiden, wer die Buecher weitergibt."],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-9",
+              "prompt": "Die Buecher ...",
+              "options": ["muessen in der Schule gelesen werden.", "sind aktuelle Neuerscheinungen.", "werden vom Lehrer im Unterricht besprochen."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-10",
+              "prompt": "In diesem Text geht es darum, dass Schueler ...",
+              "options": ["bei einem Projekt behinderte Sportler kennenlernen.", "Sportarten fuer Behinderte ausprobieren.", "zusammen mit Behinderten Sport machen."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-11",
+              "prompt": "Beim Projekttag haben Schueler ...",
+              "options": ["kein Problem gehabt, im Rollstuhl Basketball zu spielen.", "erlebt, wie Basketball fuer Behinderte ist.", "schlecht gespielt, weil sie selten Sport machen."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-12",
+              "prompt": "Beim Fussballtraining ...",
+              "options": ["bekommen die Schueler Tipps von einem Profi.", "haben die Schueler Spass daran, blind zu spielen.", "spielen die Schueler in einer verdunkelten Turnhalle."],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Lies die Situationen 13 bis 19 und die Anzeigen. Welche Anzeige passt zu welcher Situation? Fuer eine Situation gibt es keine passende Anzeige. Arbeitszeit: 10 Minuten.",
+          "text": "Anzeigen: Sport-Infotag Feldkirch (verschiedene Sportarten ausprobieren, 1. Juli). Natur einmal ganz anders (Wald und Berge fuer 6-12-jaehrige Buben, Gelaendespiele, Kletterwand, Wandern). Ramba Zamba (Erlebnisferien fuer junge Leute, Abenteuer in den Bergen, auch 2-woechiger Tanzkurs im August fuer Anfaenger bis Fortgeschrittene). Tanzstudio NalaMike (Street Dance, Breakdance, Hip Hop, Ballett-Basics, laufender Kursbeginn 15. Oktober). Sprachenwoche Salzburg (Vormittags Sprachunterricht Englisch/Italienisch/Franzoesisch, Vorkenntnisse notwendig, nachmittags Fahrradtouren/Tennis/Klettern). Feriencamp am Mondsee (14-18 Jahre, Segeln, Rudern, Mountain-Biken, Freestyle-Biken). Reiterhof Ziller (8-14 Jahre, Uebernachtung in Berghuette, taegliche Reitausfluege, gute Reitkenntnisse vorausgesetzt). Abenteuer-Camp (15-18 Jahre, Klettersteige, Schlauchboot-Fahrten auf der Insel). Sprachferien Salzburg (Englisch, Italienisch und/oder Franzoesisch lernen, 6 Uebernachtungen mit Vollpension, keine Vorkenntnisse verlangt).",
+          "needs_review": true,
+          "review_note": "The original ads are labeled a-j in a two-column layout that PDF text extraction does not reliably preserve. Options below use descriptive names instead of single letters; all correct_answer values are derived from content matching, not from the original lettering. Question 18 (Christian) has no confident match among the ads and is marked as likely having no correct answer.",
+          "questions": [
+            {
+              "id": "l3-13",
+              "prompt": "Tierfreundin Lena (12) moechte ihren Urlaub wieder mit Pferden verbringen.",
+              "options": ["Natur einmal ganz anders", "Ramba Zamba", "Sprachenwoche Salzburg", "Feriencamp am Mondsee", "Reiterhof Ziller", "Abenteuer-Camp", "Sprachferien Salzburg", "X (keine Loesung)"],
+              "correct_answer": 4
+            },
+            {
+              "id": "l3-14",
+              "prompt": "Paul (11) interessiert sich fuer Wandertouren und moechte auch klettern.",
+              "options": ["Natur einmal ganz anders", "Ramba Zamba", "Sprachenwoche Salzburg", "Feriencamp am Mondsee", "Reiterhof Ziller", "Abenteuer-Camp", "Sprachferien Salzburg", "X (keine Loesung)"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l3-15",
+              "prompt": "Jennifer (14) moechte Sport machen und ihre Englischkenntnisse verbessern.",
+              "options": ["Natur einmal ganz anders", "Ramba Zamba", "Sprachenwoche Salzburg", "Feriencamp am Mondsee", "Reiterhof Ziller", "Abenteuer-Camp", "Sprachferien Salzburg", "X (keine Loesung)"],
+              "correct_answer": 2
+            },
+            {
+              "id": "l3-16",
+              "prompt": "Sandra (14) moechte in ihrer Freizeit anfangen, Italienisch zu lernen.",
+              "options": ["Natur einmal ganz anders", "Ramba Zamba", "Sprachenwoche Salzburg", "Feriencamp am Mondsee", "Reiterhof Ziller", "Abenteuer-Camp", "Sprachferien Salzburg", "X (keine Loesung)"],
+              "correct_answer": 6
+            },
+            {
+              "id": "l3-17",
+              "prompt": "Peter (14) verbringt heisse Sommertage am liebsten am Wasser.",
+              "options": ["Natur einmal ganz anders", "Ramba Zamba", "Sprachenwoche Salzburg", "Feriencamp am Mondsee", "Reiterhof Ziller", "Abenteuer-Camp", "Sprachferien Salzburg", "X (keine Loesung)"],
+              "correct_answer": 3
+            },
+            {
+              "id": "l3-18",
+              "prompt": "Christian (13) klettert am liebsten in Sporthallen.",
+              "options": ["Natur einmal ganz anders", "Ramba Zamba", "Sprachenwoche Salzburg", "Feriencamp am Mondsee", "Reiterhof Ziller", "Abenteuer-Camp", "Sprachferien Salzburg", "X (keine Loesung)"],
+              "correct_answer": 7,
+              "needs_review": true
+            },
+            {
+              "id": "l3-19",
+              "prompt": "Pia (12) moechte in den Sommerferien gerne tanzen lernen.",
+              "options": ["Natur einmal ganz anders", "Ramba Zamba", "Sprachenwoche Salzburg", "Feriencamp am Mondsee", "Reiterhof Ziller", "Abenteuer-Camp", "Sprachferien Salzburg", "X (keine Loesung)"],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Lies die Kommentare 20 bis 26 zu einem Forum ueber ein Handy-Verbot an Schulen. Ist die Person fuer ein Verbot? Waehle Ja oder Nein. Arbeitszeit: 15 Minuten.",
+          "text": "20 Guenther, 52: Handys stoeren im Unterricht, Schulen sollten die Regel einfuehren, dass Handys zu Hause bleiben muessen. 21 Corinne, 37: Handys sind ein Mittel, um Eindruck zu machen, in der Schule sollte die Aufmerksamkeit dem Unterricht gelten, danach ist es freie Entscheidung. 22 Ruediger, 47: Wenn ich eine Stunde auf meine Tochter warten muss, weil sie ihr Handy nicht einschalten darf, ist das nicht akzeptabel. 23 Max, 15: Wir duerfen bald waehlen und wichtige Dinge entscheiden, und dann soll uns das Handy verboten werden? Ich bezweifle, dass die meisten Schueler fuer ein Verbot waeren. 24 Hannah, 16: Man kann zu Hause telefonieren, die Schule ist zum Lernen da und nicht zum Telefonieren. 25 Julia, 17: Ich brauche das Handy im Unterricht, um Woerter zu uebersetzen, man sollte nicht nur die Nachteile sehen. 26 Katja, 16: Es waere besser, wenn man gar nicht auf die Idee kaeme, mit dem Handy zu spielen, weil man es nicht dabei hat.",
+          "questions": [
+            {
+              "id": "l4-20",
+              "prompt": "Guenther",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-21",
+              "prompt": "Corinne",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-22",
+              "prompt": "Ruediger",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-23",
+              "prompt": "Max",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-24",
+              "prompt": "Hannah",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-25",
+              "prompt": "Julia",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-26",
+              "prompt": "Katja",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 5,
+          "instructions": "Du willst in den Ferien eine Woche in einem Zeltlager fuer Jugendliche in Salzburg verbringen. Lies die Aufgaben 27 bis 30 und waehle a, b oder c. Arbeitszeit: 10 Minuten.",
+          "text": "Campordnung: Informiere die Campleitung immer, wenn du den Zeltplatz verlassen moechtest. Schalte dein Mobiltelefon bei gemeinsamen Aktivitaeten aus. Vierbeinige Freunde muessen zu Hause bleiben. Nachtruhe von 23 bis 7 Uhr, in dieser Zeit ist Spielen und Laermen nicht erlaubt. Starke alkoholische Getraenke sind generell verboten, leichte nur ab 16 Jahren. Achte bei den Mahlzeiten auf gutes Benehmen. Das Rauchen ist auf dem gesamten Campgelaende streng verboten. Offenes Feuer nur an speziell gekennzeichneten Stellen.",
+          "questions": [
+            {
+              "id": "l5-27",
+              "prompt": "Die Jugendlichen duerfen ...",
+              "options": ["das Camp nicht verlassen, ohne zu fragen.", "Tiere ins Camp mitbringen.", "ihre Handys jederzeit verwenden."],
+              "correct_answer": 0
+            },
+            {
+              "id": "l5-28",
+              "prompt": "Die Campleitung weist darauf hin, dass die Jugendlichen ...",
+              "options": ["keine elektronischen Geraete ins Camp bringen duerfen.", "kein Feuer im Camp machen duerfen.", "nirgendwo auf dem Campgelaende rauchen duerfen."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l5-29",
+              "prompt": "Die Campleitung verbietet ...",
+              "options": ["das Trinken von Alkohol.", "mehrmaliges Duschen am Tag.", "Lautsein zur Schlafenszeit."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l5-30",
+              "prompt": "Beim Essen ...",
+              "options": ["koennen die Jugendlichen Reste in jeden Muellcontainer werfen.", "muessen die Jugendlichen die Verhaltensregeln beachten.", "sollen die Jugendlichen keine Essensreste uebrig lassen."],
+              "correct_answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "timer_seconds": 2400,
+      "audio_url": "https://goethemp4s.akamaized.net/resources/files/mp444/b1-pruefungstraining-modelltest-jugendliche.mp4",
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Du hoerst fuenf kurze Texte, jeden Text zweimal. Zu jedem Text loest du zwei Aufgaben.",
+          "questions": [
+            {
+              "id": "h1-1",
+              "prompt": "Jasmin ruft wegen der Party ihres Bruders an.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-2",
+              "prompt": "Jasmin wird ...",
+              "options": ["einen Kuchen backen.", "jemanden mitbringen.", "spaeter kommen."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h1-3",
+              "prompt": "Du hoerst das Wetter fuer die naechsten zwei Wochen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-4",
+              "prompt": "Uebermorgen ...",
+              "options": ["wird es heiss.", "bleibt es kuehl.", "wird es regnen."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-5",
+              "prompt": "Thomas und Marc treffen sich in Muenchen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-6",
+              "prompt": "Thomas muss Geld mitbringen fuer ...",
+              "options": ["den Eintritt zum Olympiapark.", "eine Stadtrundfahrt.", "Zugticket und Verpflegung."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h1-7",
+              "prompt": "Heute gelten besondere Oeffnungszeiten.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-8",
+              "prompt": "Die Badegaeste sollen ...",
+              "options": ["sich umziehen gehen.", "das Restaurant verlassen.", "vergessene Gegenstaende abholen."],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-9",
+              "prompt": "'Song oder Gong' ist eine Musiksendung.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-10",
+              "prompt": "Wenn man den 'Gong' hoert, ...",
+              "options": ["bekommt man eine Aufgabe.", "darf man sich ein Lied wuenschen.", "soll man im Studio anrufen."],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Du hoerst einmal einen Text. Du nimmst an einer Wander-Tour teil und hoerst die Informationen zu Beginn der Tour.",
+          "questions": [
+            {
+              "id": "h2-11",
+              "prompt": "Am ersten Tag ...",
+              "options": ["wird am Abend gemeinsam gegessen.", "gibt es eine kurze Wanderung nach Altstaetten.", "geht die Gruppe zu einem Grillfest ausserhalb."],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-12",
+              "prompt": "Wer keine Wanderschuhe hat, ...",
+              "options": ["muss wieder nach Hause fahren.", "darf einen Tag nicht mitwandern.", "sollte sich Wanderschuhe kaufen."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-13",
+              "prompt": "Das Essen werden die Jugendlichen ...",
+              "options": ["morgens selber vorbereiten.", "abends fuer den naechsten Tag bekommen.", "fuer die ganze Woche in Eichberg erhalten."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-14",
+              "prompt": "Die Jugendlichen sollen ...",
+              "options": ["beim Wandern gut auf ihre Rucksaecke aufpassen.", "sich beim Wandern nicht von der Gruppe entfernen.", "ihre Rucksaecke von Andy kontrollieren lassen."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-15",
+              "prompt": "Auf den Wanderungen sollen die Jugendlichen ...",
+              "options": ["Tiere und Pflanzen beobachten.", "ihr Handy ausschalten.", "ihren Abfall mitnehmen."],
+              "correct_answer": 2
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Du hoerst einmal ein Gespraech in der Strassenbahn zwischen Klara und Julian.",
+          "questions": [
+            {
+              "id": "h3-16",
+              "prompt": "Julian interessiert sich fuer Sprachen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-17",
+              "prompt": "Klara hat bei einem zweisprachigen Theaterstueck mitgemacht.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h3-18",
+              "prompt": "Die Klassen 9/1 und 9/2 waren mit Platz 25 zufrieden.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h3-19",
+              "prompt": "Klara hat einer Mitschuelerin mit dem Text geholfen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-20",
+              "prompt": "Klaras Klasse war viel besser als alle anderen Gruppen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-21",
+              "prompt": "Eine Klasse aus Hannover hatte wunderschoene Kostueme an.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-22",
+              "prompt": "Klaras Klasse faehrt diesen Sommer nach Spanien.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Du hoerst zweimal eine Diskussion zwischen der Moderatorin, Helena Dreuer und Andreas Firning zum Thema Schuluniformen. Wer sagt was?",
+          "questions": [
+            {
+              "id": "h4-23",
+              "prompt": "Die Schueler des Boltzmann-Gymnasiums haben sich zu sehr mit Marken beschaeftigt.",
+              "options": ["Moderatorin", "Helena Dreuer", "Andreas Firning"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h4-24",
+              "prompt": "In Deutschland sind die Eltern fuer die Schulkleidung ihrer Kinder verantwortlich.",
+              "options": ["Moderatorin", "Helena Dreuer", "Andreas Firning"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h4-25",
+              "prompt": "Mit einer Schuluniform kann man keinen eigenen Stil entwickeln.",
+              "options": ["Moderatorin", "Helena Dreuer", "Andreas Firning"],
+              "correct_answer": 2
+            },
+            {
+              "id": "h4-26",
+              "prompt": "Durch die Uniformen fuehlen sich die Schueler als Gemeinschaft.",
+              "options": ["Moderatorin", "Helena Dreuer", "Andreas Firning"],
+              "correct_answer": 2
+            },
+            {
+              "id": "h4-27",
+              "prompt": "Schuluniformen kosten viel Geld.",
+              "options": ["Moderatorin", "Helena Dreuer", "Andreas Firning"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h4-28",
+              "prompt": "Die Schueler sind stolz auf ihre Schulgemeinschaft.",
+              "options": ["Moderatorin", "Helena Dreuer", "Andreas Firning"],
+              "correct_answer": 2
+            },
+            {
+              "id": "h4-29",
+              "prompt": "Die Schueler passen jetzt im Unterricht besser auf.",
+              "options": ["Moderatorin", "Helena Dreuer", "Andreas Firning"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h4-30",
+              "prompt": "Kleidung ist unter den Schuelern kein so wichtiges Thema mehr.",
+              "options": ["Moderatorin", "Helena Dreuer", "Andreas Firning"],
+              "correct_answer": 2
+            }
+          ]
+        }
+      ],
+      "transcripts": [
+        "Jasmin: Hallo, hier ist Jasmin! Ich rufe wegen deiner Party heute Abend an. Ich komme bestimmt, verspaete mich etwas, weil ich meinen Bruder zum Bahnhof bringen muss. Soll ich etwas mitbringen? Kuchen geht leider nicht, aber ich bring Cola und Orangensaft mit.",
+        "Wetterbericht: Heute und morgen sind Gewitter moeglich, erst uebermorgen bleibt es trocken, Hoechsttemperatur 13 Grad, im Sueden bis 16 Grad. Erst naechste Woche wieder heisse Temperaturen bis 30 Grad.",
+        "Marc an Thomas: Vergiss nicht, morgen haben wir den Ausflug, wir treffen uns um 07.45 Uhr am Bahnhof und fahren mit dem Zug nach Muenchen. Denk an 20 Euro fuer die Fahrt und das Mittagessen.",
+        "Schwimmbad-Durchsage: Unser Bad schliesst heute wegen des Feiertags bereits um 19 Uhr, bitte begeben Sie sich zu den Umkleidekabinen, das Restaurant ist noch bis 20 Uhr geoeffnet.",
+        "Radio: Bei unserem Zuhoerer-Spiel Song oder Gong musst du dich entscheiden, waehlst du Song erfuellen wir deinen Musikwunsch, entscheidest du dich fuer Gong musst du eine Aufgabe loesen um einen Preis zu gewinnen.",
+        "Bergfuehrer Andy: Wir sind in Altstaetten, heute wandern wir kurz nach Eichberg, abends grillieren wir dort. Wer nur Sportschuhe hat, fuer den geht die Wanderung am dritten Tag nicht, der muss ein Busticket kaufen. Das Essen fuer den naechsten Tag bekommt ihr jeden Abend. Bleibt immer bei der Gruppe und packt euren Abfall ein, laute Musik vom Handy geht nicht.",
+        "Klara und Julian: Klaras Klasse hat beim Landeswettbewerb Fremdsprachen mit einem Theaterstueck auf Spanisch und Englisch mitgemacht und gewonnen, Moni hat ihr eine vergessene Zeile vorgesagt. Die Klassen 9/1 und 9/2 machten ein Musiktheater auf Franzoesisch und wurden mit Platz 25 bei ueber 90 Teilnehmern zufrieden. Eine Klasse aus Hannover hatte eine Komoedie auf Englisch und Italienisch, aber ihre Kostueme waren beschaedigt. Klaras Klasse gewann die Teilnahme am Bundeswettbewerb und eine Klassenreise nach Spanien im naechsten Jahr.",
+        "Radiodiskussion Schuluniformen: Helena Dreuer sagt am Boltzmann-Gymnasium gab es Konflikte wegen verschiedener Markenstile, die Aufmerksamkeit im Unterricht wurde besser. Andreas Firning sagt die Freiheit den eigenen Stil auszudruecken fehlt jetzt, aber das Gemeinschaftsgefuehl und der Stolz auf die Schule sind gestiegen, ueber Kleidung wird kaum mehr geredet. Die Moderatorin merkt an, dass in Deutschland Eltern fuer die Kleidung verantwortlich sind und dass Uniformen teuer sind."
+      ]
+    },
+    "schreiben": {
+      "timer_seconds": 3600,
+      "parts": [
+        {
+          "part_number": 1,
+          "task_instructions": "Letzte Woche fand an deiner Schule ein Sporttag statt. Ein Schulfreund/eine Schulfreundin konnte nicht dabei sein, weil er/sie krank war. Beschreibe wie der Sporttag war, begruende was dir besonders gut gefallen hat, mache einen Vorschlag fuer ein Treffen. E-Mail, circa 80 Woerter. Arbeitszeit: 20 Minuten.",
+          "task_prompt": "E-Mail an einen Schulfreund/eine Schulfreundin: Wie war der Sporttag?, was hat dir gefallen und warum?, Vorschlag fuer ein Treffen."
+        },
+        {
+          "part_number": 2,
+          "task_instructions": "Du hast einen Artikel zum Thema 'Fertige Hausaufgaben aus dem Internet?' gelesen. Im Forum steht die Meinung, dass das eine tolle Moeglichkeit ist, langweilige Schulaufgaben bequem zu erledigen. Schreibe deine eigene Meinung dazu, circa 80 Woerter. Arbeitszeit: 25 Minuten.",
+          "task_prompt": "Deine Meinung zum Thema 'Fertige Hausaufgaben aus dem Internet'."
+        },
+        {
+          "part_number": 3,
+          "task_instructions": "Deine Sprachkursleiterin, Frau Wolmer, hat fuer die Gruppe einen Kinobesuch geplant. Du kannst nicht mitkommen. Schreibe an Frau Wolmer, entschuldige dich hoeflich und berichte, warum du nicht mitkommen kannst. Circa 40 Woerter. Arbeitszeit: 15 Minuten.",
+          "task_prompt": "E-Mail an Frau Wolmer: Entschuldigung und Grund nennen."
+        }
+      ]
+    },
+    "sprechen": {
+      "parts": [
+        {
+          "part_number": 1,
+          "topic": "Gemeinsam etwas planen (circa 3 Minuten)",
+          "example_questions": [
+            "Am Ende des Schuljahres moechte deine Klasse eine Party organisieren und einem Mitschueler, der die Klasse verlaesst, ein Abschiedsgeschenk machen. Plant: Wann/Wo? Wen noch einladen? Essen/Getraenke? Geschenk?"
+          ]
+        },
+        {
+          "part_number": 2,
+          "topic": "Ein Thema praesentieren (circa 3 Minuten, ein Thema waehlen)",
+          "example_questions": [
+            "Praesentiere ein aktuelles Thema zu 5 Folien: Thema vorstellen, eigene Erfahrung, Situation im Heimatland, Vor- und Nachteile mit Meinung, Abschluss und Dank."
+          ]
+        },
+        {
+          "part_number": 3,
+          "topic": "Ueber ein Thema sprechen (circa 2 Minuten)",
+          "example_questions": [
+            "Gib Rueckmeldung zur Praesentation deines Partners/deiner Partnerin und stelle eine Frage dazu."
+          ]
+        }
+      ]
+    }
+  }
+}

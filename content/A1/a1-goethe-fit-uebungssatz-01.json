@@ -1,0 +1,231 @@
+{
+  "id": "a1-goethe-fit-uebungssatz-01",
+  "level": "A1",
+  "exam": "Goethe-Zertifikat A1: Fit in Deutsch 1 (Jugendliche)",
+  "source_type": "official",
+  "source_url": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_fit/fit1_uebungssatz_01.pdf",
+  "edition": "Ueberarbeitete Auflage von 2011, Nachdruck September 2025",
+  "skills": {
+    "hoeren": {
+      "timer_seconds": 1200,
+      "audio_url": "https://goethemp4s.akamaized.net/resources/files/mp430/pruefungstraining_1_hoeren_a1_jugendliche.mp4",
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Du hoerst drei Nachrichten am Telefon. Zu jeder Nachricht gibt es Aufgaben. Kreuze an: a, b oder c. Du hoerst jede Nachricht zweimal.",
+          "questions": [
+            {
+              "id": "h1-1",
+              "prompt": "Julia bedankt sich fuer ...",
+              "options": ["ein Geburtstagsgeschenk.", "Urlaubsfotos.", "eine Postkarte."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h1-2",
+              "prompt": "Sie ruft wieder an ...",
+              "options": ["in zwei Tagen.", "morgen.", "am Wochenende."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-3",
+              "prompt": "Karl hat Probleme ...",
+              "options": ["in Physik.", "in Mathematik.", "in Chemie."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-4",
+              "prompt": "Er ist ...",
+              "options": ["bei einem Freund.", "zu Hause.", "in der Schule."],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-5",
+              "prompt": "Laura geht mit ihren Freunden ...",
+              "options": ["in ein Cafe.", "zum Sport.", "ins Kino."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h1-6",
+              "prompt": "Der Film beginnt um ...",
+              "options": ["halb acht.", "halb sieben.", "acht."],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Du hoerst zwei Gespraeche. Zu jedem Gespraech gibt es Aufgaben. Kreuze an: richtig oder falsch. Du hoerst jedes Gespraech zweimal.",
+          "questions": [
+            {
+              "id": "h2-7",
+              "prompt": "Ulla war nicht in der Schule.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-8",
+              "prompt": "Christophs Bruder war letzte Woche auch krank.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-9",
+              "prompt": "Christoph hat Kopfschmerzen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-10",
+              "prompt": "Markus moechte mit Bernd und Jens Chemie lernen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-11",
+              "prompt": "Jens trainiert am Donnerstag immer Fussball.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-12",
+              "prompt": "Jens hat am Nachmittag Zeit.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            }
+          ]
+        }
+      ],
+      "transcripts": [
+        "Frank an Uwe: Gehst du auch zu der Party von Sabine, hast du schon ein Geschenk, ich habe keine Ahnung was ihr gefaellt.",
+        "Julia: Danke fuer die schoene Postkarte aus dem Urlaub, ich rufe morgen noch mal an.",
+        "Karl an Emma: Bist du mit der Hausaufgabe in Mathematik schon fertig, ich verstehe mal wieder absolut nichts, ich bin bei Klaus.",
+        "Laura an Martin: Ich gehe mit ein paar Freunden aus dem Sportverein ins Kino, wir treffen uns um viertel nach sieben, der Film faengt um halb acht an.",
+        "Ulla und Christoph: Warum warst du nicht in der Schule? Mir geht es nicht so gut, seit zwei Tagen habe ich Bauchschmerzen, mein Bruder hatte schon vor einer Woche Bauchweh.",
+        "Markus und Jens: Willst du mitkommen zu Bernd, wir lernen fuer die Chemiearbeit. Morgen ist Mittwoch, da trainiere ich immer Fussball. Aber vielleicht koennen wir am Nachmittag schon lernen."
+      ]
+    },
+    "lesen": {
+      "timer_seconds": 1200,
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Lies bitte die zwei Anzeigen aus der Zeitung. Aufgaben 1 bis 6, kreuze an: a, b oder c.",
+          "text": "Anzeige 1: November-Sonne bei der Bahn, fuer nur 29 Euro quer durch Deutschland, vom 1. November bis 11. Dezember im Fernverkehr, sogar im ICE, einfache Fahrt in der 2. Klasse, online buchen. Anzeige 2: Raus von zu Haus! Lerne fuers Leben in einem Auslandsschuljahr! Im Ausland zur Schule gehen, in einer Familie leben, eine fremde Sprache fast perfekt lernen. Im Internet bekommst du Antworten: was du machen kannst, wohin du gehen kannst, wie du es finanzieren kannst, wo du mehr Informationen findest.",
+          "questions": [
+            {
+              "id": "l1-1",
+              "prompt": "Wo kannst du reisen?",
+              "options": ["In Deutschland und in Europa.", "Nur in Deutschland.", "In allen europaeischen Staedten."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-2",
+              "prompt": "Wann kannst du reisen?",
+              "options": ["Immer im Sommer.", "Das ganze Jahr.", "Im Herbst."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l1-3",
+              "prompt": "Wie viel kostet die Fahrkarte?",
+              "options": ["29 Euro fuer Deutschland.", "29 Euro fuer Europa.", "29 Euro fuer Hin- und Ruckfahrt."],
+              "correct_answer": 0
+            },
+            {
+              "id": "l1-4",
+              "prompt": "Das ist eine Anzeige fuer ...",
+              "options": ["Privatschulen.", "ein Auslandsschuljahr.", "Sprachferien."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-5",
+              "prompt": "Fuer wen ist die Anzeige?",
+              "options": ["Fuer Eltern.", "Fuer alle Kinder.", "Fuer Schueler."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l1-6",
+              "prompt": "Mehr Informationen bekommt man ...",
+              "options": ["in der Zeitung.", "im Internet.", "in der Schule."],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "In einer Zeitschrift findest du zwei Texte ueber Jugendliche in Deutschland. Aufgaben 7 bis 12, kreuze an: Richtig oder Falsch.",
+          "text": "Beschreibung 1 (Alexander): Ich bin 15 und wohne mit meiner Familie in Braunschweig. Meine zwei grossen Schwestern wohnen schon nicht mehr bei uns. Aber meine Oma und mein Opa wohnen bei uns im Haus, in der Wohnung unter uns. Da gibt es manchmal Streit, sie sagen ich muss ruhig sein, aber ich hoere so gern laut Musik. Beschreibung 2 (Janina): Ich bin Janina, 17 Jahre alt, wohne in Schwerin mit Mama, Papa und Max. Spaeter moechte ich Architektin werden. In Schwerin gibt es zu wenig Arbeit, mein Papa ist seit 4 Monaten arbeitslos, deshalb muessen wir vielleicht bald nach Stuttgart umziehen.",
+          "questions": [
+            {
+              "id": "l2-7",
+              "prompt": "Alexander wohnt mit seinen Grosseltern in einem Haus.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-8",
+              "prompt": "Alexander hat nie Streit mit seinen Grosseltern.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-9",
+              "prompt": "Alexander darf immer laut Musik hoeren.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-10",
+              "prompt": "Janina wohnt vielleicht bald in Stuttgart.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-11",
+              "prompt": "Janina ist Architektin.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-12",
+              "prompt": "Janina hat einen arbeitslosen Vater.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "timer_seconds": 1200,
+      "parts": [
+        {
+          "part_number": 1,
+          "task_instructions": "Du hast diese E-Mail bekommen. Antworte auf die E-Mail und die Frage am Ende. Schreibe mindestens 30 Woerter.",
+          "task_prompt": "Natascha (16, Nowosibirsk, lernt seit 4 Jahren Deutsch, Hobbys Buecher/Deutsch/Katzen) sucht einen Brieffreund zwischen 12 und 15 Jahren und freut sich ueber Briefe auf Deutsch aus der ganzen Welt."
+        }
+      ]
+    },
+    "sprechen": {
+      "parts": [
+        {
+          "part_number": 1,
+          "topic": "Sich vorstellen (mit vier Karten)",
+          "example_questions": ["Name?", "Alter?", "Land?", "Wohnort?", "Schule?", "Sprachen?", "Hobby?"]
+        },
+        {
+          "part_number": 2,
+          "topic": "Fragen stellen und auf Fragen antworten (Themen: Wohnen, Familie)",
+          "example_questions": [
+            "Thema Wohnen: Familie, Haustier, Computer, Garten, Freundinnen/Freunde einladen, spielen.",
+            "Thema Familie: Schwester/Bruder, besuchen, Mutter/Vater, feiern, Grosseltern, Tante/Onkel."
+          ]
+        },
+        {
+          "part_number": 3,
+          "topic": "Bitten, Aufforderungen oder Fragen formulieren und darauf reagieren",
+          "example_questions": ["Beispielkarte: Wasser (Bitte formulieren).", "Weitere Karten mit Ausrufezeichen (Bitte) oder Fragezeichen (Frage)."]
+        }
+      ]
+    }
+  }
+}

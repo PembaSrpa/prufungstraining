@@ -1,0 +1,496 @@
+{
+  "id": "b1-goethe-uebungssatz-erwachsene-01",
+  "level": "B1",
+  "exam": "Goethe-Zertifikat B1 (Erwachsene)",
+  "source_type": "official",
+  "source_url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/B1_Uebungssatz_Erwachsene.pdf",
+  "edition": "Oktober 2017",
+  "skills": {
+    "lesen": {
+      "timer_seconds": 3900,
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Lesen Sie den Text und die Aufgaben 1 bis 6. Waehlen Sie: Richtig oder Falsch. Arbeitszeit: 10 Minuten.",
+          "text": "Hallo Markus, lange nichts von dir gehoert, eigentlich seit dem Sommerfest im letzten Juni. Sicher hast du dich in deiner Studenten-WG gut eingelebt und schon viele neue Freunde an der Uni gefunden, oder? Gestern musste ich an dich denken, erinnerst du dich noch an unser Gespraech ueber das viele Sitzen und wie wichtig es ist, sich zu bewegen? Ich habe gestern eine spannende Radiosendung gehoert, das Thema war 'Sitzen ist das neue Rauchen'. Es ging zum Glueck nicht ums Rauchen, denn ich habe es vor zwei Monaten endlich geschafft, damit aufzuhoeren. In der Sendung ging es um das Sitzen, und das ist hoechst ungesund, eben vergleichbar mit Rauchen. Bei mir waere es genauso, wenn ich nicht einmal pro Woche mit meinen Neffen Ausfluege mit dem Rad machen wuerde. Das haelt mich fit. Wenn man bei den Menschen etwas aendern will, dann muss man es ihnen leichter machen. In der Sendung haben sie deshalb vorgeschlagen, dass Buerogebaeude anders geplant werden sollten. Das hat mich an ein Bewerbungsgespraech erinnert. Ich habe zuerst den Aufzug nicht gefunden, eigentlich haette mir da schon die grosse, breite Stiege auffallen muessen. Im Aufzug war es eng und ungemuetlich und er war langsam. Auf der Stiege waere ich natuerlich viel schneller oben gewesen. Liebe Gruesse aus Wien, Caroline.",
+          "questions": [
+            {
+              "id": "l1-1",
+              "prompt": "Markus macht eine Lehre.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-2",
+              "prompt": "Markus ist seit Kurzem Nichtraucher.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-3",
+              "prompt": "Sitzen ist aehnlich gesundheitsschaedlich wie Rauchen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l1-4",
+              "prompt": "Caroline lebt vollkommen ungesund.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-5",
+              "prompt": "Menschen brauchen Unterstuetzung, um sportlicher zu werden.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l1-6",
+              "prompt": "Vor dem Bewerbungsgespraech ist Caroline die Treppe hinaufgegangen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Lesen Sie die Texte aus der Presse und die Aufgaben 7 bis 12. Waehlen Sie die richtige Loesung a, b oder c. Arbeitszeit: 20 Minuten.",
+          "text": "Text 1 (Wohnen in Hamburg): Die Stadt Hamburg vermittelt seit diesem Herbst Zimmer an Studierende, die eine Wohnung suchen. Statt mit Geld bezahlen die jungen Leute fuer ihr neues Zuhause mit Hilfsarbeiten, zum Beispiel giessen sie die Blumen oder lesen aus der Zeitung vor. Krankenpflege gehoert nicht zu ihren Pflichten. 'In Hamburg gibt es wenige guenstige Wohnungen, auf der anderen Seite gibt es Menschen, die allein in einer grossen Wohnung wohnen und sich ueber Gesellschaft freuen', erklaert Thomas Schmidt vom Wohnungsamt. 'Wenn es zwischendurch einmal Streit gibt, dann helfe ich. Deshalb bieten inzwischen auch viele andere Staedte in Deutschland erfolgreich Wohnen gegen Hilfe an.' Text 2 (Je aelter, desto gluecklicher): In einer Studie wurden Schweizerinnen und Schweizer gefragt, wie sie ihre Lebensqualitaet einschaetzen. Am gluecklichsten sind aeltere Menschen, die in einer Partnerschaft leben und keine Kinder haben. Psychologe Peter Lorenz bestaetigt: In der Mitte des Lebens gibt es ein Tief, den 30- bis 40-Jaehrigen sind Karriere und Familie sehr wichtig, doch dann fehlt Zeit fuer Partner und persoenliche Interessen. Mit steigendem Alter haben die Menschen wieder Zeit fuer ihre Interessen.",
+          "questions": [
+            {
+              "id": "l2-7",
+              "prompt": "In diesem Text geht es darum, dass das Wohnungsamt Hamburg ...",
+              "options": ["billige Wohnungen fuer Wohngemeinschaften sucht.", "einen neuen Service fuer Wohnungssuchende anbietet.", "gegen zu hohe Wohnungsmieten kaempft."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-8",
+              "prompt": "Vermieter interessieren sich fuer die Wohngemeinschaften, weil sie ...",
+              "options": ["die Vorteile des Zusammenwohnens nutzen wollen.", "jungen Studierenden gerne helfen moechten.", "sich ihre Wohnung nicht mehr leisten koennen."],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-9",
+              "prompt": "Thomas Schmidt sagt, dass ...",
+              "options": ["die Studierenden nach einem Semester ausziehen.", "er die Wohngemeinschaften bei Problemen unterstuetzt.", "ueberall in Deutschland aehnliche Projekte geplant sind."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-10",
+              "prompt": "Im Text geht es darum, ...",
+              "options": ["was die Lebensqualitaet verbessert.", "wie Junge und Alte miteinander umgehen.", "wann man im Leben am zufriedensten ist."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l2-11",
+              "prompt": "Im mittleren Lebensalter ...",
+              "options": ["sind Menschen mit Familie weniger gestresst.", "spielt beruflicher Erfolg eine wichtige Rolle.", "ist die Partnerschaft am wichtigsten."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-12",
+              "prompt": "Aeltere Menschen sind gluecklicher, weil sie ...",
+              "options": ["schon beruflichen Erfolg hatten.", "mehr Raum fuer ihre Hobbys haben.", "sich noch jugendlich und fit fuehlen."],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Lesen Sie die Situationen 13 bis 19 und die Anzeigen a bis j. Welche Anzeige passt zu welcher Situation? Jede Anzeige nur einmal verwenden, fuer eine Situation gibt es keine passende Anzeige. Arbeitszeit: 10 Minuten.",
+          "text": "a: EFH Fahrradfachmarkt braucht Lagermitarbeiter/-in, Teilzeit Juli/August taeglich 14-18 Uhr. b: Heckener Racing Motorradzubehoer bietet technisch interessierten Jugendlichen Ferienarbeit fuer Verkauf und Werkstatt. c: Stadtverwaltung sucht Jugend-Fremdenfuehrer/-in, kontaktfreudig und Sprachentalent. d: Hamburger Grill sucht Koch/Koechin fuer Jahresstelle, Berufserfahrung und Englischkenntnisse. e: Teddy-Sport-Mode sucht Buero-Aushilfe Juli-August 10-13 Uhr. f: Buchhandlung sucht Urlaubsvertretung, ganztags, gut mit Menschen und belesen. g: Kinderkrippe Max&Moritz sucht Vertretung wegen Mutterschaft, ausgebildete Erzieher/-in. h: Hotel Bergblick sucht dringend Aushilfe fuer die Kueche, Sommersaison. i: Xpress Kurierdienst sucht Fahrradkuriere fuer Juli/August, Arbeitsbeginn morgens ab 5 Uhr. j: Stadtbibliothek sucht Aushilfe fuer die Lese-Ecke, vier Stunden pro Tag, Fremdsprachen von Vorteil.",
+          "questions": [
+            {
+              "id": "l3-13",
+              "prompt": "Johannes repariert gerne Fahrzeuge und moechte das spaeter zu seinem Beruf machen.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "X (keine Loesung)"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l3-14",
+              "prompt": "Riccardo ist Literaturstudent. Im Sommer besucht er vormittags einen Sprachkurs.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "X (keine Loesung)"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l3-15",
+              "prompt": "Miro ist sehr sportlich und es macht ihm nichts aus, frueh aufzustehen.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "X (keine Loesung)"],
+              "correct_answer": 8
+            },
+            {
+              "id": "l3-16",
+              "prompt": "Anne studiert Sport und moechte in den Ferien auf kleine Kinder aufpassen.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "X (keine Loesung)"],
+              "correct_answer": 6
+            },
+            {
+              "id": "l3-17",
+              "prompt": "Florian moechte nachmittags arbeiten. Koerperliche Arbeit ist fuer ihn kein Problem.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "X (keine Loesung)"],
+              "correct_answer": 7
+            },
+            {
+              "id": "l3-18",
+              "prompt": "Yvonne liebt Buecher ueber alles und sucht einen 8-Stunden-Job fuer die Ferien.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "X (keine Loesung)"],
+              "correct_answer": 5
+            },
+            {
+              "id": "l3-19",
+              "prompt": "Stella moechte im Sommer Erfahrungen fuer ihre Ausbildung zur Koechin sammeln.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "X (keine Loesung)"],
+              "correct_answer": 3
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Lesen Sie die Kommentare 20 bis 26 aus einem Internetforum zur Frage 'Hoechstgeschwindigkeit 120 km/h?'. Ist die Person fuer eine Geschwindigkeitsbeschraenkung auf deutschen Autobahnen? Waehlen Sie Ja oder Nein. Arbeitszeit: 15 Minuten.",
+          "text": "20 Fabian, 22: Geschwindigkeitsbeschraenkungen in Staedten sind gut, aber auf Autobahnen waeren sie eine verkehrspolitische Fehlentscheidung, ich lasse mich nicht beschraenken. 21 Christian, 31: Mit Tempolimit waere die Fahrt eine Stunde laenger. Klar ist es gefaehrlicher mit 180 zu fahren, aber wer aufmerksam faehrt, minimiert das Risiko und spart Zeit. 22 Sophie, 46: Persoenliche Freiheit zu entscheiden ist ein schwaches Argument, denn bei Tempo 200 gefaehrdet man nicht nur sich selbst, sondern alle anderen. 23 Patrick, 52: In der Schweiz gilt maximal 120 km/h, in Deutschland gibt es trotzdem mehr Staus und es geht nicht schneller, ausserdem stresst es mich, wenn die ganze Zeit jemand ueberholt. 24 Stefan, 37: Bei Tempo 120 kann man mit Tempomat gelassen fahren, einen Zeitverlust kann ich nicht feststellen, mir wuerde keine Freiheit genommen. 25 Carola, 28: Ein Tempolimit ist ideologischer Unsinn, ich habe kein Problem, wenn wir das einzige Land ohne Beschraenkung bleiben. 26 Severin, 48: Wer schnell fahren will, tut das sowieso, egal ob es eine Beschraenkung gibt, das fuehrt dazu, dass die Leute ordentlich Auto fahren koennen.",
+          "questions": [
+            {
+              "id": "l4-20",
+              "prompt": "Fabian",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-21",
+              "prompt": "Christian",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-22",
+              "prompt": "Sophie",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-23",
+              "prompt": "Patrick",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-24",
+              "prompt": "Stefan",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-25",
+              "prompt": "Carola",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-26",
+              "prompt": "Severin",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 5,
+          "instructions": "Sie informieren sich ueber die Hausordnung eines Fitness-Studios. Lesen Sie die Aufgaben 27 bis 30 und waehlen Sie a, b oder c. Arbeitszeit: 10 Minuten.",
+          "text": "Hausordnung Fitness-Studio: Beim Betreten ist der Ausweis an der Rezeption abzugeben, der Ersatzausweis kostet 5 Euro im Verlustfall. Geoeffnet Montag-Samstag 6-24 Uhr, Sonn-/Feiertags 9-22 Uhr, Rauchverbot im ganzen Gebaeude und auf den Terrassen, Handy bitte ausschalten, mitgebrachte Speisen und Getraenke nur im Lounge- und Thekenbereich. Bitte immer ein Handtuch mitfuehren, sonst gibt es eins fuer 7 Euro. Feste Schuhe werden empfohlen, in den Trainingsraeumen nur Schuhe, die nicht im Freien benutzt wurden, in Duschen und Sauna immer Badeschuhe tragen. Fuer verlorene Gegenstaende, die nicht fuer das Training benoetigt werden, uebernimmt das Studio keine Haftung.",
+          "questions": [
+            {
+              "id": "l5-27",
+              "prompt": "Ein Handtuch ...",
+              "options": ["kann man an der Rezeption fuer sieben Euro kaufen.", "soll man fuer das Training dabei haben.", "ist in der Sauna nicht unbedingt notwendig."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l5-28",
+              "prompt": "Das Fitness-Studio ...",
+              "options": ["schliesst an Wochenenden eine halbe Stunde frueher.", "verlangt fuenf Euro, wenn man seinen Ausweis nicht dabei hat.", "kann bei Verlust einen neuen Ausweis ausstellen."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l5-29",
+              "prompt": "Die Kunden sollen ...",
+              "options": ["die Duschen ohne Schuhe betreten.", "die Schuhe wechseln, wenn sie von draussen kommen.", "zum Training keine persoenlichen Gegenstaende mitbringen."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l5-30",
+              "prompt": "Laut Hausordnung darf man ...",
+              "options": ["Essen von zu Hause mitbringen.", "im Studio sein Mobiltelefon benutzen.", "auf den Terrassen rauchen."],
+              "correct_answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "timer_seconds": 2400,
+      "audio_url": "https://goethemp4s.akamaized.net/resources/files/mp468/pruefungstraining_2_hoeren_b1_erwachsene.mp4",
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Sie hoeren fuenf kurze Texte, jeden Text zweimal. Zu jedem Text loesen Sie zwei Aufgaben.",
+          "questions": [
+            {
+              "id": "h1-1",
+              "prompt": "Der Fernseher von Frau Huettner wurde repariert.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-2",
+              "prompt": "Sie soll ...",
+              "options": ["den Fernseher abholen.", "mit dem Geschaeft telefonieren.", "noch 150 Euro bezahlen."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-3",
+              "prompt": "Die Fahrradtour faellt wegen schlechtem Wetter aus.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-4",
+              "prompt": "Nina ...",
+              "options": ["bittet Eva, Getraenke einzukaufen.", "holt Eva zu Hause ab.", "moechte lieber essen gehen."],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-5",
+              "prompt": "Bei 'Zahltag' kann man etwas gewinnen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-6",
+              "prompt": "Die Rechnung ...",
+              "options": ["muss einen bestimmten Betrag haben.", "soll per Post gesendet werden.", "wird in der Sendung genannt."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h1-7",
+              "prompt": "Der Termin muss verschoben werden.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-8",
+              "prompt": "Herr Reitmann ...",
+              "options": ["bekommt Geld zurueck.", "muss ab sofort mehr Miete zahlen.", "soll Frau Steger zurueckrufen."],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-9",
+              "prompt": "Sie hoeren eine Werbung fuer Sehenswuerdigkeiten.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-10",
+              "prompt": "Mit dem Citypass kann man ...",
+              "options": ["Busse und Bahnen in und um Muenchen nutzen.", "Sehenswuerdigkeiten gratis besuchen.", "guenstig in der Stadt einkaufen."],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Sie hoeren einmal einen Text. Sie nehmen an einem einwoechigen Sportprogramm teil und bekommen zu Beginn Informationen dazu.",
+          "questions": [
+            {
+              "id": "h2-11",
+              "prompt": "Die Teilnehmer ...",
+              "options": ["bekommen taeglich Tipps fuer das Fruehstueck.", "kochen das Mittag- und Abendessen.", "sind selbst fuer das Fruehstueck zustaendig."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h2-12",
+              "prompt": "Das Fruehsportprogramm ...",
+              "options": ["beginnt um 7:30 Uhr.", "ist freiwillig.", "ist in der Sporthalle."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-13",
+              "prompt": "Die Teilnehmer muessen sich einen Tag frueher anmelden fuer ...",
+              "options": ["die Ballsportarten.", "die Radtour.", "die Tennisstunden."],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-14",
+              "prompt": "Abends koennen die Teilnehmer ...",
+              "options": ["eine Trainingsstunde halten.", "ein Sportgeschaeft besuchen.", "im Hallenbad trainieren."],
+              "correct_answer": 2
+            },
+            {
+              "id": "h2-15",
+              "prompt": "Bei der Abschlussfeier gibt es ...",
+              "options": ["etwas zu essen.", "eine Tanzparty.", "Zertifikate fuer alle Teilnehmer."],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Sie hoeren einmal ein Gespraech in der Strassenbahn zwischen Elena und Fabian ueber das Wochenende.",
+          "questions": [
+            {
+              "id": "h3-16",
+              "prompt": "Fabian musste am Wochenende arbeiten.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-17",
+              "prompt": "Elenas Wandertour war anstrengend.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h3-18",
+              "prompt": "Elena hat in einer Pension uebernachtet.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-19",
+              "prompt": "Elena hat sich neue Wanderschuhe gekauft.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h3-20",
+              "prompt": "Das Wetter in den Bergen war schlecht.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-21",
+              "prompt": "Elena und ihre Schwester haben sich auf der Wanderung verlaufen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h3-22",
+              "prompt": "Elenas Cousine hat die naechste Wandertour vorbereitet.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Sie hoeren zweimal eine Diskussion im Radio zwischen dem Moderator, dem Sprachforscher Wolfgang Meyer und der Elternsprecherin Angelika Steffens ueber Fremdsprachen. Wer sagt was?",
+          "questions": [
+            {
+              "id": "h4-23",
+              "prompt": "Fremdsprachen sind wichtig fuer den Beruf.",
+              "options": ["Moderator", "Wolfgang Meyer", "Angelika Steffens"],
+              "correct_answer": 2
+            },
+            {
+              "id": "h4-24",
+              "prompt": "Die Muttersprache ist fuer das Erlernen einer Fremdsprache wichtig.",
+              "options": ["Moderator", "Wolfgang Meyer", "Angelika Steffens"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h4-25",
+              "prompt": "Im Erwachsenenalter ist Fremdsprachenlernen nicht mehr leicht.",
+              "options": ["Moderator", "Wolfgang Meyer", "Angelika Steffens"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h4-26",
+              "prompt": "Eine zweite Sprache zu lernen bedeutet fuer Schueler viel zusaetzliche Arbeit.",
+              "options": ["Moderator", "Wolfgang Meyer", "Angelika Steffens"],
+              "correct_answer": 2
+            },
+            {
+              "id": "h4-27",
+              "prompt": "Fremdsprachen lernen die Kinder am leichtesten, die zweisprachig aufwachsen.",
+              "options": ["Moderator", "Wolfgang Meyer", "Angelika Steffens"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h4-28",
+              "prompt": "Zweisprachige Kinder vermischen die Sprachen nur in bestimmten Situationen.",
+              "options": ["Moderator", "Wolfgang Meyer", "Angelika Steffens"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h4-29",
+              "prompt": "Kinder aus verschiedenen Kulturen koennen auch ohne Sprache kommunizieren.",
+              "options": ["Moderator", "Wolfgang Meyer", "Angelika Steffens"],
+              "correct_answer": 2
+            },
+            {
+              "id": "h4-30",
+              "prompt": "Auch mit Musik koennen Kinder Sprachen lernen.",
+              "options": ["Moderator", "Wolfgang Meyer", "Angelika Steffens"],
+              "correct_answer": 1
+            }
+          ]
+        }
+      ],
+      "transcripts": [
+        "Nummer 1: Hallo, Schneyder hier vom Elektrogeschaeft. Frau Huettner, unser Techniker hat Ihren Fernseher angesehen, die Reparatur wuerde ueber 150 Euro kosten, das lohnt sich nicht, wir empfehlen einen neuen zu kaufen. Sagen Sie bitte bald telefonisch Bescheid.",
+        "Nummer 2: Hallo Eva, hier ist Nina. Wie sieht es morgen mit unserer Fahrradtour aus, es soll erst abends regnen, wir koennten schon frueher los. Denk diesmal daran, dir etwas zu trinken mitzunehmen. Treffen wir uns am Sportplatz?",
+        "Nummer 3: Und jetzt ist wieder Zahltag bei uns, wir bezahlen Ihre Rechnung egal wie hoch, bewerben Sie sich mit dem Formular auf unserer Homepage, wenn Sie Ihre Rechnungsnummer im Programm hoeren, rufen Sie im Studio an.",
+        "Nummer 4: Hallo Herr Reitmann, hier ist Beate Steger von der Wohnungsverwaltung, wir muessen den Termin am Dienstag leider absagen, unser Handwerker ist krank. Ach, und noch etwas, Sie haben letzten Monat zu viel eingezahlt, wir ueberweisen Ihnen den Betrag.",
+        "Nummer 5: Liebe Muenchen-Besucher, an unseren Fahrkartenschaltern erhalten Sie auch den Citypass, der ein Ticket fuer alle oeffentlichen Verkehrsmittel in Muenchen und eine Vorteilskarte fuer touristische Attraktionen beinhaltet.",
+        "Jonas vom Trainingszentrum: Ihr koennt ein Fitnesszertifikat erwerben, ihr arbeitet mit unseren Experten die Speisepläne aus und entscheidet, was zu Mittag und Abend gekocht wird. Das Gesundheitsfruehstueck werdet ihr gruppenweise selbst zubereiten. Das Fruehsportangebot ist keine Pflicht. Fuer die Fahrradtour am Mittwoch bitten wir um Anmeldung beim Abendessen am Dienstag, fuer die Tennisstunden am Vormittag Bescheid geben. Abends koennt ihr bis 22 Uhr im Hallenbad schwimmen. Am Freitag gibt es die Abschlussfeier mit einem traumhaften Buffet.",
+        "Elena und Fabian in der Strassenbahn: Fabians Freundin musste am Wochenende arbeiten, er war im Kino. Elena war mit ihrer Schwester wandern, im Haus von Freunden ihrer Schwester, hat sich dort auch noch Wanderschuhe besorgt weil sie ihre vergessen hatte, das Wetter war besser als erwartet, sie haben sich am Sonntag verlaufen, in drei Wochen geht es wieder los mit ihrer Cousine, die schon alles geplant hat.",
+        "Radiodiskussion ueber Fremdsprachen: Sprachforscher Meyer sagt Kinder lernen Sprachen wie einen Schwamm, die Muttersprache bleibt die wichtigste, schwierig wird es erst bei Erwachsenen, ideal sind zweisprachige Familien, Kinder wechseln Sprachen nur weil die Eltern sie verstehen. Elternsprecherin Steffens sagt Fremdsprachen sind wichtig im Beruf, aber ihr Sohn hat schon viele Hausaufgaben, Kinder verstehen sich auch ohne Worte beim Spielen."
+      ]
+    },
+    "schreiben": {
+      "timer_seconds": 3600,
+      "parts": [
+        {
+          "part_number": 1,
+          "task_instructions": "Sie haben online Deutsch gelernt und berichten Ihrer Freundin/Ihrem Freund darueber. Beschreiben Sie wie Sie gelernt haben, begruenden Sie die Vorteile des Lernens mit dem Computer, machen Sie einen Vorschlag fuer ein Treffen. Schreiben Sie eine E-Mail, circa 80 Woerter. Arbeitszeit: 20 Minuten.",
+          "task_prompt": "E-Mail an eine Freundin/einen Freund: Wie gelernt?, Vorteile Computerlernen?, Vorschlag fuer ein Treffen."
+        },
+        {
+          "part_number": 2,
+          "task_instructions": "Sie haben im Fernsehen eine Diskussionssendung zum Thema 'Feste Arbeitszeiten' gesehen. Im Online-Gaestebuch der Sendung steht eine Meinung dazu (feste Arbeitszeiten sind praktisch, aber seit zwei Kindern waere Flexibilitaet schoen). Schreiben Sie Ihre eigene Meinung zu diesem Thema, circa 80 Woerter. Arbeitszeit: 25 Minuten.",
+          "task_prompt": "Ihre Meinung zum Thema 'Feste Arbeitszeiten'."
+        },
+        {
+          "part_number": 3,
+          "task_instructions": "Sie haben sich fuer den Kurs 'Erfolgreich praesentieren' angemeldet, koennen aber zum ersten Termin nicht kommen. Schreiben Sie an Ihren Kursleiter, Herrn Weber, eine E-Mail: Entschuldigen Sie sich hoeflich und erklaeren Sie, warum Sie nicht kommen koennen. Circa 40 Woerter. Arbeitszeit: 15 Minuten.",
+          "task_prompt": "E-Mail an Herrn Weber: Entschuldigung und Grund nennen."
+        }
+      ]
+    },
+    "sprechen": {
+      "parts": [
+        {
+          "part_number": 1,
+          "topic": "Gemeinsam etwas planen (circa 3 Minuten)",
+          "example_questions": [
+            "Sie haben einen einwoechigen Sprachkurs fuer zwei Personen in Koeln gewonnen. Planen Sie die Reise: Wann? Wie hinkommen? Wo wohnen? Was mitnehmen?"
+          ]
+        },
+        {
+          "part_number": 2,
+          "topic": "Ein Thema praesentieren (circa 3 Minuten, ein Thema waehlen)",
+          "example_questions": [
+            "Thema 1: Hochzeit, grosses Fest oder private Feier? Praesentation vorstellen, persoenliche Erfahrungen, Situation im Heimatland, Vor- und Nachteile, Abschluss.",
+            "Thema 2: Ohne Auto leben. Praesentation vorstellen, persoenliche Erfahrungen, Situation im Heimatland, Vor- und Nachteile, Abschluss."
+          ]
+        },
+        {
+          "part_number": 3,
+          "topic": "Ueber ein Thema sprechen (circa 2 Minuten)",
+          "example_questions": [
+            "Geben Sie Rueckmeldung zur Praesentation Ihres Partners/Ihrer Partnerin und stellen Sie eine Frage dazu."
+          ]
+        }
+      ]
+    }
+  }
+}

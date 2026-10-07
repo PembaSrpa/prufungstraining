@@ -1,0 +1,521 @@
+{
+  "id": "b1-goethe-uebungssatz-jugendliche",
+  "level": "B1",
+  "exam": "Goethe-Zertifikat B1 (Jugendliche)",
+  "source_type": "official",
+  "source_url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/B1_Uebungssatz_Jugendliche.pdf",
+  "edition": "Ueberarbeitete Auflage Januar 2018",
+  "skills": {
+    "lesen": {
+      "timer_seconds": 3900,
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Lies den Text und die Aufgaben 1 bis 6 dazu. Waehle: Richtig oder Falsch. Arbeitszeit: 10 Minuten.",
+          "text": "Hallo Robert, die Anmeldungen fuer die Sportcamps in den Sommerferien sind wieder im Internet. Du hast mir gesagt, du moechtest auch mal mitmachen. Ich war schon zweimal dabei. Letztes Jahr hatte ich mich fuer das Wandern in den Alpen entschieden, eine Woche in einer Berghuette auf dem Furkapass, wir schliefen zu viert in den Schlafraeumen. Eine Sportlehrerin fuehrte jeden Tag eine Wandertour, das habe ich gerne mitgemacht. Ich muss sagen, ein anderes Angebot waere was fuer dich: Wassersport im Tessin, schwimmen, Wasserball, segeln, das ist aber nichts fuer mich, ich habe Angst vor Wasser. Das Tanzcamp in Luzern gibt es auch wieder, ich tanze zwar gern, aber im Sommer finde ich andere Angebote spannender. Schau dir die Beschreibungen an und sag mir bis morgen, was dich interessiert, dann melde ich uns beide an. Der Anmeldeschluss ist naechste Woche. Liebe Gruesse, Mara.",
+          "questions": [
+            {
+              "id": "l1-1",
+              "prompt": "Mara informiert Robert, wofuer sie sich dieses Jahr angemeldet hat.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-2",
+              "prompt": "Mehrere Jugendliche haben sich in der Huette ein Zimmer geteilt.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l1-3",
+              "prompt": "Mara hat letztes Jahr im Camp eine Wandertour geleitet.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-4",
+              "prompt": "Mara vermutet, dass das Wassersportangebot Robert gefallen wuerde.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l1-5",
+              "prompt": "Mara wuerde gern den Tanzkurs besuchen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-6",
+              "prompt": "Robert soll sich morgen anmelden.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Lies die Texte aus der Presse und die Aufgaben 7 bis 12. Waehle a, b oder c. Arbeitszeit: 20 Minuten.",
+          "text": "Text 1 (Projektwoche): Die Schueler der Willy-Brandt-Schule beschaeftigten sich in ihrer Projektwoche mit Gesundheit: welche Lebensmittel gesund sind, wie viel Zucker enthalten ist. Ein Koch bereitete mit ihnen gesunde Gerichte zu, die sie gemeinsam assen und zu Kochbuechern verarbeiteten. Taeglich standen mindestens zwei Stunden Sport auf dem Programm, damit jeder seinen Lieblingssport findet. Aerzte brachten einigen Schuelern bei, wie man bei leichten Verletzungen hilft, diese Schueler kuemmern sich seitdem als Schul-Krankenpfleger waehrend der Pausen um kleine Verletzungen. Text 2 (Das Netz): Viele soziale Netzwerke verwenden das Passwort eines Mitglieds, um Freunde einzuladen, so koennen auch Nicht-Mitglieder Einladungs-Mails bekommen. Computerviren sind Programme, die ueber das Internet auf den Computer gelangen und Passwoerter stehlen oder Daten zerstoeren koennen. Spezielle Seiten im Netz koennen Geraete auf Viren ueberpruefen.",
+          "questions": [
+            {
+              "id": "l2-7",
+              "prompt": "In diesem Text geht es darum, dass Schueler ...",
+              "options": ["sich intensiv mit Ernaehrung und Bewegung beschaeftigen.", "zusammen Ideen fuer den Sportunterricht sammeln.", "Informationen ueber Gesundheits-Berufe erhalten."],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-8",
+              "prompt": "Die Schueler haben ...",
+              "options": ["erfahren, wo man frische Lebensmittel kauft.", "gesunde Rezepte in Kochbuechern gesucht.", "gemeinsam gesunde Mahlzeiten gekocht."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l2-9",
+              "prompt": "Wenn sich ein Schueler leicht verletzt, ...",
+              "options": ["wird er zum Arzt gebracht.", "wird er von anderen Schuelern behandelt.", "kann er nach Hause gehen."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-10",
+              "prompt": "In diesem Text geht es darum, ...",
+              "options": ["wie sich die Nutzung des Internets entwickelt hat.", "auf neue Programme im Internet hinzuweisen.", "Gefahren des Internets aufzuzeigen."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l2-11",
+              "prompt": "Um von einem sozialen Netzwerk eine Einladungs-E-Mail zu bekommen, ...",
+              "options": ["braucht man eine Empfehlung von Freunden.", "genuegt es, einen Freund im Netzwerk zu haben.", "muss man seine persoenlichen Daten eintragen."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l2-12",
+              "prompt": "Ein 'kranker' Computer kann ...",
+              "options": ["das Oeffnen bestimmter Seiten verhindern.", "persoenliche Informationen an andere weitergeben.", "Software-Programme von der Festplatte loeschen."],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Lies die Situationen 13 bis 19 und die Anzeigen a bis j. Welche Anzeige passt zu welcher Situation? Fuer eine Situation gibt es keine passende Anzeige. Arbeitszeit: 10 Minuten.",
+          "text": "Anzeigen zum Deutschlernen: a: Bettina aus Linz sucht eine Brieffreundschaft. b: Internet-Text ueber die Geschichte der deutschen Rechtschreibung, ideal fuer Referate. c: Valentin bietet Merkhilfen zu gutem und korrektem Deutsch. d: Rudolf, Germanistik-Student Wien, macht Buchbesprechungen und Werkanalysen, Spezialgebiet moderne Texte seit 1945. e: Kreativwerkstatt, Schreibsommerwochen zum Thema 'Ideen fuer spannende Texte'. f: DEUTSCHintensivKURS fuer Jugendliche Anfaenger, 3x woechentlich nach dem Unterricht, kostenlos. g: Literatur-Hotel, eine Woche lang lesen und mit anderen ueber deutschsprachige Literatur sprechen. h: Praesentationstraining, Auftreten, Sprechtraining, Stimme und Aussprache, direkt im Klassenzimmer. i: Hilfe zur korrekten Bewerbung, Lebenslauf und Motivationsschreiben. j: deutsch_online.de, ausschliesslich Vorbereitung auf Zertifikatspruefungen aller Stufen, keine Deutschkurse.",
+          "questions": [
+            {
+              "id": "l3-13",
+              "prompt": "Silke macht manchmal Fehler beim Schreiben. Sie sucht jemanden, der ihr die Regeln gut erklaert.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "0 (keine Loesung)"],
+              "correct_answer": 2
+            },
+            {
+              "id": "l3-14",
+              "prompt": "Emre ist erst seit Kurzem in einer deutschsprachigen Schule. Er moechte schnell Deutsch lernen.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "0 (keine Loesung)"],
+              "correct_answer": 5
+            },
+            {
+              "id": "l3-15",
+              "prompt": "Liam muss ein Referat ueber die Literatur der letzten 20 Jahre halten und braucht Hilfe bei der Vorbereitung.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "0 (keine Loesung)"],
+              "correct_answer": 3
+            },
+            {
+              "id": "l3-16",
+              "prompt": "Nelson hat einen Deutschkurs besucht und moechte bald die passende Pruefung machen. Er braucht noch ein paar Tipps zur Pruefung.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "0 (keine Loesung)"],
+              "correct_answer": 9
+            },
+            {
+              "id": "l3-17",
+              "prompt": "Merve moechte in den Ferien lernen, fantasievoller zu schreiben.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "0 (keine Loesung)"],
+              "correct_answer": 4
+            },
+            {
+              "id": "l3-18",
+              "prompt": "Corina hat Schwierigkeiten beim Lesen. Sie braucht ein spezielles Lesetraining.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "0 (keine Loesung)"],
+              "correct_answer": 6
+            },
+            {
+              "id": "l3-19",
+              "prompt": "Ferhad soll bald ein Referat auf Deutsch vor seiner Klasse halten. Er ist sehr nervoes und sucht Hilfe.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "0 (keine Loesung)"],
+              "correct_answer": 7
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Lies die Texte 20 bis 26. Wähle: Ist die Person dafuer, dass Jugendliche ohne Eltern verreisen? Ja oder Nein. Arbeitszeit: 15 Minuten.",
+          "text": "0 Anna, 15: reist lieber mit ihrem Freund als mit ihrem Vater, mit Rucksack und Zelt durch Europa, findet das toll von ihrem Vater. 20 Marius, 15: war mit 12 drei Wochen in einem Sprachferiencamp ohne Eltern, hat keine guten Erinnerungen, wuerde es nicht wieder tun und empfiehlt es Gleichaltrigen nicht. 21 Susanne, 38 (Mutter): ihre Tochter war schon mit 10 allein im Ferienlager, rueckblickend ist die Tochter dadurch selbststaendiger geworden. 22 Yvi, 15: findet junge Leute ab 16 selbststaendig genug, die Ferien selbst zu planen, ihre Eltern haetten nichts dagegen. 23 Carolin, 17: verreist immer mit der Familie an schoene Orte, sieht nicht ein, warum man ohne die Eltern wegfahren sollte, wenn man am Urlaubsort ohnehin allein losziehen darf. 24 Florian, 23 (Betreuer): war mit 20 Jugendlichen in einem Feriencamp in den Bergen, es gefiel fast allen gut, auch wenn ein paar Juengere Heimweh hatten, was er nicht tragisch findet. 25 Cornelia, 16: je aelter man wird, desto staerker gehen die Interessen von denen der Eltern auseinander, deshalb ist es besser, nicht gemeinsam wegzufahren. 26 Johannes, 43 (Vater): seine zwei Soehne sind ziemlich selbststaendig, trotzdem wuerde er sie wegen zu vieler Gefahren nicht allein wegfahren lassen, selbst nicht mit einer Jugendorganisation.",
+          "questions": [
+            {
+              "id": "l4-20",
+              "prompt": "Marius",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-21",
+              "prompt": "Susanne",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-22",
+              "prompt": "Yvi",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-23",
+              "prompt": "Carolin",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-24",
+              "prompt": "Florian",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-25",
+              "prompt": "Cornelia",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-26",
+              "prompt": "Johannes",
+              "options": ["Ja", "Nein"],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 5,
+          "instructions": "Du willst im Computerraum deiner Schule arbeiten und informierst dich ueber die Nutzungsordnung. Lies die Aufgaben 27 bis 30 und waehle a, b oder c. Arbeitszeit: 10 Minuten.",
+          "text": "Nutzungsordnung Computerraum: Anmeldung nach Besuch der Veranstaltung 'Lernen mit Computer und Internet', danach eigenes Passwort. Geoeffnet montags bis freitags waehrend der Unterrichtszeiten und nachmittags 14-16 Uhr, Verlaengerung bis 18 Uhr nach Vereinbarung moeglich. Nur benutzen, wenn eine Lehrkraft oder Aufsichtsperson im Raum ist. Nur fuer schulische Zwecke. Daten und Bilder von Schuelern duerfen nur mit schriftlicher Genehmigung der Eltern auf der Schul-Website veroeffentlicht werden. Keine Vertragsabschluesse im Internet. Essen und Trinken im gesamten Computerraum verboten, nur im Eingangsbereich erlaubt. Keine Fremdgeraete an die Schulcomputer anschliessen, keine grossen Datenmengen speichern.",
+          "questions": [
+            {
+              "id": "l5-27",
+              "prompt": "Wann koennen die Schueler den Computerraum nutzen?",
+              "options": ["In den Pausen und nach dem Unterricht.", "Taeglich bis 18.00 Uhr.", "Wenn ein Lehrer oder eine Lehrerin aufpasst."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l5-28",
+              "prompt": "Die Schueler duerfen im Internet ...",
+              "options": ["Dinge bestellen, die man fuer die Schule braucht.", "Klassenfotos nur mit Erlaubnis zeigen.", "private E-Mails lesen und schreiben."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l5-29",
+              "prompt": "Um die Schulcomputer zu schuetzen, darf man ...",
+              "options": ["die Computer nicht mit privaten Laptops verbinden.", "keine Daten auf den Computern speichern.", "nur im Eingangsbereich essen und trinken."],
+              "correct_answer": 0
+            },
+            {
+              "id": "l5-30",
+              "prompt": "Wenn man sich neu im Computerraum anmeldet, ...",
+              "options": ["erhaelt man ein persoenliches Passwort.", "werden verschiedene Computerkurse angeboten.", "muss man eine besondere Nummer angeben."],
+              "correct_answer": 2
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "timer_seconds": 2400,
+      "audio_url": "https://goethemp4s.akamaized.net/resources/files/mp35/b1_uebungssatz_jugendliche.mp3",
+      "needs_review": true,
+      "review_note": "Despite repeated attempts across multiple source mirrors, the official Loesungen and Hoertext-Transkriptionen for this specific Hoeren module could not be retrieved as text (only the candidate-side task sheets were available). All correct_answer values in this Hoeren section are null rather than guessed. The real audio file is linked and playable; if you listen and work out the answers yourself, or can share the Pruferblaetter page, I can fill these in with confidence.",
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Du hoerst fuenf kurze Texte, jeden Text zweimal. Zu jedem Text loese zwei Aufgaben.",
+          "questions": [
+            {
+              "id": "h1-1",
+              "prompt": "Das Treffen ist auf morgen verschoben.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h1-2",
+              "prompt": "Luca ...",
+              "options": ["moechte die Kino-Werbung sehen.", "ruft noch einmal an.", "will den Treffpunkt wissen."],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h1-3",
+              "prompt": "Es geht um eine Veranstaltung fuer einen guten Zweck.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h1-4",
+              "prompt": "Die Mitglieder der Jugendfeuerwehr ...",
+              "options": ["machen auf dem Fest Musik.", "verkaufen Getraenke und Eis.", "veranstalten Spiele fuer Kinder."],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h1-5",
+              "prompt": "Du kannst dich beim Radio als Saengerin bewerben.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h1-6",
+              "prompt": "Auf der Website von www.popstars.ch kannst du ...",
+              "options": ["einen Namen fuer die Girly-Band vorschlagen.", "deine Stimme fuer eine Saengerin abgeben.", "mit einem Popstar chatten."],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h1-7",
+              "prompt": "Du hoerst eine Werbung fuer Sehenswuerdigkeiten.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h1-8",
+              "prompt": "Mit dem Citypass kann man ...",
+              "options": ["Busse und Bahnen in und um Muenchen nutzen.", "Sehenswuerdigkeiten gratis besuchen.", "guenstig in der Stadt einkaufen."],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h1-9",
+              "prompt": "Sandrine kann zu einem anderen Lehrer gehen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h1-10",
+              "prompt": "Sandrine soll ...",
+              "options": ["puenktlich kommen.", "zurueckrufen.", "zwei Freunde mitbringen."],
+              "correct_answer": null,
+              "needs_review": true
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Du machst mit deiner Klasse einen Ausflug an den Millstaetter See und hoerst im Bus Informationen von der Reiseleiterin.",
+          "needs_review": true,
+          "questions": [
+            {
+              "id": "h2-11",
+              "prompt": "Die Schueler gehen direkt nach der Ankunft in Doebriach ...",
+              "options": ["baden.", "essen.", "wandern."],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h2-12",
+              "prompt": "Die Gruppe ...",
+              "options": ["bekommt um 12:30 Uhr eine Fuehrung im Haus des Erzaehlens.", "darf die Ausstellung schon vor 14:00 Uhr besuchen.", "kann sich beim Mittagessen Zeit lassen."],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h2-13",
+              "prompt": "Um 16 Uhr ...",
+              "options": ["beginnt eine kurze Busfahrt.", "geht die Gruppe klettern.", "fahren die Schueler heim."],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h2-14",
+              "prompt": "Am spaeten Nachmittag ...",
+              "options": ["gehen alle zusammen schwimmen.", "koennen die Schueler gratis ins Strandbad gehen.", "soll die Klasse bei der Lehrerin bleiben."],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h2-15",
+              "prompt": "Die Jugenddisco ...",
+              "options": ["endet um zehn Uhr am Abend.", "findet in einem Hotel in Gmuend statt.", "ist auch fuer Jugendliche aus dem Dorf."],
+              "correct_answer": null,
+              "needs_review": true
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Du stehst nach einem Mathematiktest im Gang vor deiner Klasse und hoerst, wie sich ein Mitschueler und eine Mitschuelerin ueber den Test unterhalten.",
+          "needs_review": true,
+          "questions": [
+            {
+              "id": "h3-16",
+              "prompt": "Daniel wusste bei der zweiten Aufgabe, was zu tun war.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h3-17",
+              "prompt": "Daniel passt im Unterricht gut auf.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h3-18",
+              "prompt": "Man kann Punkte bekommen, auch wenn es Fehler in der Rechnung gibt.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h3-19",
+              "prompt": "Daniels Vater ist mit den Leistungen seines Sohns unzufrieden.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h3-20",
+              "prompt": "Daniel hatte am Tag vor dem Test Besuch.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h3-21",
+              "prompt": "Emma denkt, dass ein Nachhilfelehrer Daniel unterstuetzen sollte.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h3-22",
+              "prompt": "Emma hilft Daniel heute bei den Hausaufgaben.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": null,
+              "needs_review": true
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Die Moderatorin der Radiosendung 'Die aktuelle Diskussion' spricht mit dem Schueler Alexander Winkler (16) und dem Polizisten Florian Kauder ueber die Frage: Fuehrerschein schon ab 16? Wer sagt was?",
+          "needs_review": true,
+          "questions": [
+            {
+              "id": "h4-23",
+              "prompt": "Auf dem Land gibt es abends nicht genug Freizeitangebote.",
+              "options": ["Moderatorin", "Alexander", "Florian Kauder"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h4-24",
+              "prompt": "Fuer junge Leute ist es oft schwer, erwachsene Mitfahrer zu finden.",
+              "options": ["Moderatorin", "Alexander", "Florian Kauder"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h4-25",
+              "prompt": "Auch Menschen unter 18 koennen verantwortlich handeln.",
+              "options": ["Moderatorin", "Alexander", "Florian Kauder"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h4-26",
+              "prompt": "In anderen Laendern gibt es schon den Fuehrerschein ab 16.",
+              "options": ["Moderatorin", "Alexander", "Florian Kauder"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h4-27",
+              "prompt": "Man sollte die Ausbildung der Fahrer verbessern.",
+              "options": ["Moderatorin", "Alexander", "Florian Kauder"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h4-28",
+              "prompt": "Es koennte helfen, wenn Eltern nachts fahren.",
+              "options": ["Moderatorin", "Alexander", "Florian Kauder"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h4-29",
+              "prompt": "Man sollte die oeffentlichen Verkehrsmittel auf dem Land besser ausbauen.",
+              "options": ["Moderatorin", "Alexander", "Florian Kauder"],
+              "correct_answer": null,
+              "needs_review": true
+            },
+            {
+              "id": "h4-30",
+              "prompt": "Fuer neue Verkehrsprojekte fehlen die finanziellen Mittel.",
+              "options": ["Moderatorin", "Alexander", "Florian Kauder"],
+              "correct_answer": null,
+              "needs_review": true
+            }
+          ]
+        }
+      ]
+    },
+    "schreiben": {
+      "timer_seconds": 3600,
+      "parts": [
+        {
+          "part_number": 1,
+          "task_instructions": "Du hast im Sommer ein Praktikum in einer Buchhandlung gemacht und moechtest einem Freund/einer Freundin davon erzaehlen. Beschreibe wie das Praktikum war, begruende was dir besonders gut gefallen hat, mache einen Vorschlag fuer ein Treffen. E-Mail, circa 80 Woerter. Arbeitszeit: 10 Minuten.",
+          "task_prompt": "E-Mail an einen Freund/eine Freundin: Wie war das Praktikum in der Buchhandlung?, was hat dir gefallen und warum?, Vorschlag fuer ein Treffen."
+        },
+        {
+          "part_number": 2,
+          "task_instructions": "Du hast einen Artikel zum Thema 'Private Fotos in sozialen Netzwerken' gelesen. Im Online-Forum steht die Meinung, dass staendiges Fotografieren und das Veroeffentlichen der Fotos im Internet stoert, weil es privat sein sollte. Schreibe deine eigene Meinung dazu, circa 80 Woerter. Arbeitszeit: 25 Minuten.",
+          "task_prompt": "Deine Meinung zum Thema 'Private Fotos in sozialen Netzwerken'."
+        },
+        {
+          "part_number": 3,
+          "task_instructions": "Eine Arbeitskollegin deiner Mutter, Frau Selden, sucht jemanden, der einmal in der Woche fuer sie einkaufen geht. Schreibe an Frau Selden, erklaere warum du diesen Job machen moechtest und schlage ein Treffen vor. E-Mail, circa 40 Woerter. Arbeitszeit: 15 Minuten.",
+          "task_prompt": "E-Mail an Frau Selden: Grund fuer dein Interesse, Vorschlag fuer ein Treffen."
+        }
+      ]
+    },
+    "sprechen": {
+      "parts": [
+        {
+          "part_number": 1,
+          "topic": "Gemeinsam etwas planen (circa 3 Minuten)",
+          "example_questions": [
+            "Ihr wollt gemeinsam einen Artikel fuer die Webseite eurer Schule ueber das letzte Schuljahr schreiben. Welche Themen? Wer schreibt was? Fotos? Unterstuetzung?"
+          ]
+        },
+        {
+          "part_number": 2,
+          "topic": "Ein Thema praesentieren (circa 3 Minuten, ein Thema waehlen)",
+          "example_questions": [
+            "Thema 1: Ganztagsschule. Thema vorstellen, eigene Erfahrung, Situation im Heimatland, Vor- und Nachteile mit Meinung, Abschluss und Dank.",
+            "Thema 2: Feriencamps. Thema vorstellen, eigene Erfahrung, Situation im Heimatland, Vor- und Nachteile mit Meinung, Abschluss und Dank."
+          ]
+        },
+        {
+          "part_number": 3,
+          "topic": "Ueber ein Thema sprechen (circa 2 Minuten)",
+          "example_questions": [
+            "Gib eine Rueckmeldung zur Praesentation deines Partners/deiner Partnerin und stelle eine Frage dazu."
+          ]
+        }
+      ]
+    }
+  }
+}
