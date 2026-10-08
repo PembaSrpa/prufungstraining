@@ -702,6 +702,35 @@ button {
     max-height: calc(100vh - 120px);
     overflow-y: auto;
     padding-right: 4px;
+    padding-left: 16px;
+    margin-left: -16px;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 959px) {
+  .part-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: calc(100vh - 130px);
+    max-height: calc(100dvh - 130px);
+  }
+
+  .part-left {
+    flex: 0 0 auto;
+    max-height: calc((100vh - 130px) / 2);
+    max-height: calc((100dvh - 130px) / 2);
+    overflow-y: auto;
+    margin-bottom: 0;
+    padding: 0 4px 10px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .part-right {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 0 4px 0 16px;
   }
 }
 

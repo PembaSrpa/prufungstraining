@@ -1,0 +1,483 @@
+{
+  "id": "b1-telc-uebungstest-01",
+  "level": "B1",
+  "exam": "telc Deutsch B1 (Zertifikat Deutsch)",
+  "source_type": "official",
+  "source_url": "https://www.sprachenatelier-berlin.de/kontext/controllers/document.php/711.b/4/f7dffe.pdf",
+  "edition": "13. Auflage 2020",
+  "skills": {
+    "lesen": {
+      "timer_seconds": 5400,
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Lesen Sie die Ueberschriften a-j und die Texte 1-5. Finden Sie fuer jeden Text die passende Ueberschrift. Jede Ueberschrift nur einmal.",
+          "text": "Ueberschriften: a Immer mehr deutsche Familien reisen mit der Bahn. b Buchtipp: Hilfe bei Schlafproblemen. c Der Computer: Liebstes Hobby von Deutschlands Frauen. d Neu bei der Bahn: Spezielle Informationen und Angebote fuer Radfahrer. e Neu am Markt: Billige Schlaftabletten. f Familien reisen billiger. g Urlaub mit dem Fahrrad in Deutschland immer beliebter. h Kultur im Urlaub: Interessen je nach Alter unterschiedlich. i Umfrage: Wer verwendet den Computer am haeufigsten? j Deutschland: Immer mehr Touristen reisen in den Westen. Text 1: Wer ist der typische Computerfan? Das B.A.T. Freizeitforschungsinstitut Hamburg ermittelte: er ist maennlich, jung, hat hoeheren Schulabschluss, nutzt Textverarbeitung und Spiele am meisten. Text 2: 'Bahn&Bike' heisst ein 222-seitiger Prospekt der Deutschen Bahn AG mit Informationen fuer Radurlauber, Streckenlaenge, Verleihstationen, Sehenswuerdigkeiten, kostet 5 Euro. Text 3: Patientenratgeber 'Schlafstoerungen' von Dr. Hohagen erklaert was den Schlaf stoert, fuer 9,95 Euro in Apotheken. Text 4: Familien-Super-Sparpreis ab 6. Oktober fuer Bahnreisen zwischen Oesterreich und Deutschland, fuer Familien mit mindestens einem Kind. Text 5: Touristen zwischen 14-29 und 40-49 Jahren haben grosses Kulturinteresse, waehrend 30-39-Jaehrige im Urlaub eine Kulturpause einlegen, so eine Studie.",
+          "questions": [
+            {
+              "id": "l1-1",
+              "prompt": "Text 1",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"],
+              "correct_answer": 8
+            },
+            {
+              "id": "l1-2",
+              "prompt": "Text 2",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"],
+              "correct_answer": 3
+            },
+            {
+              "id": "l1-3",
+              "prompt": "Text 3",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l1-4",
+              "prompt": "Text 4",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"],
+              "correct_answer": 5
+            },
+            {
+              "id": "l1-5",
+              "prompt": "Text 5",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"],
+              "correct_answer": 7
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Lesen Sie den Text und die Aufgaben 6-10. Waehlen Sie a, b oder c.",
+          "text": "Buero-Werkstatt: Chance fuer behinderte Menschen. Margit, Reinhard und Martin, drei koerperbehinderte junge Menschen mit abgeschlossener kaufmaennischer Ausbildung, wurden vom Arbeitsamt als schwer vermittelbar eingestuft. In der Buero-Werkstatt Wien-Stadlau bereiten sie sich in einem fuenfmonatigen Kurs auf das Berufsleben vor, ihre Dienste werden von Privatfirmen zugekauft. Betreuer Guenther Hos hilft bei der Jobsuche, das ist schwer, da viele nicht-behinderte Arbeitslose gibt. Firmen muessen gesetzlich pro 25 Beschaeftigte einen Behinderten einstellen oder sich mit rund 150 Euro monatlich freikaufen. Seit der Vereinsgruendung vor drei Jahren wurde ein Drittel der Leute vermittelt. Gegruendet wurde die Buero-Werkstatt von der Lehrerin Heide Hanisch, die nicht hinnehmen wollte, dass ihre behinderten Schueler nach der Ausbildung nicht gebraucht werden.",
+          "questions": [
+            {
+              "id": "l2-6",
+              "prompt": "In einem fuenfmonatigen Kurs koennen die Teilnehmer",
+              "options": ["eine berufliche Ausbildung abschliessen.", "lernen, was sie in der Schule verpasst haben.", "praktische Erfahrungen mit der Bueroarbeit sammeln."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l2-7",
+              "prompt": "Die Buero-Werkstatt versucht ausserdem,",
+              "options": ["auch jenen Arbeitslosen zu helfen, die nicht behindert sind.", "Behinderte auf die Abschlusspruefungen vorzubereiten.", "fuer die behinderten Menschen eine Arbeit zu finden."],
+              "correct_answer": 2
+            },
+            {
+              "id": "l2-8",
+              "prompt": "Laut Gesetz muessen oesterreichische Firmen pro 25 Beschaeftigte",
+              "options": ["eine besondere Steuer zahlen.", "einen Behinderten einstellen oder eine monatliche Gebuehr bezahlen.", "fuer jeden Behinderten monatlich 150 Euro bezahlen."],
+              "correct_answer": 1
+            },
+            {
+              "id": "l2-9",
+              "prompt": "Seit der Vereinsgruendung",
+              "options": ["konnte fuer ein Drittel der behinderten Kursteilnehmer eine Arbeit gefunden werden.", "konnte Guenther Hos fuer den Verein schon viel Geld sparen.", "zahlen Arbeitslose um ein Drittel weniger Steuern."],
+              "correct_answer": 0
+            },
+            {
+              "id": "l2-10",
+              "prompt": "Die Lehrerin, die die Buero-Werkstatt gegruendet hat,",
+              "options": ["wollte etwas tun, damit Behinderte einen Arbeitsplatz erhalten.", "wollte nicht laenger Geografie und Geschichte unterrichten.", "wird nach der Ausbildung der Behinderten nicht mehr gebraucht."],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Lesen Sie die Situationen 11-20 und die Anzeigen a-l. Finden Sie fuer jede Situation die passende Anzeige. Jede Anzeige nur einmal. Wenn Sie keine Anzeige finden, markieren Sie x.",
+          "text": "Anzeigen: a Thai-China-Vietnam Restaurant Bong-Hong, taeglich geoeffnet, auch zum Mitnehmen. b Ristorante Olindo, italienisch, bei schoenem Wetter Gartenbetrieb. c Versicherungsbuero Helmut Schwabe, Urlaubsversicherung. d SEATOP Reisen, Flug- und Hotelspezialist, USA Sommertermine. e Kreittmayr Kneipe mit Biergarten, Bundesliga live. f Council Travel, Sprachreisen und Abenteuerreisen, billige Flugpreise fuer Studenten/Jugendliche nach USA und Europa. g Internationaler Stammtisch, Thema deutsche und auslaendische Jugendliche in Muenchen. h Nachhilfe Mathe-Physik vom Gymnasiallehrer. i Nachhilfe Mathe/Physik/Chemie fuer alle Klassen. j Diplom-Mathematiker gibt Nachhilfe Mathe/Physik fuer Abi und Studium. k Gisela Geiger, Kurse fuer Erwachsene und Kinder mit Sprachschwierigkeiten. l Sprachboerse, Deutsch als Fremdsprache, Fremdsprachen, Kindersprachkurse, Minigruppen, Einzelunterricht, schon ab 4 Jahren. City-Reisebuero Klenzestrasse, Campmobile USA/Canada ab 35 Euro pro Tag.",
+          "questions": [
+            {
+              "id": "l3-11",
+              "prompt": "Sie moechten mit Freunden in einem Restaurant essen. Da das Wetter schoen ist, moechten Sie gerne draussen sitzen.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "x (keine Loesung)"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l3-12",
+              "prompt": "Sie moechten heute nicht selbst kochen, sondern lieber ein warmes Essen kaufen und mit nach Hause nehmen.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "x (keine Loesung)"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l3-13",
+              "prompt": "In den Sommerferien moechten Sie gerne in die USA fliegen. Sie brauchen dort auch eine Unterkunft.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "x (keine Loesung)"],
+              "correct_answer": 3
+            },
+            {
+              "id": "l3-14",
+              "prompt": "Reisebueros bieten billigere Fluege an, wenn man in letzter Minute bucht. Sie suchen so einen Flug.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "x (keine Loesung)"],
+              "correct_answer": 12
+            },
+            {
+              "id": "l3-15",
+              "prompt": "Ihre Tochter, die studiert, moechte in die USA fliegen. Sie suchen einen billigen Flug fuer sie.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "x (keine Loesung)"],
+              "correct_answer": 4
+            },
+            {
+              "id": "l3-16",
+              "prompt": "Ihr Sohn ist schlecht in Mathematik und braucht deshalb noch Unterricht ausserhalb der Schule.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "x (keine Loesung)"],
+              "correct_answer": 8
+            },
+            {
+              "id": "l3-17",
+              "prompt": "Das Kind Ihrer Freunde hat Probleme beim Sprechen und braucht deshalb Hilfe.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "x (keine Loesung)"],
+              "correct_answer": 10
+            },
+            {
+              "id": "l3-18",
+              "prompt": "Sie haben einen jungen Franzosen zu Besuch. Sie moechten, dass er in einen Deutschkurs geht.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "x (keine Loesung)"],
+              "correct_answer": 11
+            },
+            {
+              "id": "l3-19",
+              "prompt": "Sie moechten, dass Ihr Sohn in einen Jugendclub geht.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "x (keine Loesung)"],
+              "correct_answer": 12
+            },
+            {
+              "id": "l3-20",
+              "prompt": "Sie interessieren sich fuer die Probleme auslaendischer Jugendlicher in Deutschland.",
+              "options": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "x (keine Loesung)"],
+              "correct_answer": 6
+            }
+          ]
+        },
+        {
+          "part_number": 4,
+          "instructions": "Sprachbausteine Teil 1. Lesen Sie den Text und schliessen Sie die Luecken 21-30. Waehlen Sie a, b oder c.",
+          "text": "Liebe Karin, nach meinem Praktikum in Frankreich bin ich jetzt wieder zu Hause. Wie du weisst, wollte ich eigentlich nach Paris, (21) das hat dann leider nicht geklappt. Doch dann habe ich (22) Stelle als Praktikant bei einer Firma in Strassburg gefunden. Dort (23) ich drei Monate geblieben. Die Arbeit war sehr (24) - ich musste schon um 8 Uhr im Buero sein -, hat mir aber sehr gut gefallen. Ich habe (25) dieser Zeit in verschiedenen Abteilungen gearbeitet und so nicht nur etwas ueber die Herstellung von Fernsehgeraeten (26), sondern auch ueber den Verkauf. Und die Kollegen, mit (27) ich am meisten zu tun hatte, waren wirklich sehr nett. Nach dem Praktikum habe ich noch zwei Wochen Urlaub bei Freunden gemacht. Darueber erzaehle ich bald mehr.",
+          "questions": [
+            {
+              "id": "l4-21",
+              "prompt": "Luecke 21",
+              "options": ["aber", "denn", "sondern"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-22",
+              "prompt": "Luecke 22",
+              "options": ["eine", "einen", "einer"],
+              "correct_answer": 2
+            },
+            {
+              "id": "l4-23",
+              "prompt": "Luecke 23",
+              "options": ["bin", "habe", "wurde"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-24",
+              "prompt": "Luecke 24",
+              "options": ["anstrengend", "anstrengende", "anstrengendes"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-25",
+              "prompt": "Luecke 25",
+              "options": ["trotzdem", "wegen", "weshalb"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-26",
+              "prompt": "Luecke 26",
+              "options": ["bis", "in", "nach"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-27",
+              "prompt": "Luecke 27",
+              "options": ["gelernt", "lernen", "lernte"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l4-28",
+              "prompt": "Luecke 28",
+              "options": ["dem", "denen", "die"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-29",
+              "prompt": "Luecke 29",
+              "options": ["meine", "meinen", "meiner"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l4-30",
+              "prompt": "Luecke 30",
+              "options": ["dir", "Ihnen", "uns"],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 5,
+          "instructions": "Sprachbausteine Teil 2. Lesen Sie den Text und schliessen Sie die Luecken 31-40. Benutzen Sie die Woerter a-o, jedes Wort nur einmal.",
+          "text": "Sehr geehrter Herr Janosch, ich habe Ihre Anzeige gelesen und interessiere mich sehr (31) Ihr Angebot. Ich moechte mit meiner Familie vom 10.-24. August in Oesterreich Urlaub machen und haette (32) noch naehere Informationen. Meine Frau und mich interessiert ganz (33) das Freizeitprogramm fuer Kinder, (34) wir zwei Kinder (3 und 8 Jahre) haben. Gibt es Schwimm- und Tenniskurse fuer Kinder und (35) ja, was kosten sie? In Ihrer Anzeige steht auch, dass Sie fuer die Unterkunft guenstige Angebote fuer Kinder haben. Wie viel (36) wir pro Woche fuer unsere Kinder bezahlen? Und noch eine letzte Frage: Wir haben einen kleinen Hund, von dem sich meine Kinder nicht trennen koennen und den wir mitnehmen (37). Waere das moeglich? Bitte schreiben Sie uns so bald wie moeglich, (38) wir uns bald entscheiden koennen. Ausserdem waeren wir Ihnen sehr (39), wenn Sie uns einige Prospekte oder Bilder zusenden wuerden. Mit freundlichen Gruessen, Anton Mueller. Wortliste: a besonders, b dafuer, c damals, d damit, e dankbar, f fuer, g deshalb, h gerne, i koennten, j muessten, k mit, l schliesslich, m wann, n o wenn.",
+          "questions": [
+            {
+              "id": "l5-31",
+              "prompt": "Luecke 31",
+              "options": ["gerne", "koennten", "besonders", "fuer", "wenn"],
+              "correct_answer": 3
+            },
+            {
+              "id": "l5-32",
+              "prompt": "Luecke 32",
+              "options": ["gerne", "muessten", "dankbar", "damals", "wenn"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l5-33",
+              "prompt": "Luecke 33",
+              "options": ["besonders", "dafuer", "damit", "mit", "wann"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l5-34",
+              "prompt": "Luecke 34",
+              "options": ["dafuer", "deshalb", "damit", "schliesslich", "wenn"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l5-35",
+              "prompt": "Luecke 35",
+              "options": ["wenn", "wann", "schliesslich", "koennten", "dafuer"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l5-36",
+              "prompt": "Luecke 36",
+              "options": ["muessten", "koennten", "schliesslich", "damit", "mit"],
+              "correct_answer": 1
+            },
+            {
+              "id": "l5-37",
+              "prompt": "Luecke 37",
+              "options": ["muessten", "koennten", "deshalb", "dafuer", "wenn"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l5-38",
+              "prompt": "Luecke 38",
+              "options": ["damit", "deshalb", "schliesslich", "mit", "besonders"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l5-39",
+              "prompt": "Luecke 39",
+              "options": ["dankbar", "gerne", "damals", "dafuer", "wann"],
+              "correct_answer": 0
+            },
+            {
+              "id": "l5-40",
+              "prompt": "Luecke 40",
+              "options": ["fuer", "schliesslich", "deshalb", "besonders", "mit"],
+              "correct_answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    "hoeren": {
+      "timer_seconds": 1800,
+      "audio_url": "https://www.sprachenatelier-berlin.de/kontext/controllers/document.php/712.0/a/82031b.mp3",
+      "parts": [
+        {
+          "part_number": 1,
+          "instructions": "Sie hoeren fuenf kurze Texte, nur einmal. Waehlen Sie Richtig oder Falsch.",
+          "questions": [
+            {
+              "id": "h1-41",
+              "prompt": "Die Sprecherin muss im Haushalt fast alles alleine machen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-42",
+              "prompt": "Der Sprecher waescht das Geschirr und die Waesche.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-43",
+              "prompt": "Die Sprecherin ist berufstaetig und hat keine Zeit fuer die Hausarbeit.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h1-44",
+              "prompt": "Der Sprecher teilt sich mit seiner Partnerin die Arbeit je nach Situation auf.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h1-45",
+              "prompt": "Die Sprecherin ist froh, dass ihr Mann so viele Hausarbeiten uebernimmt.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            }
+          ]
+        },
+        {
+          "part_number": 2,
+          "instructions": "Sie hoeren ein Gespraech zweimal. Waehlen Sie Richtig oder Falsch.",
+          "questions": [
+            {
+              "id": "h2-46",
+              "prompt": "Der Sportverein plant eine grosse Feier.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-47",
+              "prompt": "Der Journalist unterhaelt sich mit einer Vertreterin des Sportvereins.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-48",
+              "prompt": "Viele Papiere aus den Anfaengen des Vereins sind im Krieg verloren gegangen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-49",
+              "prompt": "Der Verein veroeffentlicht jedes Jahr eine Festzeitung.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-50",
+              "prompt": "Der Verein hatte von Anfang an auch Frauen als Mitglieder.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-51",
+              "prompt": "Heute gibt es im Verein mehr Frauen als Maenner.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-52",
+              "prompt": "Im Verein kann man Sport im Freien und in der Halle treiben.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h2-53",
+              "prompt": "Die Mitglieder muessen die Kosten fuer ihren Verein alleine tragen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-54",
+              "prompt": "Der Sportverein bietet auch Schwimmkurse an.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h2-55",
+              "prompt": "Einige Leute, die im Verein ausgebildet wurden, arbeiten dort heute als Lehrer.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            }
+          ]
+        },
+        {
+          "part_number": 3,
+          "instructions": "Sie hoeren fuenf kurze Texte, jeden Text zweimal. Waehlen Sie Richtig oder Falsch.",
+          "questions": [
+            {
+              "id": "h3-56",
+              "prompt": "Das Buero ist in der Schillerstrasse.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h3-57",
+              "prompt": "Der Film 'Sommer' laeuft im Filmcasino.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-58",
+              "prompt": "Im Sueden Bayerns wird es am Nachmittag schoen und nicht sehr warm.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            },
+            {
+              "id": "h3-59",
+              "prompt": "Im Zugrestaurant koennen Sie auch Zeitungen kaufen.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 1
+            },
+            {
+              "id": "h3-60",
+              "prompt": "Damenroecke kosten heute 39 Euro.",
+              "options": ["Richtig", "Falsch"],
+              "correct_answer": 0
+            }
+          ]
+        }
+      ],
+      "transcripts": [
+        "Umfrage Gleichberechtigung im Haushalt, ueber 50 verheiratete Paare: Frau 1: Eigentlich mache ich alles, ich bin zu Haus, ich koche, wasche ab, buegle, versorge das Kind, mein Mann macht den Abwasch und den Garten, einkaufen gehen wir beide.",
+        "Mann: Kochen tu immer ich, das macht mir Spass, dafuer waescht meine Frau ab, Waesche waschen mach ich nicht so gerne, das macht sie, dafuer geh ich gerne einkaufen und in den Garten.",
+        "Frau 2: Mein Mann ist voll berufstaetig, ich bin zu Hause mit zwei kleinen Kindern, ich koche, wasche ab, raeume auf, wasche die Waesche und buegle, das Einkaufen uebernimmt er, putzen tu ich, im Sommer betreut er den Garten.",
+        "Mann 2: Bei uns ist das unterschiedlich, je nach Situation, meistens koche ich und gehe einkaufen, meine Partnerin raeumt auf und waescht ab, die Waesche teilen wir uns, einen Garten haben wir nicht.",
+        "Frau 3: Mein Mann ist ziemlich faul, macht nur was ihm Spass macht, er kauft ein aber haelt sich nicht an die Liste, kocht ab und zu, das Abwaschen ueberlaesst er mir, aufraeumen tut er sowieso nicht, um den Garten kuemmert sich niemand.",
+        "Journalist und Frau Seiffert vom Turn- und Sportverein Neustadt (100-jaehriges Jubilaeum): Sie ist Schriftfuehrerin, fruehere Kollegen waren sorgfaeltig, das Programm der ersten Hauptversammlung wurde in der Festzeitung zum 100. Geburtstag veroeffentlicht. Am Anfang war Sport reine Maennersache, nach 16 Jahren kamen die ersten Frauen dazu. Heute sind ueber 50 Prozent der 2000 Mitglieder Frauen. 50 Prozent der Finanzierung kommt von Mitgliedsbeitraegen, der Rest von der Stadt und dem Deutschen Sportbund. Der Verein bietet fast jede Sportart an ausser Schwimmen, da es im Nachbarort ein eigenes Schwimmbad gibt. Trainer kommen meist aus dem Verein selbst, Leute die spaeter Sport studieren oder Leistungssport machen.",
+        "Wegbeschreibung: Aus dem Bahnhof kommend sind Sie in der Schillerstrasse, rechts und immer geradeaus bis zur Kreuzung mit der Koenigstrasse, ueberqueren Sie diese, bleiben Sie in der Schillerstrasse, wir sind gegenueber vom Kino Gloria.",
+        "Kinoprogramm Zuerich: Filmcasino 'Fruehstueck bei Tiffany' 18.30 und 20.30 Uhr, City Kino 1 'Sommer' 18.45 und 21 Uhr, City Kino 2 'Starke Jungs' 18.15 und 19.45 Uhr, das Kino Gloria-Palast ist zurzeit geschlossen.",
+        "Wetterbericht Muenchen, Montag 28. Oktober: Suedbayern anfangs vereinzelt Regen, spaeter sonnig bis 18 Grad, nachts Bodenfrost. Nordbayern wechselhaft mit Schauern, mild und windig, nachts bis minus 2 Grad.",
+        "Zugdurchsage ICE Riemenschneider Hamburg-Nuernberg: Zugrestaurant zwischen 1. und 2. Wagenklasse, ab 11.30 Uhr Mittagessen, Minibar im Zug mit Imbiss und Getraenken kommt durch die zweite Wagenklasse.",
+        "Werbung Sommerschlussverkauf: Damenroecke fuer 39 Euro, modische Pullover das Stueck fuer 19 Euro, Oberhemden fuer Herren fuer 5 Euro, City-Hosen fuer Herren fuer 10 Euro."
+      ]
+    },
+    "schreiben": {
+      "timer_seconds": 1800,
+      "parts": [
+        {
+          "part_number": 1,
+          "task_instructions": "Sie haben von Ihrer Freundin Marianne eine E-Mail erhalten, die Sie zu sich einlaedt. Antworten Sie und schreiben Sie etwas zu allen vier Punkten: welche Ausfluege Sie mit Marianne machen wollen, was die beste Jahreszeit fuer die Reise ist, welche Kleidung sie mitnehmen soll, wie sie sich am besten auf die Reise vorbereiten kann. Ueberlegen Sie sich eine passende Reihenfolge, Betreff, Anrede, Einleitung und Schluss.",
+          "task_prompt": "Marianne hat Sie eingeladen, ihr Land zu besuchen, und fragt nach der besten Reisezeit und was sie wissen sollte."
+        }
+      ]
+    },
+    "sprechen": {
+      "parts": [
+        {
+          "part_number": 1,
+          "topic": "Einander kennenlernen",
+          "example_questions": [
+            "Name? Woher sie oder er kommt? Wie sie oder er wohnt? Familie? Wo Deutsch gelernt? Was sie oder er macht (Schule, Studium, Beruf)? Sprachen (welche, wie lange, warum)?"
+          ]
+        },
+        {
+          "part_number": 2,
+          "topic": "Ueber ein Thema sprechen: Gruppenreisen",
+          "example_questions": [
+            "Teilnehmer/in A: Sabine Klostermann findet Gruppenreisen gut, weil man neue Leute kennenlernt und immer Gesellschaft hat.",
+            "Teilnehmer/in B: Jens Muehle reist lieber allein, weil er bei einer Gruppe keine feste Zeitplanung moechte."
+          ]
+        },
+        {
+          "part_number": 3,
+          "topic": "Gemeinsam etwas planen: Abschiedsparty",
+          "example_questions": [
+            "Sie haben zwei Wochen Urlaub gemacht und moechten vor der Abreise eine Abschiedsparty feiern. Planen Sie: Wann? Wo? Essen? Getraenke? Wer bezahlt wofuer?"
+          ]
+        }
+      ]
+    }
+  }
+}
