@@ -32,9 +32,9 @@ export default function VocabPage() {
   return (
     <main className="container">
       <p className="eyebrow">Vokabeln</p>
-      <h1 className="page-title">Gesammelte Woerter</h1>
+      <h1 className="page-title">Gesammelte Wörter</h1>
       <p className="page-subtitle">
-        Woerter, die Sie in Lesetexten markiert und zu Vokabeln hinzugefuegt
+        Wörter, die Sie in Lesetexten markiert und zu Vokabeln hinzugefügt
         haben. Wird nur in diesem Browser gespeichert.
       </p>
 
@@ -67,7 +67,7 @@ export default function VocabPage() {
           </ul>
           <div className="exam-footer" style={{ padding: "24px 0 0" }}>
             <button type="button" className="secondary-button" onClick={handleClear}>
-              Alle Vokabeln loeschen
+              Alle Vokabeln löschen
             </button>
           </div>
         </>
@@ -75,7 +75,7 @@ export default function VocabPage() {
 
       <div className="exam-footer" style={{ padding: "12px 0 0", justifyContent: "flex-start" }}>
         <Link href="/" className="secondary-button">
-          Zurueck zur Uebersicht
+          Zurück zur Übersicht
         </Link>
       </div>
     </main>

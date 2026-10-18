@@ -21,8 +21,8 @@ function buildExportText(parts: SchreibenPart[], answers: Record<number, string>
     ].join("\n");
   });
   return [
-    "Bitte bewerte diese Schreiben-Antworten fuer eine Deutschpruefung (A1/A2 Niveau).",
-    "Gib Feedback zu Grammatik, Wortschatz, Aufgabenerfuellung und Laenge.",
+    "Bitte bewerte diese Schreiben-Antworten für eine Deutschprüfung (A1/A2 Niveau).",
+    "Gib Feedback zu Grammatik, Wortschatz, Aufgabenerfüllung und Länge.",
     "",
     ...sections
   ].join("\n\n");
@@ -45,7 +45,7 @@ export default function WritingExporter({ parts, answers, onExport }: WritingExp
 
   return (
     <button type="button" className="primary-button" onClick={handleCopy}>
-      {copied ? "Kopiert" : "Fuer KI-Bewertung kopieren"}
+      {copied ? "Kopiert" : "Für KI-Bewertung kopieren"}
     </button>
   );
 }

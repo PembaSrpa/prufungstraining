@@ -24,19 +24,23 @@ export default function NotesPanel({ setId }: NotesPanelProps) {
     <div className="notes-panel">
       <button
         type="button"
-        className="notes-toggle"
+        className="secondary-button small"
+        aria-expanded={open}
         onClick={() => setOpen((current) => !current)}
       >
-        {open ? "Notizen ausblenden" : "Notizen"}
+        Notizen
       </button>
       {open && (
-        <textarea
-          className="notes-textarea"
-          value={text}
-          onChange={(e) => handleChange(e.target.value)}
-          placeholder="Ihre Notizen zu diesem Set..."
-          rows={5}
-        />
+        <div className="notes-popover">
+          <textarea
+            className="notes-textarea"
+            value={text}
+            onChange={(e) => handleChange(e.target.value)}
+            placeholder="Ihre Notizen zu diesem Set..."
+            rows={6}
+            autoFocus
+          />
+        </div>
       )}
     </div>
   );

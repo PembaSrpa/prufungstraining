@@ -4,7 +4,7 @@
   "exam": "Goethe-Zertifikat A1: Start Deutsch 1",
   "source_type": "official",
   "source_url": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_uebungssatz02.pdf",
-  "edition": "6. ueberarbeitete Auflage, Februar 2024",
+  "edition": "6. überarbeitete Auflage, Februar 2024",
   "skills": {
     "hoeren": {
       "timer_seconds": 1200,
@@ -12,7 +12,7 @@
       "parts": [
         {
           "part_number": 1,
-          "instructions": "Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hoeren jeden Text zweimal.",
+          "instructions": "Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
           "questions": [
             {
               "id": "h1-1",
@@ -39,7 +39,7 @@
               "prompt": "Wo stehen Taxis?",
               "options": [
                 "An der Ecke rechts.",
-                "Die Strasse geradeaus.",
+                "Die Straße geradeaus.",
                 "Geradeaus und links."
               ],
               "correct_answer": 2
@@ -66,7 +66,7 @@
             },
             {
               "id": "h1-6",
-              "prompt": "Wann ist Frau Horn aus dem Urlaub zurueck?",
+              "prompt": "Wann ist Frau Horn aus dem Urlaub zurück?",
               "options": [
                 "Am Mittwoch.",
                 "Am Freitag.",
@@ -78,11 +78,11 @@
         },
         {
           "part_number": 2,
-          "instructions": "Kreuzen Sie an: Richtig oder Falsch. Sie hoeren jeden Text einmal.",
+          "instructions": "Kreuzen Sie an: Richtig oder Falsch. Sie hören jeden Text einmal.",
           "questions": [
             {
               "id": "h2-7",
-              "prompt": "Die Fahrgaeste sollen den Bus nehmen.",
+              "prompt": "Die Fahrgäste sollen den Bus nehmen.",
               "options": [
                 "Richtig",
                 "Falsch"
@@ -109,7 +109,7 @@
             },
             {
               "id": "h2-10",
-              "prompt": "Fahrgaeste nach Innsbruck sollen mit dem ICE 346 fahren.",
+              "prompt": "Fahrgäste nach Innsbruck sollen mit dem ICE 346 fahren.",
               "options": [
                 "Richtig",
                 "Falsch"
@@ -120,7 +120,7 @@
         },
         {
           "part_number": 3,
-          "instructions": "Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hoeren jeden Text zweimal.",
+          "instructions": "Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
           "questions": [
             {
               "id": "h3-11",
@@ -134,7 +134,7 @@
             },
             {
               "id": "h3-12",
-              "prompt": "Wo moechte Heinz Siggi treffen?",
+              "prompt": "Wo möchte Heinz Siggi treffen?",
               "options": [
                 "Am Bahnhof.",
                 "Im italienischen Restaurant.",
@@ -144,7 +144,7 @@
             },
             {
               "id": "h3-13",
-              "prompt": "Wann moechte Eva Schmitz am Mittwoch kommen?",
+              "prompt": "Wann möchte Eva Schmitz am Mittwoch kommen?",
               "options": [
                 "Um 10.00 Uhr.",
                 "Um 11.00 Uhr.",
@@ -164,10 +164,10 @@
             },
             {
               "id": "h3-15",
-              "prompt": "Wie kommt Herr Mueller ins Buero?",
+              "prompt": "Wie kommt Herr Müller ins Büro?",
               "options": [
                 "Mit dem Fahrrad.",
-                "Mit der Strassenbahn.",
+                "Mit der Straßenbahn.",
                 "Mit dem Auto."
               ],
               "correct_answer": 0
@@ -176,21 +176,21 @@
         }
       ],
       "transcripts": [
-        "Hanna: Wo wollen wir die Party machen? Steffi: Ich bin fuer eine Feier am See. Hanna: Ich finde eine Party im Garten besser. Steffi: In Ordnung.",
-        "Martin: Moechtest du heute Abend ins Konzert gehen? Das Konzert faengt um neun Uhr an. Wollen wir uns um halb neun an der Kasse treffen?",
+        "Hanna: Wo wollen wir die Party machen? Steffi: Ich bin für eine Feier am See. Hanna: Ich finde eine Party im Garten besser. Steffi: In Ordnung.",
+        "Martin: Möchtest du heute Abend ins Konzert gehen? Das Konzert fängt um neun Uhr an. Wollen wir uns um halb neun an der Kasse treffen?",
         "Dame: Ich suche ein Taxi. Herr: Gehen Sie hier geradeaus und an der Ecke nach links, dann stehen die Taxis.",
         "Herr: Wie lange dauern Ihre Kurse? Dame: Die Sommerkurse jetzt im Juli und August zwei Wochen.",
         "Mann: Wir treffen uns im Park, soll ich was mitbringen? Frau: Vielleicht ein Kartenspiel. Ich bringe Salat mit und Clara Saft.",
-        "Dame: Ich moechte Frau Horn sprechen. Herr: Sie ist von Mittwoch bis Freitag im Urlaub, am Montag kommt sie zurueck.",
-        "Ansage: Diese Strassenbahn hat ein Problem mit den Tueren, bitte steigen Sie an der naechsten Haltestelle aus, dort haben Sie Anschluss an den Bus Linie 19.",
-        "Ansage: Liebe Kunden, kommen Sie in den dritten Stock zu den Sonderangeboten bei den Badmoebeln.",
-        "Ansage: Hier spricht die Polizei, es gibt ein grosses Feuer, bitte gehen Sie nicht aus dem Haus.",
-        "Ansage: Intercity nach Innsbruck faehrt heute nicht, Fahrgaeste nach Innsbruck benutzen bitte den ICE 346 nach Muenchen und steigen dort um.",
-        "Greta: Ich will am Montagmorgen das Formular fuer die Wohnungsanmeldung holen.",
-        "Heinz: Das Restaurant Zwiebel hat heute geschlossen, koennen wir uns am Bahnhof treffen?",
+        "Dame: Ich möchte Frau Horn sprechen. Herr: Sie ist von Mittwoch bis Freitag im Urlaub, am Montag kommt sie zurück.",
+        "Ansage: Diese Straßenbahn hat ein Problem mit den Türen, bitte steigen Sie an der nächsten Haltestelle aus, dort haben Sie Anschluss an den Bus Linie 19.",
+        "Ansage: Liebe Kunden, kommen Sie in den dritten Stock zu den Sonderangeboten bei den Badmöbeln.",
+        "Ansage: Hier spricht die Polizei, es gibt ein großes Feuer, bitte gehen Sie nicht aus dem Haus.",
+        "Ansage: Intercity nach Innsbruck fährt heute nicht, Fahrgäste nach Innsbruck benutzen bitte den ICE 346 nach München und steigen dort um.",
+        "Greta: Ich will am Montagmorgen das Formular für die Wohnungsanmeldung holen.",
+        "Heinz: Das Restaurant Zwiebel hat heute geschlossen, können wir uns am Bahnhof treffen?",
         "Eva Schmitz: Ich kann morgen nicht kommen, geht es auch am Mittwoch um 10 Uhr?",
         "Ansage: Bitte sprechen Sie Ihre Telefonnummer auf den Anrufbeantworter, bitte keine E-Mail-Adressen.",
-        "Ernst Mueller: Mein Auto ist kaputt, ich muss das Fahrrad nehmen und komme etwas spaeter."
+        "Ernst Müller: Mein Auto ist kaputt, ich muss das Fahrrad nehmen und komme etwas später."
       ]
     },
     "lesen": {
@@ -199,13 +199,13 @@
         {
           "part_number": 1,
           "instructions": "Lesen Sie die beiden Texte und die Aufgaben 1 bis 5. Kreuzen Sie an: Richtig oder Falsch.",
-          "text": "Text 1 (Winfried Beck an Frau Dehner): Vielen Dank fuer die Einladung zu Ihrem Jazz-Konzert. Ich komme gern. Ich danke Ihnen, dass ich in Ihrem Gaestezimmer schlafen kann und kein Hotel suchen muss. Mein Zug kommt schon um circa 16 Uhr an. Kann ich Ihnen am Nachmittag vor dem Konzert etwas helfen? Text 2: Quelle nicht vollstaendig extrahiert, betrifft eine Frau Stein in Berlin und einen Termin mit Dr. Falk.",
+          "text": "Text 1 (Winfried Beck an Frau Dehner): Vielen Dank für die Einladung zu Ihrem Jazz-Konzert. Ich komme gern. Ich danke Ihnen, dass ich in Ihrem Gästezimmer schlafen kann und kein Hotel suchen muss. Mein Zug kommt schon um circa 16 Uhr an. Kann ich Ihnen am Nachmittag vor dem Konzert etwas helfen? Text 2: Quelle nicht vollständig extrahiert, betrifft eine Frau Stein in Berlin und einen Termin mit Dr. Falk.",
           "needs_review": true,
           "review_note": "Text 2 (Frau Stein/Dr. Falk, questions 3-5) does not extract as text, confirmed across two independent source copies of this PDF plus a targeted web search; almost certainly embedded as an image in the original document.",
           "questions": [
             {
               "id": "l1-1",
-              "prompt": "Herr Beck uebernachtet im Hotel.",
+              "prompt": "Herr Beck übernachtet im Hotel.",
               "options": [
                 "Richtig",
                 "Falsch"
@@ -256,7 +256,7 @@
         {
           "part_number": 2,
           "instructions": "Wo finden Sie Informationen? Kreuzen Sie an: a oder b.",
-          "text": "www.raum-in-koeln.de (Raum fuer Tanz, Sport, Hochzeiten, private Feiern zu vermieten) vs www.wohnen-in-koeln.de (schoene Zimmer und Apartments zur Miete in Koeln). www.computer-loesungen.de (fuer alles was mit Computern, Druckern, Internet zu tun hat, auch Reparaturen) vs www.technohaus.de (gebrauchte Geraete verkaufen, keine Reparaturen). www.tanzen-macht-spass.de (Tanzschule Renz, neue Tanzkurse fuer Jugendliche und Erwachsene) vs www.wohin-am-wochenende.de (Aladin Tanz-Restaurant, erst essen dann tanzen, Freitag und Samstag bis 4 Uhr geoeffnet). www.freizeitsport-freiburg.de (Basketball, Fitness, Fussball, Montag-Donnerstag 18.30-21.00 im Suedpark) vs www.fc-1897.de/training (FC 1897 sucht Spieler, Treffpunkt Sportanlage Ulrichsplatz, Sonntag 10-12 Uhr, keine Anmeldung). Fuer Frage 10: Baeckerei braucht Hilfe, sucht eine junge Frau/einen jungen Mann im Verkauf am Samstag von 7 bis 11 Uhr, Telefon 0176-554321. Separat: Junge Verkaeuferin/Junger Verkaeufer gesucht fuer Zeitungskiosk, 42-Stunden-Woche bei guter Bezahlung, Telefon 0160-68345620.",
+          "text": "www.raum-in-koeln.de (Raum für Tanz, Sport, Hochzeiten, private Feiern zu vermieten) vs www.wohnen-in-koeln.de (schöne Zimmer und Apartments zur Miete in Köln). www.computer-loesungen.de (für alles was mit Computern, Druckern, Internet zu tun hat, auch Reparaturen) vs www.technohaus.de (gebrauchte Geräte verkaufen, keine Reparaturen). www.tanzen-macht-spass.de (Tanzschule Renz, neue Tanzkurse für Jugendliche und Erwachsene) vs www.wohin-am-wochenende.de (Aladin Tanz-Restaurant, erst essen dann tanzen, Freitag und Samstag bis 4 Uhr geöffnet). www.freizeitsport-freiburg.de (Basketball, Fitness, Fußball, Montag-Donnerstag 18.30-21.00 im Südpark) vs www.fc-1897.de/training (FC 1897 sucht Spieler, Treffpunkt Sportanlage Ulrichsplatz, Sonntag 10-12 Uhr, keine Anmeldung). Für Frage 10: Bäckerei braucht Hilfe, sucht eine junge Frau/einen jungen Mann im Verkauf am Samstag von 7 bis 11 Uhr, Telefon 0176-554321. Separat: Junge Verkäuferin/Junger Verkäufer gesucht für Zeitungskiosk, 42-Stunden-Woche bei guter Bezahlung, Telefon 0160-68345620.",
           "questions": [
             {
               "id": "l2-6",
@@ -269,7 +269,7 @@
             },
             {
               "id": "l2-7",
-              "prompt": "Der Computer ist kaputt. Sie koennen ihn nicht allein reparieren.",
+              "prompt": "Der Computer ist kaputt. Sie können ihn nicht allein reparieren.",
               "options": [
                 "www.computer-loesungen.de",
                 "www.technohaus.de"
@@ -278,7 +278,7 @@
             },
             {
               "id": "l2-8",
-              "prompt": "Sie moechten am Samstagabend mit Freunden tanzen gehen.",
+              "prompt": "Sie möchten am Samstagabend mit Freunden tanzen gehen.",
               "options": [
                 "www.tanzen-macht-spass.de",
                 "www.wohin-am-wochenende.de"
@@ -287,7 +287,7 @@
             },
             {
               "id": "l2-9",
-              "prompt": "Sie moechten am Wochenende Fussball spielen.",
+              "prompt": "Sie möchten am Wochenende Fußball spielen.",
               "options": [
                 "www.freizeitsport-freiburg.de",
                 "www.fc-1897.de/training"
@@ -296,9 +296,9 @@
             },
             {
               "id": "l2-10",
-              "prompt": "Sie studieren und moechten ein bisschen arbeiten.",
+              "prompt": "Sie studieren und möchten ein bisschen arbeiten.",
               "options": [
-                "0176-554321 (Baeckerei, nur Samstag 7-11 Uhr)",
+                "0176-554321 (Bäckerei, nur Samstag 7-11 Uhr)",
                 "0160-68345620 (Zeitungskiosk, 42-Stunden-Woche)"
               ],
               "correct_answer": 0
@@ -308,7 +308,7 @@
         {
           "part_number": 3,
           "instructions": "Lesen Sie die Texte und die Aufgaben 11 bis 15. Kreuzen Sie an: Richtig oder Falsch.",
-          "text": "Blumenladen-Schild: Ab sofort auch sonntags von 9-12 Uhr geoeffnet. Restaurant-Schild: Im naechsten Monat kocht ein Koch aus Kalkutta indische Spezialitaeten. Strassenbahn-Schild: Linie 8 ab 1.5. nur bis Hauptbahnhof, Weiterfahrt nach Huchting mit Linie 1 oder Bus 53. Haustuer- und Bahnhof-Schilder fuer Fragen 14 und 15 nicht vollstaendig extrahiert.",
+          "text": "Blumenladen-Schild: Ab sofort auch sonntags von 9-12 Uhr geöffnet. Restaurant-Schild: Im nächsten Monat kocht ein Koch aus Kalkutta indische Spezialitäten. Straßenbahn-Schild: Linie 8 ab 1.5. nur bis Hauptbahnhof, Weiterfahrt nach Huchting mit Linie 1 oder Bus 53. Haustür- und Bahnhof-Schilder für Fragen 14 und 15 nicht vollständig extrahiert.",
           "needs_review": true,
           "review_note": "Sign texts for questions 14 and 15 do not extract from the source PDF, confirmed across two independent source copies; almost certainly embedded as images in the original document.",
           "questions": [
@@ -332,7 +332,7 @@
             },
             {
               "id": "l3-13",
-              "prompt": "Es ist der 2. Mai, 21 Uhr. Sie koennen jetzt nicht zum Hauptbahnhof fahren.",
+              "prompt": "Es ist der 2. Mai, 21 Uhr. Sie können jetzt nicht zum Hauptbahnhof fahren.",
               "options": [
                 "Richtig",
                 "Falsch"
@@ -341,7 +341,7 @@
             },
             {
               "id": "l3-14",
-              "prompt": "Sie koennen die Wohnung nicht besichtigen.",
+              "prompt": "Sie können die Wohnung nicht besichtigen.",
               "options": [
                 "Richtig",
                 "Falsch"
@@ -351,7 +351,7 @@
             },
             {
               "id": "l3-15",
-              "prompt": "Ab 22 Uhr koennen Sie keine Fahrkarten mehr kaufen.",
+              "prompt": "Ab 22 Uhr können Sie keine Fahrkarten mehr kaufen.",
               "options": [
                 "Richtig",
                 "Falsch"
@@ -368,13 +368,13 @@
       "parts": [
         {
           "part_number": 1,
-          "task_instructions": "Ihr Freund, Vladimir Serjakov, 30 Jahre alt, kommt aus Sankt Petersburg in Russland und lebt seit einem Monat in Hamburg. Er hat eine neue Stelle bei TUI als Reiseleiter. Seit gestern hat er 39 Grad Fieber. Heute geht er zum Arzt. Helfen Sie Ihrem Freund und schreiben Sie die fuenf fehlenden Informationen in das Formular.",
+          "task_instructions": "Ihr Freund, Vladimir Serjakov, 30 Jahre alt, kommt aus Sankt Petersburg in Russland und lebt seit einem Monat in Hamburg. Er hat eine neue Stelle bei TUI als Reiseleiter. Seit gestern hat er 39 Grad Fieber. Heute geht er zum Arzt. Helfen Sie Ihrem Freund und schreiben Sie die fünf fehlenden Informationen in das Formular.",
           "task_prompt": "Formularfelder: Wohnort (Hamburg), Alter (30 Jahre), Beruf (Reiseleiter), seit wann krank (seit gestern), Symptom (39 Grad Fieber)."
         },
         {
           "part_number": 2,
-          "task_instructions": "Ihr neuer Kollege, Herr Jensch, laedt Sie am Dienstag um 15 Uhr zu seiner Geburtstagsfeier im Buero ein. Schreiben Sie Herrn Jensch eine E-Mail.",
-          "task_prompt": "Warum schreiben Sie? Sagen Sie: spaeter kommen. Fragen Sie: helfen?"
+          "task_instructions": "Ihr neuer Kollege, Herr Jensch, lädt Sie am Dienstag um 15 Uhr zu seiner Geburtstagsfeier im Büro ein. Schreiben Sie Herrn Jensch eine E-Mail.",
+          "task_prompt": "Warum schreiben Sie? Sagen Sie: später kommen. Fragen Sie: helfen?"
         }
       ]
     },
@@ -385,7 +385,7 @@
           "topic": "Sich vorstellen",
           "example_questions": [
             "Wer sind Sie? Name, Herkunft, Wohnort, Sprachen, Hobby.",
-            "Koennen Sie das bitte buchstabieren?",
+            "Können Sie das bitte buchstabieren?",
             "Wie ist Ihre Telefonnummer?"
           ]
         },
@@ -393,7 +393,7 @@
           "part_number": 2,
           "topic": "Um Informationen bitten und Informationen geben (Themen: Beruf, Sport)",
           "example_questions": [
-            "Thema Beruf: Arbeitszeit, Kollegen, Spass, Arbeitskleidung, Arbeitsplatz, Aufgaben.",
+            "Thema Beruf: Arbeitszeit, Kollegen, Spaß, Arbeitskleidung, Arbeitsplatz, Aufgaben.",
             "Thema Sport: Lieblingssport, Schwimmen, Wochenende, Abend, Ball, Fahrrad."
           ]
         },

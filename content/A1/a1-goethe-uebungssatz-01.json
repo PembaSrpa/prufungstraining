@@ -4,7 +4,7 @@
   "exam": "Goethe-Zertifikat A1: Start Deutsch 1",
   "source_type": "official",
   "source_url": "https://www.goethe.de/pro/relaunch/prf/materialien/A1_sd1/sd_1_uebungssatz01.pdf",
-  "edition": "6. ueberarbeitete Auflage, Februar 2024",
+  "edition": "6. überarbeitete Auflage, Februar 2024",
   "skills": {
     "hoeren": {
       "timer_seconds": 1200,
@@ -12,11 +12,11 @@
       "parts": [
         {
           "part_number": 1,
-          "instructions": "Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hoeren jeden Text zweimal.",
+          "instructions": "Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
           "questions": [
             {
               "id": "h1-1",
-              "prompt": "Wo gibt es Kleidung fuer Kinder?",
+              "prompt": "Wo gibt es Kleidung für Kinder?",
               "options": [
                 "Im 1. Stock.",
                 "Im 2. Stock.",
@@ -28,7 +28,7 @@
               "id": "h1-2",
               "prompt": "Was bestellt die Dame?",
               "options": [
-                "Haehnchen.",
+                "Hähnchen.",
                 "Fisch.",
                 "Salat."
               ],
@@ -36,7 +36,7 @@
             },
             {
               "id": "h1-3",
-              "prompt": "Wie lange hat das Museum am Mittwoch geoeffnet?",
+              "prompt": "Wie lange hat das Museum am Mittwoch geöffnet?",
               "options": [
                 "Bis 15 Uhr.",
                 "Bis 18 Uhr.",
@@ -49,7 +49,7 @@
               "prompt": "Welchen Sport empfiehlt der Arzt?",
               "options": [
                 "Fahrrad fahren.",
-                "Fussball.",
+                "Fußball.",
                 "Laufen."
               ],
               "correct_answer": 0
@@ -66,7 +66,7 @@
             },
             {
               "id": "h1-6",
-              "prompt": "Wie lange dauert der Flug nach Muenchen?",
+              "prompt": "Wie lange dauert der Flug nach München?",
               "options": [
                 "30 Minuten.",
                 "45 Minuten.",
@@ -78,11 +78,11 @@
         },
         {
           "part_number": 2,
-          "instructions": "Kreuzen Sie an: Richtig oder Falsch. Sie hoeren jeden Text einmal.",
+          "instructions": "Kreuzen Sie an: Richtig oder Falsch. Sie hören jeden Text einmal.",
           "questions": [
             {
               "id": "h2-7",
-              "prompt": "Die Fahrgaeste sollen im Zug bleiben.",
+              "prompt": "Die Fahrgäste sollen im Zug bleiben.",
               "options": [
                 "Richtig",
                 "Falsch"
@@ -91,7 +91,7 @@
             },
             {
               "id": "h2-8",
-              "prompt": "Fluggaeste nach Rom sollen zu Ausgang A7 kommen.",
+              "prompt": "Fluggäste nach Rom sollen zu Ausgang A7 kommen.",
               "options": [
                 "Richtig",
                 "Falsch"
@@ -120,7 +120,7 @@
         },
         {
           "part_number": 3,
-          "instructions": "Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hoeren jeden Text zweimal.",
+          "instructions": "Was ist richtig? Kreuzen Sie an: a, b oder c. Sie hören jeden Text zweimal.",
           "questions": [
             {
               "id": "h3-11",
@@ -134,7 +134,7 @@
             },
             {
               "id": "h3-12",
-              "prompt": "Was moechte Nina heute Abend machen?",
+              "prompt": "Was möchte Nina heute Abend machen?",
               "options": [
                 "Einen Film sehen.",
                 "Lernen.",
@@ -147,7 +147,7 @@
               "prompt": "Was soll Sarah mitbringen?",
               "options": [
                 "Ein Deutschbuch.",
-                "Ein Woerterbuch.",
+                "Ein Wörterbuch.",
                 "Eine CD."
               ],
               "correct_answer": 1
@@ -176,19 +176,19 @@
         }
       ],
       "transcripts": [
-        "Maria: Weisst du, wo es hier Kleidung fuer Kinder gibt? Laura: Im zweiten Stock findest du Kinderkleidung.",
+        "Maria: Weißt du, wo es hier Kleidung für Kinder gibt? Laura: Im zweiten Stock findest du Kinderkleidung.",
         "Ober: Ich kann heute den Fisch empfehlen. Dame: Nein danke, Salat ist eine gute Idee, den bringen Sie mir bitte.",
-        "Frau: Am Mittwochnachmittag schliessen wir schon um 15 Uhr, an den anderen Tagen bis 18 Uhr, am Donnerstag bis 22 Uhr.",
-        "Tim: Mein Arzt sagt, ich soll mehr Sport machen. Fuer mich ist Rad fahren das Beste, sagt mein Arzt.",
-        "Herr: Machen Sie Urlaub am Meer? Dame: Dieses Jahr besuchen wir unsere Verwandten in Sueddeutschland.",
-        "Dame: Wie lange fliegst du nach Muenchen? Bruno: Nicht lange, nur 50 Minuten.",
-        "Ansage: Wir muessen kurz anhalten, es gibt Probleme mit dem Bordcomputer, bitte steigen Sie nicht aus.",
+        "Frau: Am Mittwochnachmittag schließen wir schon um 15 Uhr, an den anderen Tagen bis 18 Uhr, am Donnerstag bis 22 Uhr.",
+        "Tim: Mein Arzt sagt, ich soll mehr Sport machen. Für mich ist Rad fahren das Beste, sagt mein Arzt.",
+        "Herr: Machen Sie Urlaub am Meer? Dame: Dieses Jahr besuchen wir unsere Verwandten in Süddeutschland.",
+        "Dame: Wie lange fliegst du nach München? Bruno: Nicht lange, nur 50 Minuten.",
+        "Ansage: Wir müssen kurz anhalten, es gibt Probleme mit dem Bordcomputer, bitte steigen Sie nicht aus.",
         "Ansage: Passagiere nach Rom bitte Ausgang B18, Ausgang A7 im zweiten Stock ist zurzeit besetzt.",
-        "Ansage: Wir machen eine Pause von einer Stunde, um 14 Uhr fahren wir weiter, bitte kommen Sie puenktlich zum Bus.",
+        "Ansage: Wir machen eine Pause von einer Stunde, um 14 Uhr fahren wir weiter, bitte kommen Sie pünktlich zum Bus.",
         "Ansage: Der kleine Mario sucht seinen Vater, kommen Sie bitte schnell zum Informationsschalter im 1. Stock.",
-        "Autohaus Mayer: Heute sind wir nur bis 18 Uhr hier, bitte rufen Sie uns nach 13 Uhr zurueck.",
-        "Nina: Ich moechte heute Abend nicht zu Hause bleiben, im Metropolis gibt es einen guten Film.",
-        "Christoph: Ist mein Woerterbuch bei dir, bitte bring es gleich in den Kurs mit.",
+        "Autohaus Mayer: Heute sind wir nur bis 18 Uhr hier, bitte rufen Sie uns nach 13 Uhr zurück.",
+        "Nina: Ich möchte heute Abend nicht zu Hause bleiben, im Metropolis gibt es einen guten Film.",
+        "Christoph: Ist mein Wörterbuch bei dir, bitte bring es gleich in den Kurs mit.",
         "Maria: Ich gehe gleich mit Julia ins Konzert und danach so um elf in die Disco Aladin, wir treffen dich dort.",
         "Heinze: Nach der Mittagspause habe ich Zeit, wollen wir uns um 13 Uhr treffen?"
       ]
@@ -199,7 +199,7 @@
         {
           "part_number": 1,
           "instructions": "Lesen Sie die beiden Texte und die Aufgaben 1 bis 5. Kreuzen Sie an: Richtig oder Falsch.",
-          "text": "Text 1 (Renate an Nora): Ich bin naechste Woche drei Tage, von Montag bis Mittwoch, in Weimar. Ich muss viel arbeiten, habe viele Termine. Aber am Dienstag ab 18 Uhr habe ich Zeit. Ich wohne im Hotel Drei Kronen in der Parkstrasse, das Hotel hat ein sehr gutes Restaurant, wir koennen dorthin gehen. Text 2: Inhalt zu den Sportsfreunden und ihrem Sommerausflug wurde in der Quellenextraktion nicht vollstaendig erfasst.",
+          "text": "Text 1 (Renate an Nora): Ich bin nächste Woche drei Tage, von Montag bis Mittwoch, in Weimar. Ich muss viel arbeiten, habe viele Termine. Aber am Dienstag ab 18 Uhr habe ich Zeit. Ich wohne im Hotel Drei Kronen in der Parkstraße, das Hotel hat ein sehr gutes Restaurant, wir können dorthin gehen. Text 2: Inhalt zu den Sportsfreunden und ihrem Sommerausflug wurde in der Quellenextraktion nicht vollständig erfasst.",
           "needs_review": true,
           "review_note": "Text 2 (Sportsfreunde Ausflug, questions 3-5) does not extract as text, confirmed across three independent source copies of this PDF plus a targeted web search; almost certainly embedded as an image in the original document.",
           "questions": [
@@ -214,7 +214,7 @@
             },
             {
               "id": "l1-2",
-              "prompt": "Sie moechte am Abend mit Nora zusammen essen.",
+              "prompt": "Sie möchte am Abend mit Nora zusammen essen.",
               "options": [
                 "Richtig",
                 "Falsch"
@@ -243,7 +243,7 @@
             },
             {
               "id": "l1-5",
-              "prompt": "Fuer die Fahrt und das Essen bezahlt jeder 10 Euro.",
+              "prompt": "Für die Fahrt und das Essen bezahlt jeder 10 Euro.",
               "options": [
                 "Richtig",
                 "Falsch"
@@ -256,13 +256,13 @@
         {
           "part_number": 2,
           "instructions": "Wo finden Sie Informationen? Kreuzen Sie an: a oder b.",
-          "text": "www.goetheuni-frankfurt.de (Wohnen in Frankfurt, WGs, Studentenwohnheim, Ein- und Zweizimmerwohnungen, neues Zuhause finden) vs www.agentur-spiess.com (guenstige Kaufangebote, Haeuser, Wohnungen, Apartments). www.travel-muenchen.de (Reiseangebote Spanien und Tuerkei mit Preisen) vs www.lastminute.de (Reiseladen, Vortragsabend, keine konkreten Angebote). www.st.peter-ording.de/mietwohnungen (3-Zimmerwohnung, 5 Minuten zum Meer, keine Kueche) vs www.ferienandernordsee.de (Ferienhaeuser und -wohnungen, alle Groessen, das ganze Jahr, auch auf den Inseln). www.goal.de vs www.vereinssport.de fuer Frage 10.",
+          "text": "www.goetheuni-frankfurt.de (Wohnen in Frankfurt, WGs, Studentenwohnheim, Ein- und Zweizimmerwohnungen, neues Zuhause finden) vs www.agentur-spiess.com (günstige Kaufangebote, Häuser, Wohnungen, Apartments). www.travel-muenchen.de (Reiseangebote Spanien und Türkei mit Preisen) vs www.lastminute.de (Reiseladen, Vortragsabend, keine konkreten Angebote). www.st.peter-ording.de/mietwohnungen (3-Zimmerwohnung, 5 Minuten zum Meer, keine Küche) vs www.ferienandernordsee.de (Ferienhäuser und -wohnungen, alle Größen, das ganze Jahr, auch auf den Inseln). www.goal.de vs www.vereinssport.de für Frage 10.",
           "needs_review": true,
           "review_note": "Full ad text for questions 7 and 10 does not extract from the source PDF, confirmed across three independent source copies; almost certainly embedded as images. Question 9 is confirmed correct against full source text.",
           "questions": [
             {
               "id": "l2-6",
-              "prompt": "Sie studieren in Frankfurt und moechten eine Wohnung mieten.",
+              "prompt": "Sie studieren in Frankfurt und möchten eine Wohnung mieten.",
               "options": [
                 "www.goetheuni-frankfurt.de",
                 "www.agentur-spiess.com"
@@ -271,7 +271,7 @@
             },
             {
               "id": "l2-7",
-              "prompt": "Sie moechten wissen: Wie kommt man vom Hamburger Bahnhof zum Hamburger Flughafen?",
+              "prompt": "Sie möchten wissen: Wie kommt man vom Hamburger Bahnhof zum Hamburger Flughafen?",
               "options": [
                 "www.flughafen-service.de",
                 "www.hh-flughafen.de"
@@ -281,7 +281,7 @@
             },
             {
               "id": "l2-8",
-              "prompt": "Sie suchen ein Angebot fuer Ihre Urlaubsreise.",
+              "prompt": "Sie suchen ein Angebot für Ihre Urlaubsreise.",
               "options": [
                 "www.travel-muenchen.de",
                 "www.lastminute.de"
@@ -290,16 +290,16 @@
             },
             {
               "id": "l2-9",
-              "prompt": "Sie suchen eine Wohnung fuer Ihren Urlaub.",
+              "prompt": "Sie suchen eine Wohnung für Ihren Urlaub.",
               "options": [
-                "www.st.peter-ording.de/mietwohnungen (3-Zimmerwohnung, 5 Minuten zum Meer, keine Kueche)",
-                "www.ferienandernordsee.de (Ferienhaeuser und -wohnungen, alle Groessen, das ganze Jahr)"
+                "www.st.peter-ording.de/mietwohnungen (3-Zimmerwohnung, 5 Minuten zum Meer, keine Küche)",
+                "www.ferienandernordsee.de (Ferienhäuser und -wohnungen, alle Größen, das ganze Jahr)"
               ],
               "correct_answer": 0
             },
             {
               "id": "l2-10",
-              "prompt": "Sie arbeiten in Deutschland. In Ihrer Freizeit moechten Sie Fussball spielen.",
+              "prompt": "Sie arbeiten in Deutschland. In Ihrer Freizeit möchten Sie Fußball spielen.",
               "options": [
                 "www.goal.de",
                 "www.vereinssport.de"
@@ -312,13 +312,13 @@
         {
           "part_number": 3,
           "instructions": "Lesen Sie die Texte und die Aufgaben 11 bis 15. Kreuzen Sie an: Richtig oder Falsch.",
-          "text": "Fahrkartenautomat: Bayern-Ticket, ein Tag, fuenf Personen, 29 Euro, Montag und Freitag ab 9 Uhr, am Wochenende von 6 bis 24 Uhr. Hotelzimmer-Schild: Ab 21 Uhr ist die Haustuer geschlossen, bitte nehmen Sie Ihren Zimmerschluessel mit, er ist auch der Hausschluessel. Kultur-Verein/Bahnhof-Schild: Kartenverkauf an Schalter 1 bis 3, Informationen an Schalter 4. Ab sofort jeden Samstag um 20 Uhr Filmabend, am 3.5. Im Juli von Fatih Akin, Eintritt 2 Euro. Restaurant-Eingangsschild fuer Frage 13 nicht vollstaendig extrahiert.",
+          "text": "Fahrkartenautomat: Bayern-Ticket, ein Tag, fünf Personen, 29 Euro, Montag und Freitag ab 9 Uhr, am Wochenende von 6 bis 24 Uhr. Hotelzimmer-Schild: Ab 21 Uhr ist die Haustür geschlossen, bitte nehmen Sie Ihren Zimmerschlüssel mit, er ist auch der Hausschlüssel. Kultur-Verein/Bahnhof-Schild: Kartenverkauf an Schalter 1 bis 3, Informationen an Schalter 4. Ab sofort jeden Samstag um 20 Uhr Filmabend, am 3.5. Im Juli von Fatih Akin, Eintritt 2 Euro. Restaurant-Eingangsschild für Frage 13 nicht vollständig extrahiert.",
           "needs_review": true,
           "review_note": "The restaurant sign text for question 13 does not extract as text, confirmed across three independent source copies of this PDF; almost certainly embedded as an image in the original document.",
           "questions": [
             {
               "id": "l3-11",
-              "prompt": "Am Samstag koennen Sie und Ihre Freunde mit dem Ticket fuer 29 Euro fahren.",
+              "prompt": "Am Samstag können Sie und Ihre Freunde mit dem Ticket für 29 Euro fahren.",
               "options": [
                 "Richtig",
                 "Falsch"
@@ -336,7 +336,7 @@
             },
             {
               "id": "l3-13",
-              "prompt": "Am Sonntagmittag koennen Sie in diesem Restaurant essen.",
+              "prompt": "Am Sonntagmittag können Sie in diesem Restaurant essen.",
               "options": [
                 "Richtig",
                 "Falsch"
@@ -355,7 +355,7 @@
             },
             {
               "id": "l3-15",
-              "prompt": "Fahrkarten koennen Sie an allen Schaltern bekommen.",
+              "prompt": "Fahrkarten können Sie an allen Schaltern bekommen.",
               "options": [
                 "Richtig",
                 "Falsch"
@@ -371,12 +371,12 @@
       "parts": [
         {
           "part_number": 1,
-          "task_instructions": "Ihre Freundin Yvonne Legrand aus Frankreich, geboren am 17.4.1993 in Lyon, moechte vom 1. bis zum 28. August einen Deutschkurs in Deutschland besuchen. Sie hat schon sechs Monate Deutsch gelernt. Sie hat am Vormittag Zeit. In der Schule hat sie Englisch gelernt. Helfen Sie Ihrer Freundin und schreiben Sie die fuenf fehlenden Informationen in das Formular.",
+          "task_instructions": "Ihre Freundin Yvonne Legrand aus Frankreich, geboren am 17.4.1993 in Lyon, möchte vom 1. bis zum 28. August einen Deutschkurs in Deutschland besuchen. Sie hat schon sechs Monate Deutsch gelernt. Sie hat am Vormittag Zeit. In der Schule hat sie Englisch gelernt. Helfen Sie Ihrer Freundin und schreiben Sie die fünf fehlenden Informationen in das Formular.",
           "task_prompt": "Formularfelder: Geburtsort (Lyon), Andere Sprachen (Englisch), Wie lange schon Deutsch gelernt (6 Monate), Kurstermin (1. bis 28. August), Kurszeit (9-12 Uhr)."
         },
         {
           "part_number": 2,
-          "task_instructions": "Sie moechten Ihren Geburtstag feiern und Ihre Freundin Anna einladen. Schreiben Sie Anna eine E-Mail.",
+          "task_instructions": "Sie möchten Ihren Geburtstag feiern und Ihre Freundin Anna einladen. Schreiben Sie Anna eine E-Mail.",
           "task_prompt": "Warum schreiben Sie? Sagen Sie: Wann und wo feiern Sie? Fragen Sie: kommen?"
         }
       ]
@@ -388,7 +388,7 @@
           "topic": "Sich vorstellen",
           "example_questions": [
             "Wer sind Sie? Name, Herkunft, Wohnort, Sprachen, Hobby.",
-            "Koennen Sie das bitte buchstabieren?",
+            "Können Sie das bitte buchstabieren?",
             "Wie ist Ihre Telefonnummer?"
           ]
         },
@@ -396,7 +396,7 @@
           "part_number": 2,
           "topic": "Um Informationen bitten und Informationen geben (Themen: Wochenende, Schule)",
           "example_questions": [
-            "Thema Wochenende: Sonntag, Fruehstueck, Sport, Familie, Ausflug, Buecher.",
+            "Thema Wochenende: Sonntag, Frühstück, Sport, Familie, Ausflug, Bücher.",
             "Thema Schule: Freunde, Lehrer, Computer, Sprachen, Essen, Hausaufgaben."
           ]
         },

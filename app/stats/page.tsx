@@ -5,7 +5,7 @@ import Link from "next/link";
 import { getSetStats, getSkillStats, type SetStat, type SkillStat } from "@/lib/storage";
 
 const SKILL_LABEL: Record<string, string> = {
-  hoeren: "Hoeren",
+  hoeren: "Hören",
   lesen: "Lesen",
   schreiben: "Schreiben",
   sprechen: "Sprechen"
@@ -41,7 +41,7 @@ export default function StatsPage() {
       {skillStats !== null && !hasData && (
         <p className="review-text">
           Noch keine bewerteten Versuche vorhanden. Machen Sie zuerst eine
-          Hoeren- oder Lesen-Uebung.
+          Hören- oder Lesen-Übung.
         </p>
       )}
 
@@ -69,7 +69,7 @@ export default function StatsPage() {
 
       {setStats !== null && setStats.length > 0 && (
         <>
-          <h2 className="level-heading">Schwaechste Sets zuerst</h2>
+          <h2 className="level-heading">Schwächste Sets zuerst</h2>
           <ul className="toc-list">
             {setStats.map((stat) => (
               <li key={`${stat.setId}-${stat.skill}`} className="toc-item">
@@ -86,7 +86,7 @@ export default function StatsPage() {
                     href={`/practice/${stat.level}/${stat.skill}/${stat.setId}`}
                     className="skill-link"
                   >
-                    Nochmal ueben
+                    Nochmal üben
                   </Link>
                 </div>
               </li>
@@ -97,7 +97,7 @@ export default function StatsPage() {
 
       <div className="exam-footer" style={{ padding: "24px 0 0", justifyContent: "flex-start" }}>
         <Link href="/" className="secondary-button">
-          Zurueck zur Uebersicht
+          Zurück zur Übersicht
         </Link>
       </div>
     </main>

@@ -73,12 +73,12 @@ export default function AudioPlayer({ src, audioRef, started, paused }: AudioPla
           {failed
             ? "Audio konnte nicht geladen werden"
             : ended
-              ? "Hoertext beendet"
+              ? "Hörtext beendet"
               : paused
                 ? "Audio pausiert"
                 : started
-                  ? "Hoertext laeuft"
-                  : "Hoertext bereit"}
+                  ? "Hörtext läuft"
+                  : "Hörtext bereit"}
         </span>
         <span className="audio-clock">
           {formatClock(elapsed)}
@@ -90,7 +90,7 @@ export default function AudioPlayer({ src, audioRef, started, paused }: AudioPla
       </div>
       {failed && (
         <a className="audio-fallback" href={src} target="_blank" rel="noreferrer">
-          Audio direkt oeffnen
+          Audio direkt öffnen
         </a>
       )}
     </div>

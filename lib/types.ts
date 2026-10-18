@@ -4,11 +4,15 @@ export type ExamMode = "practice" | "exam";
 export type Skill = "hoeren" | "lesen" | "schreiben" | "sprechen";
 export type SourceType = "official" | "unofficial";
 
+export type QuestionType = "choice" | "text";
+
 export interface Question {
   id: string;
+  type?: QuestionType;
   prompt: string;
   options: string[];
   correct_answer: number | null;
+  accepted_answers?: string[];
   needs_review?: boolean;
 }
 

@@ -19,7 +19,7 @@ export default function SprechenReference({
       <h1 className="page-title">Sprechen</h1>
       <p className="page-subtitle">
         Referenzmaterial ohne Timer und ohne Bewertung. Themen und
-        Beispielfragen zum Nachschlagen und Ueben mit einem Partner.
+        Beispielfragen zum Nachschlagen und Üben mit einem Partner.
       </p>
 
       {parts.map((part) => (

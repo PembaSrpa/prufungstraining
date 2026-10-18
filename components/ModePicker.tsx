@@ -14,16 +14,16 @@ export default function ModePicker({ onChoose }: ModePickerProps) {
         className="mode-card"
         onClick={() => onChoose("practice")}
       >
-        <span className="mode-card-title">Uebungsmodus</span>
+        <span className="mode-card-title">Übungsmodus</span>
         <span className="mode-card-desc">
-          Pausierbar, mit Notizen und Markieren. Fuer entspanntes Lernen.
+          Pausierbar, mit Notizen und Markieren. Für entspanntes Lernen.
         </span>
       </button>
       <button type="button" className="mode-card" onClick={() => onChoose("exam")}>
-        <span className="mode-card-title">Pruefungsmodus</span>
+        <span className="mode-card-title">Prüfungsmodus</span>
         <span className="mode-card-desc">
-          Vollbild, kein Pausieren, automatische Abgabe wenn die Zeit ablaeuft.
-          Wie die echte Pruefung.
+          Vollbild, kein Pausieren, automatische Abgabe wenn die Zeit abläuft.
+          Wie die echte Prüfung.
         </span>
       </button>
     </div>

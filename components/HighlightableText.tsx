@@ -53,7 +53,7 @@ export default function HighlightableText({ text, enabled, onAddToVocab }: Highl
       </div>
       {enabled && onAddToVocab && highlighted.size > 0 && (
         <button type="button" className="secondary-button small vocab-add-button" onClick={handleAddToVocab}>
-          Markierte Woerter zu Vokabeln hinzufuegen
+          Markierte Wörter zu Vokabeln hinzufügen
         </button>
       )}
     </div>

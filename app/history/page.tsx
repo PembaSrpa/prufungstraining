@@ -5,7 +5,7 @@ import Link from "next/link";
 import { clearAttempts, getAttempts, type AttemptRecord } from "@/lib/storage";
 
 const SKILL_LABEL: Record<string, string> = {
-  hoeren: "Hoeren",
+  hoeren: "Hören",
   lesen: "Lesen",
   schreiben: "Schreiben",
   sprechen: "Sprechen"
@@ -70,7 +70,7 @@ export default function HistoryPage() {
           </ul>
           <div className="exam-footer" style={{ padding: "24px 0 0" }}>
             <button type="button" className="secondary-button" onClick={handleClear}>
-              Verlauf loeschen
+              Verlauf löschen
             </button>
           </div>
         </>
@@ -78,7 +78,7 @@ export default function HistoryPage() {
 
       <div className="exam-footer" style={{ padding: "12px 0 0", justifyContent: "flex-start" }}>
         <Link href="/" className="secondary-button">
-          Zurueck zur Uebersicht
+          Zurück zur Übersicht
         </Link>
       </div>
     </main>

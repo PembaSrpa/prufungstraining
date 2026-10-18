@@ -1,55 +1,67 @@
 import Link from "next/link";
+import TranscriptPanel from "./TranscriptPanel";
+import {
+  describeAnswer,
+  describeCorrect,
+  hasAnswer,
+  isCorrect,
+  isGradable,
+  type Answer
+} from "@/lib/grading";
 import type { HoerenLesenPart } from "@/lib/types";
 
 interface ScoreSummaryProps {
   parts: HoerenLesenPart[];
-  answers: Record<string, number>;
+  answers: Record<string, Answer>;
   level: string;
+  transcripts?: string[];
   onRetryWrong?: (questionIds: string[]) => void;
 }
 
-export default function ScoreSummary({ parts, answers, level, onRetryWrong }: ScoreSummaryProps) {
+export default function ScoreSummary({
+  parts,
+  answers,
+  level,
+  transcripts,
+  onRetryWrong
+}: ScoreSummaryProps) {
   const allQuestions = parts.flatMap((part) => part.questions);
-  const gradable = allQuestions.filter((q) => q.correct_answer !== null);
-  const correctCount = gradable.filter(
-    (q) => answers[q.id] === q.correct_answer
-  ).length;
-  const wrongIds = gradable
-    .filter((q) => answers[q.id] !== q.correct_answer)
-    .map((q) => q.id);
+  const gradable = allQuestions.filter(isGradable);
+  const correctCount = gradable.filter((q) => isCorrect(q, answers[q.id])).length;
+  const wrongIds = gradable.filter((q) => !isCorrect(q, answers[q.id])).map((q) => q.id);
 
   return (
-    <div className="score-panel">
+    <div className="score-panel" data-level={level}>
       <h2 className="score-headline">
         {correctCount} von {gradable.length} richtig
       </h2>
       <p className="score-sub">
         {allQuestions.length - gradable.length > 0
-          ? `${allQuestions.length - gradable.length} Frage(n) ohne bestaetigte Loesung wurden nicht gewertet.`
+          ? `${allQuestions.length - gradable.length} Frage(n) ohne bestätigte Lösung wurden nicht gewertet.`
           : "Alle Fragen wurden gewertet."}
       </p>
 
+      {transcripts && transcripts.length > 0 && (
+        <TranscriptPanel transcripts={transcripts} title="Hörtexte (Transkript) anzeigen" />
+      )}
+
       {allQuestions.map((question) => {
-        const userAnswer = answers[question.id];
-        const isUnanswered = userAnswer === undefined;
-        const isCorrect =
-          question.correct_answer !== null && userAnswer === question.correct_answer;
+        const answer = answers[question.id];
+        const answered = hasAnswer(answer);
+        const gradableQuestion = isGradable(question);
+        const correct = isCorrect(question, answer);
         return (
           <div className="review-row" key={question.id}>
-            <span
-              className={`review-icon ${isCorrect ? "correct-mark" : "incorrect-mark"}`}
-            >
-              {question.correct_answer === null ? "?" : isCorrect ? "OK" : "X"}
+            <span className={`review-icon ${correct ? "correct-mark" : "incorrect-mark"}`}>
+              {!gradableQuestion ? "?" : correct ? "OK" : "X"}
             </span>
             <div>
               <p className="review-text">{question.prompt}</p>
               <p className="review-text review-answer">
-                {isUnanswered
-                  ? "Keine Antwort ausgewaehlt."
-                  : `Ihre Antwort: ${question.options[userAnswer]}`}
-                {question.correct_answer !== null &&
-                  !isCorrect &&
-                  ` — Richtig: ${question.options[question.correct_answer]}`}
+                {answered
+                  ? `Ihre Antwort: ${describeAnswer(question, answer)}`
+                  : "Keine Antwort ausgewählt."}
+                {gradableQuestion && !correct && ` — Richtig: ${describeCorrect(question)}`}
               </p>
             </div>
           </div>
@@ -63,11 +75,11 @@ export default function ScoreSummary({ parts, answers, level, onRetryWrong }: Sc
             className="primary-button"
             onClick={() => onRetryWrong(wrongIds)}
           >
-            Nochmal nur Fehler ueben
+            Nochmal nur Fehler üben
           </button>
         )}
         <Link href="/" className="secondary-button">
-          Zurueck zur Uebersicht
+          Zurück zur Übersicht
         </Link>
       </div>
     </div>

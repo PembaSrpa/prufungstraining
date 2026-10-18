@@ -3,7 +3,7 @@ import { listSets } from "@/lib/content";
 import type { Level, SetSummary, Skill } from "@/lib/types";
 
 const SKILL_LABEL: Record<Skill, string> = {
-  hoeren: "Hoeren",
+  hoeren: "Hören",
   lesen: "Lesen",
   schreiben: "Schreiben",
   sprechen: "Sprechen"
@@ -11,17 +11,17 @@ const SKILL_LABEL: Record<Skill, string> = {
 
 const EXAM_LABEL: Record<string, string> = {
   "a1-goethe-modellsatz": "Goethe Modellsatz",
-  "a1-goethe-uebungssatz-01": "Goethe Uebungssatz 01",
-  "a1-goethe-uebungssatz-02": "Goethe Uebungssatz 02",
-  "a1-goethe-fit-uebungssatz-01": "Goethe Fit in Deutsch Uebungssatz 01",
-  "a1-goethe-fit-uebungssatz-02": "Goethe Fit in Deutsch Uebungssatz 02",
+  "a1-goethe-uebungssatz-01": "Goethe Übungssatz 01",
+  "a1-goethe-uebungssatz-02": "Goethe Übungssatz 02",
+  "a1-goethe-fit-uebungssatz-01": "Goethe Fit in Deutsch Übungssatz 01",
+  "a1-goethe-fit-uebungssatz-02": "Goethe Fit in Deutsch Übungssatz 02",
   "a2-goethe-modellsatz": "Goethe Modellsatz",
   "a2-goethe-fit-modellsatz": "Goethe Fit in Deutsch Modellsatz",
-  "a2-goethe-fit-uebungssatz-01": "Goethe Fit in Deutsch Uebungssatz 01",
-  "a2-goethe-uebungssatz-01": "Goethe Uebungssatz 01",
-  "a2-telc-uebungstest-01": "telc Uebungstest 01",
-  "a2-oif-dtoe-modelltest": "OeIF Deutsch-Test fuer Oesterreich (A2/B1)",
-  "b1-goethe-uebungssatz-erwachsene-01": "Goethe Uebungssatz Erwachsene"
+  "a2-goethe-fit-uebungssatz-01": "Goethe Fit in Deutsch Übungssatz 01",
+  "a2-goethe-uebungssatz-01": "Goethe Übungssatz 01",
+  "a2-telc-uebungstest-01": "telc Übungstest 01",
+  "a2-oif-dtoe-modelltest": "ÖIF Deutsch-Test für Österreich (A2/B1)",
+  "b1-goethe-uebungssatz-erwachsene-01": "Goethe Übungssatz Erwachsene"
 };
 
 const LEVEL_LABEL: Record<Level, string> = {
@@ -44,10 +44,10 @@ export default function HomePage() {
 
   return (
     <main className="container">
-      <p className="eyebrow">Persoenliches Uebungsportal</p>
-      <h1 className="page-title">Pruefungstraining A1 / A2</h1>
+      <p className="eyebrow">Persönliches Übungsportal</p>
+      <h1 className="page-title">Prüfungstraining A1 / A2</h1>
       <p className="page-subtitle">
-        Hoeren und Lesen werden direkt bewertet. Schreiben laeuft mit Timer ohne
+        Hören und Lesen werden direkt bewertet. Schreiben läuft mit Timer ohne
         automatische Bewertung. Sprechen zeigt Themen und Beispielfragen zum
         Nachschlagen.
       </p>

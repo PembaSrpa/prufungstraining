@@ -30,6 +30,18 @@ export default function SchreibenRunner({
   const [expired, setExpired] = useState(false);
   const [logged, setLogged] = useState(false);
   const shellRef = useRef<HTMLDivElement>(null);
+  const headerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const shell = shellRef.current;
+    const header = headerRef.current;
+    if (!shell || !header) return;
+    const apply = () => shell.style.setProperty("--header-h", `${header.offsetHeight}px`);
+    apply();
+    const observer = new ResizeObserver(apply);
+    observer.observe(header);
+    return () => observer.disconnect();
+  }, []);
 
   const handleChange = useCallback((partNumber: number, value: string) => {
     setAnswers((current) => ({ ...current, [partNumber]: value }));
@@ -66,53 +78,54 @@ export default function SchreibenRunner({
     return () => window.removeEventListener("beforeunload", onBeforeUnload);
   }, [mode, expired]);
 
-  if (!mode) {
-    return (
-      <div className="exam-shell">
-        <div className="exam-topbar">
-          <span className="exam-topbar-title">{examLabel} — Schreiben</span>
-        </div>
-        <div className="exam-part">
-          <ModePicker onChoose={setMode} />
-        </div>
-      </div>
-    );
-  }
-
   const isPractice = mode === "practice";
 
   return (
     <div className="exam-shell" ref={shellRef}>
-      <div className="exam-topbar">
-        <span className="exam-topbar-title">
-          {examLabel} — Schreiben — {isPractice ? "Uebung" : "Pruefung"}
-        </span>
-        <div className="exam-topbar-controls">
-          {isPractice && started && !expired && (
-            <button
-              type="button"
-              className="secondary-button small"
-              onClick={() => setPaused((current) => !current)}
-            >
-              {paused ? "Weiter" : "Pause"}
-            </button>
-          )}
-          {started ? (
-            <ExamTimer totalSeconds={timerSeconds} paused={paused} onExpire={handleExpire} />
-          ) : (
-            <span className="exam-timer idle">Bereit</span>
+      <div className="exam-header" ref={headerRef}>
+        <div className="exam-topbar">
+          <div className="exam-topbar-title">
+            <span className="title-main">
+              Schreiben{mode ? ` — ${isPractice ? "Übung" : "Prüfung"}` : ""}
+            </span>
+            <span className="title-sub">{examLabel}</span>
+          </div>
+          {mode && (
+            <div className="exam-topbar-controls">
+              {started && <NotesPanel setId={setId} />}
+              {isPractice && started && !expired && (
+                <button
+                  type="button"
+                  className="secondary-button small"
+                  onClick={() => setPaused((current) => !current)}
+                >
+                  {paused ? "Weiter" : "Pause"}
+                </button>
+              )}
+              {started ? (
+                <ExamTimer totalSeconds={timerSeconds} paused={paused} onExpire={handleExpire} />
+              ) : (
+                <span className="exam-timer idle">Bereit</span>
+              )}
+            </div>
           )}
         </div>
       </div>
 
-      {!started && (
+      {!mode && (
+        <div className="exam-part">
+          <ModePicker onChoose={setMode} />
+        </div>
+      )}
+
+      {mode && !started && (
         <div className="exam-part">
           <div className="start-gate">
             <h2 className="part-label">Bereit zum Start</h2>
             <p className="part-instructions">
               {isPractice
-                ? "Sie koennen jederzeit pausieren."
-                : "Vollbild, kein Pausieren, automatische Abgabe wenn die Zeit ablaeuft."}
+                ? "Sie können jederzeit pausieren."
+                : "Vollbild, kein Pausieren, automatische Abgabe wenn die Zeit abläuft."}
             </p>
             <button type="button" className="primary-button" onClick={handleStart}>
               Starten
@@ -121,10 +134,8 @@ export default function SchreibenRunner({
         </div>
       )}
 
-      {started && !paused && (
+      {mode && started && !paused && (
         <>
-          <div className="exam-part"><NotesPanel setId={setId} /></div>
-
           {parts.map((part) => (
             <div className="exam-part" key={part.part_number}>
               <h2 className="part-label">Teil {part.part_number}</h2>
@@ -132,6 +143,7 @@ export default function SchreibenRunner({
               <div className="reading-text">{part.task_prompt}</div>
               <textarea
                 className="writing-textarea"
+                aria-label={`Teil ${part.part_number}: Ihre Antwort`}
                 value={answers[part.part_number] ?? ""}
                 onChange={(e) => handleChange(part.part_number, e.target.value)}
                 disabled={expired}
@@ -148,7 +160,7 @@ export default function SchreibenRunner({
           {expired && (
             <div className="exam-part">
               <span className="review-flag">
-                Die Zeit ist abgelaufen. Sie koennen Ihre Antwort trotzdem noch kopieren.
+                Die Zeit ist abgelaufen. Sie können Ihre Antwort trotzdem noch kopieren.
               </span>
             </div>
           )}

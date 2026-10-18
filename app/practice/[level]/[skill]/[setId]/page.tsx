@@ -10,7 +10,7 @@ interface PageProps {
 }
 
 const SKILL_LABEL: Record<Skill, string> = {
-  hoeren: "Hoeren",
+  hoeren: "Hören",
   lesen: "Lesen",
   schreiben: "Schreiben",
   sprechen: "Sprechen"
@@ -48,6 +48,7 @@ export default function SkillPage({ params }: PageProps) {
         parts={block.parts}
         audioUrl={block.audio_url}
         audioNote={block.audio_note}
+        transcripts={block.transcripts}
       />
     );
   }

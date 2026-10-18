@@ -11,16 +11,16 @@
       "parts": [
         {
           "part_number": 1,
-          "instructions": "Du liest in einer Zeitung diesen Text. Waehle fuer die Aufgaben 1 bis 5 die richtige Loesung a, b oder c.",
-          "text": "JETZT: die neue Jugend-Zeitung. Eine Zeitung fuer Jugendliche zwischen 14 und 18 Jahren in Europa, informiert in zehn Minuten. Es gibt sie nicht im Geschaeft, man bekommt sie jeden Tag online oder am Wochenende per Post nach Hause. Die ersten Seiten informieren ueber Tagespolitik, dazu ein Interview mit Fotos, Seiten vier und fuenf ueber Orte und Staedte, Seiten sechs und sieben zu Wissenschaft und Technologie, in der Mitte das Fernsehprogramm, auf der letzten Seite Neues ueber Promis.",
+          "instructions": "Du liest in einer Zeitung diesen Text. Wähle für die Aufgaben 1 bis 5 die richtige Lösung a, b oder c.",
+          "text": "JETZT: die neue Jugend-Zeitung. Eine Zeitung für Jugendliche zwischen 14 und 18 Jahren in Europa, informiert in zehn Minuten. Es gibt sie nicht im Geschäft, man bekommt sie jeden Tag online oder am Wochenende per Post nach Hause. Die ersten Seiten informieren über Tagespolitik, dazu ein Interview mit Fotos, Seiten vier und fünf über Orte und Städte, Seiten sechs und sieben zu Wissenschaft und Technologie, in der Mitte das Fernsehprogramm, auf der letzten Seite Neues über Promis.",
           "questions": [
             {
               "id": "l1-1",
-              "prompt": "JETZT ist gemacht fuer ...",
+              "prompt": "JETZT ist gemacht für ...",
               "options": [
-                "Jungen und Maedchen.",
+                "Jungen und Mädchen.",
                 "Leser in der ganzen Welt.",
-                "Zwoelf- bis Achtzehnjaehrige."
+                "Zwölf- bis Achtzehnjährige."
               ],
               "correct_answer": 2
             },
@@ -28,7 +28,7 @@
               "id": "l1-2",
               "prompt": "JETZT bekommt man ...",
               "options": [
-                "immer im Geschaeft.",
+                "immer im Geschäft.",
                 "Samstag und Sonntag mit der Post.",
                 "von Montag bis Freitag im Internet."
               ],
@@ -48,9 +48,9 @@
               "id": "l1-4",
               "prompt": "Im letzten Teil von JETZT kann man ...",
               "options": [
-                "andere Laender kennenlernen.",
-                "Informationen ueber beruehmte Personen lesen.",
-                "sich ueber das Kinoprogramm informieren."
+                "andere Länder kennenlernen.",
+                "Informationen über berühmte Personen lesen.",
+                "sich über das Kinoprogramm informieren."
               ],
               "correct_answer": 1
             },
@@ -58,9 +58,9 @@
               "id": "l1-5",
               "prompt": "JETZT liest man, weil man ...",
               "options": [
-                "mit dem Zeitunglesen anfangen moechte.",
+                "mit dem Zeitunglesen anfangen möchte.",
                 "schon viel Erfahrung im Zeitunglesen hat.",
-                "selbst in der Zeitung schreiben moechte."
+                "selbst in der Zeitung schreiben möchte."
               ],
               "correct_answer": 0
             }
@@ -68,8 +68,8 @@
         },
         {
           "part_number": 2,
-          "instructions": "Du bist auf einer Veranstaltung und liest das Programm. Welcher Ort passt? Waehle a, b oder c.",
-          "text": "Festprogramm im Schulzentrum Sued: Sporthalle (Volleyball, Fussball, Tennis-Kurs). Musiksaal (Theaterstueck, Wir spielen dein Lieblingslied - du singst, Modenschau, T-Shirts bemalen). Cafe (Franzoesisch lernen Info, Film, Concert Band, Ausstellung Rom-Fahrt, ab 19 Uhr Disco). Pausenhalle 15-22 Uhr (Foto-Ausstellung, Spiel- und Schachcafe, Carrerabahn, Kuchen/Milchshakes/internationale Spezialitaeten). Schulhof 15-18 Uhr (Gymnastik, Fremde Sprachen kennenlernen kleiner Sprachkurs, kleiner Fotokurs 15/16/17 Uhr, Informationen ueber unsere Schule von den Anfaengen bis heute).",
+          "instructions": "Du bist auf einer Veranstaltung und liest das Programm. Welcher Ort passt? Wähle a, b oder c.",
+          "text": "Festprogramm im Schulzentrum Süd: Sporthalle (Volleyball, Fußball, Tennis-Kurs). Musiksaal (Theaterstück, Wir spielen dein Lieblingslied - du singst, Modenschau, T-Shirts bemalen). Cafe (Französisch lernen Info, Film, Concert Band, Ausstellung Rom-Fahrt, ab 19 Uhr Disco). Pausenhalle 15-22 Uhr (Foto-Ausstellung, Spiel- und Schachcafe, Carrerabahn, Kuchen/Milchshakes/internationale Spezialitäten). Schulhof 15-18 Uhr (Gymnastik, Fremde Sprachen kennenlernen kleiner Sprachkurs, kleiner Fotokurs 15/16/17 Uhr, Informationen über unsere Schule von den Anfängen bis heute).",
           "questions": [
             {
               "id": "l2-6",
@@ -83,7 +83,7 @@
             },
             {
               "id": "l2-7",
-              "prompt": "Du moechtest wissen: Wie war die Schule frueher?",
+              "prompt": "Du möchtest wissen: Wie war die Schule früher?",
               "options": [
                 "Pausenhalle",
                 "Schulhof",
@@ -93,7 +93,7 @@
             },
             {
               "id": "l2-8",
-              "prompt": "Du willst ein paar chinesische Woerter lernen.",
+              "prompt": "Du willst ein paar chinesische Wörter lernen.",
               "options": [
                 "Musiksaal",
                 "Pausenhalle",
@@ -103,7 +103,7 @@
             },
             {
               "id": "l2-9",
-              "prompt": "Du moechtest fotografieren lernen.",
+              "prompt": "Du möchtest fotografieren lernen.",
               "options": [
                 "Pausenhalle",
                 "Schulhof",
@@ -113,7 +113,7 @@
             },
             {
               "id": "l2-10",
-              "prompt": "Du moechtest Speisen aus anderen Laendern essen.",
+              "prompt": "Du möchtest Speisen aus anderen Ländern essen.",
               "options": [
                 "Musiksaal",
                 "Pausenhalle",
@@ -125,16 +125,16 @@
         },
         {
           "part_number": 3,
-          "instructions": "Du liest eine E-Mail. Waehle fuer die Aufgaben 11 bis 15 die richtige Loesung a, b oder c.",
-          "text": "Tassilo an Tina: Ich bin nun in der neunten Klasse, alles wie immer, Sport ist zurzeit das einzige Fach, das ich richtig gut finde. Frueher habe ich mit Freunden Fussball gespielt, bin auch immer gerne Fahrrad gefahren (das habe ich dir in den Sommerferien beim Radfahren erzaehlt). Jetzt macht mir Laufen total Spass, naechstes Fruehjahr moechte ich beim Halbmarathon in Berlin mitlaufen, manchmal laeuft mein Vater mit. Hast du nicht Lust, an dem Tag nach Berlin zu kommen? Fuer meine Eltern ist es in Ordnung, wenn du bei uns uebernachtest.",
+          "instructions": "Du liest eine E-Mail. Wähle für die Aufgaben 11 bis 15 die richtige Lösung a, b oder c.",
+          "text": "Tassilo an Tina: Ich bin nun in der neunten Klasse, alles wie immer, Sport ist zurzeit das einzige Fach, das ich richtig gut finde. Früher habe ich mit Freunden Fußball gespielt, bin auch immer gerne Fahrrad gefahren (das habe ich dir in den Sommerferien beim Radfahren erzählt). Jetzt macht mir Laufen total Spaß, nächstes Frühjahr möchte ich beim Halbmarathon in Berlin mitlaufen, manchmal läuft mein Vater mit. Hast du nicht Lust, an dem Tag nach Berlin zu kommen? Für meine Eltern ist es in Ordnung, wenn du bei uns übernachtest.",
           "questions": [
             {
               "id": "l3-11",
-              "prompt": "Was gefaellt Tassilo in der Schule?",
+              "prompt": "Was gefällt Tassilo in der Schule?",
               "options": [
-                "Der Sportunterricht macht ihm Spass.",
+                "Der Sportunterricht macht ihm Spaß.",
                 "Er findet die Lehrer nett.",
-                "Er freut sich, seine Mitschueler zu sehen."
+                "Er freut sich, seine Mitschüler zu sehen."
               ],
               "correct_answer": 0
             },
@@ -144,7 +144,7 @@
               "options": [
                 "Sie haben die gleichen Lehrer.",
                 "Sie haben sich in den Ferien getroffen.",
-                "Sie trainieren beide fuer den Halbmarathon."
+                "Sie trainieren beide für den Halbmarathon."
               ],
               "correct_answer": 1
             },
@@ -153,14 +153,14 @@
               "prompt": "Was macht Tassilo im Moment am liebsten?",
               "options": [
                 "Fahrrad fahren mit Tina.",
-                "Fussball spielen mit seinen Freunden.",
+                "Fußball spielen mit seinen Freunden.",
                 "Laufen mit dem Vater."
               ],
               "correct_answer": 2
             },
             {
               "id": "l3-14",
-              "prompt": "Was wuenscht sich Tassilo von Tina?",
+              "prompt": "Was wünscht sich Tassilo von Tina?",
               "options": [
                 "Dass sie beim Halbmarathon mitmacht.",
                 "Dass sie ihm die Stadt zeigt.",
@@ -172,7 +172,7 @@
               "id": "l3-15",
               "prompt": "Was sagen die Eltern zu der Einladung?",
               "options": [
-                "Sie aergern sich ein wenig ueber Tinas Besuch.",
+                "Sie ärgern sich ein wenig über Tinas Besuch.",
                 "Sie haben erlaubt, dass Tina nach Berlin kommt.",
                 "Sie haben verboten, dass Tina Tassilo besucht."
               ],
@@ -182,8 +182,8 @@
         },
         {
           "part_number": 4,
-          "instructions": "Sechs Jugendliche suchen einen Ferienjob. Welche Anzeige (a bis f) passt zu welcher Person (16 bis 20)? Fuer eine Aufgabe gibt es keine Loesung.",
-          "text": "a: Online-Fragebogen ausfuellen, 0,50-3,00 Euro pro Teilnahme. b: Zeitungen austragen mittwochs und freitags, zu Fuss oder mit dem Fahrrad. c: Katze fuettern morgens und abends waehrend der Ferien des Besitzers. d: Zeitungen samstags bis 12 Uhr austragen. e: Verkaeufer/Verkaeuferin, gerne im Verkauf helfen, Gespraeche mit Menschen wichtig, gute Noten. f: Hund Alex ausfuehren morgens vor dem Fruehstueck.",
+          "instructions": "Sechs Jugendliche suchen einen Ferienjob. Welche Anzeige (a bis f) passt zu welcher Person (16 bis 20)? Für eine Aufgabe gibt es keine Lösung.",
+          "text": "a: Online-Fragebogen ausfüllen, 0,50-3,00 Euro pro Teilnahme. b: Zeitungen austragen mittwochs und freitags, zu Fuß oder mit dem Fahrrad. c: Katze füttern morgens und abends während der Ferien des Besitzers. d: Zeitungen samstags bis 12 Uhr austragen. e: Verkäufer/Verkäuferin, gerne im Verkauf helfen, Gespräche mit Menschen wichtig, gute Noten. f: Hund Alex ausführen morgens vor dem Frühstück.",
           "questions": [
             {
               "id": "l4-16",
@@ -195,13 +195,13 @@
                 "d",
                 "e",
                 "f",
-                "X (keine Loesung)"
+                "X (keine Lösung)"
               ],
               "correct_answer": 2
             },
             {
               "id": "l4-17",
-              "prompt": "Sandra ist gerne im Internet und moechte so etwas Geld verdienen.",
+              "prompt": "Sandra ist gerne im Internet und möchte so etwas Geld verdienen.",
               "options": [
                 "a",
                 "b",
@@ -209,7 +209,7 @@
                 "d",
                 "e",
                 "f",
-                "X (keine Loesung)"
+                "X (keine Lösung)"
               ],
               "correct_answer": 0
             },
@@ -223,7 +223,7 @@
                 "d",
                 "e",
                 "f",
-                "X (keine Loesung)"
+                "X (keine Lösung)"
               ],
               "correct_answer": 4
             },
@@ -237,7 +237,7 @@
                 "d",
                 "e",
                 "f",
-                "X (keine Loesung)"
+                "X (keine Lösung)"
               ],
               "correct_answer": 3
             },
@@ -251,7 +251,7 @@
                 "d",
                 "e",
                 "f",
-                "X (keine Loesung)"
+                "X (keine Lösung)"
               ],
               "correct_answer": 6
             }
@@ -265,23 +265,23 @@
       "parts": [
         {
           "part_number": 1,
-          "instructions": "Du hoerst fuenf kurze Texte, jeden Text zweimal. Waehle a, b oder c.",
+          "instructions": "Du hörst fünf kurze Texte, jeden Text zweimal. Wähle a, b oder c.",
           "questions": [
             {
               "id": "h1-1",
               "prompt": "Was sagt Karina zum Thema Musik?",
               "options": [
-                "Sie hoert alles, was ihr gefaellt.",
-                "Sie hoert nur in der Disco Musik.",
+                "Sie hört alles, was ihr gefällt.",
+                "Sie hört nur in der Disco Musik.",
                 "Sie mag besonders Rockmusik."
               ],
               "correct_answer": 0
             },
             {
               "id": "h1-2",
-              "prompt": "Warum traegt der Junge nur Hip-Hop-Sachen?",
+              "prompt": "Warum trägt der Junge nur Hip-Hop-Sachen?",
               "options": [
-                "Weil er gerne Hip-Hop-Musik hoert.",
+                "Weil er gerne Hip-Hop-Musik hört.",
                 "Weil er diese Kleidung mag.",
                 "Weil seine Freunde das auch tun."
               ],
@@ -299,19 +299,19 @@
             },
             {
               "id": "h1-4",
-              "prompt": "Ein Maedchen dankt fuer ihr Geburtstagsgeschenk. Sie dankt fuer ...",
+              "prompt": "Ein Mädchen dankt für ihr Geburtstagsgeschenk. Sie dankt für ...",
               "options": [
                 "den Rucksack.",
-                "die Tasche fuer das Rad.",
-                "die vielen Buecher."
+                "die Tasche für das Rad.",
+                "die vielen Bücher."
               ],
               "correct_answer": 1
             },
             {
               "id": "h1-5",
-              "prompt": "Welche Schueler sollen in die Bibliothek gehen?",
+              "prompt": "Welche Schüler sollen in die Bibliothek gehen?",
               "options": [
-                "Alle Schueler aus Herrn Schmidts Klasse.",
+                "Alle Schüler aus Herrn Schmidts Klasse.",
                 "Alle mit Interesse an einer Arbeit in den Ferien.",
                 "Alle vom Schreibkurs."
               ],
@@ -321,7 +321,7 @@
         },
         {
           "part_number": 2,
-          "instructions": "Du hoerst ein Gespraech einmal. Was haben Julias und Leons Freunde am Wochenende gemacht? Ordne jeder Person die Aktivitaet zu.",
+          "instructions": "Du hörst ein Gespräch einmal. Was haben Julias und Leons Freunde am Wochenende gemacht? Ordne jeder Person die Aktivität zu.",
           "needs_review": true,
           "review_note": "The original task matches each person to one of nine pictures (a-i). No images are available in this extraction, so activities are given directly as text; adapt for the app or treat as reference-only.",
           "questions": [
@@ -389,33 +389,33 @@
         },
         {
           "part_number": 3,
-          "instructions": "Du hoerst fuenf kurze Gespraeche einmal. Waehle a, b oder c.",
+          "instructions": "Du hörst fünf kurze Gespräche einmal. Wähle a, b oder c.",
           "needs_review": true,
           "review_note": "The original options are pictures (a/b/c) rather than text. Text options below are reconstructed from the transcript for reference; verify against the original picture set before using as a multiple-choice exam.",
           "questions": [
             {
               "id": "h3-11",
-              "prompt": "Welche Bluse kauft das Maedchen?",
+              "prompt": "Welche Bluse kauft das Mädchen?",
               "options": [
-                "Ohne Arm, in Groesse M (da S nicht mehr vorhanden).",
+                "Ohne Arm, in Größe M (da S nicht mehr vorhanden).",
                 "Mit langem Arm.",
-                "Mit kurzem Arm, in Groesse S."
+                "Mit kurzem Arm, in Größe S."
               ],
               "correct_answer": 0
             },
             {
               "id": "h3-12",
-              "prompt": "Was hat das Maedchen gestern Abend gegessen?",
+              "prompt": "Was hat das Mädchen gestern Abend gegessen?",
               "options": [
                 "Hamburger",
                 "Fisch",
-                "Haehnchen"
+                "Hähnchen"
               ],
               "correct_answer": 2
             },
             {
               "id": "h3-13",
-              "prompt": "Welches Fach macht Lisa am meisten Spass?",
+              "prompt": "Welches Fach macht Lisa am meisten Spaß?",
               "options": [
                 "Kunst",
                 "Chemie",
@@ -447,7 +447,7 @@
         },
         {
           "part_number": 4,
-          "instructions": "Du hoerst ein Interview zweimal. Waehle Ja oder Nein.",
+          "instructions": "Du hörst ein Interview zweimal. Wähle Ja oder Nein.",
           "questions": [
             {
               "id": "h4-16",
@@ -478,7 +478,7 @@
             },
             {
               "id": "h4-19",
-              "prompt": "Sie darf auch Suesses essen.",
+              "prompt": "Sie darf auch Süßes essen.",
               "options": [
                 "Ja",
                 "Nein"
@@ -498,18 +498,18 @@
         }
       ],
       "transcripts": [
-        "Karina: Zum Thema Musik moechte ich sagen, ich hoere sehr viel Musik, Funk, Pop, Rock und Hip-Hop, wichtig ist, dass ich die Musik mag.",
-        "Junge: Eigentlich bin ich gar kein Hip-Hop-Fan, ich steh nur total auf diese Mode, ich trage die Kleidung, weil ich mich gut darin fuehle.",
+        "Karina: Zum Thema Musik möchte ich sagen, ich höre sehr viel Musik, Funk, Pop, Rock und Hip-Hop, wichtig ist, dass ich die Musik mag.",
+        "Junge: Eigentlich bin ich gar kein Hip-Hop-Fan, ich steh nur total auf diese Mode, ich trage die Kleidung, weil ich mich gut darin fühle.",
         "Moderator: Die Stadt Bremen organisiert Sprachreisen, ruf zwischen 8 und 12.30 Uhr im Rathaus an.",
-        "Maedchen: Danke Onkel Jakob fuer das tolle Geschenk, genau diese Fahrradtasche wollte ich haben.",
-        "Schulleiter: Alle Schuelerinnen und Schueler der Klassen zehn bis dreizehn, die einen Ferienjob suchen, gehen bitte in die Bibliothek.",
-        "Julia und Leon: Julia war Tennis spielen mit ihrem Bruder, danach Jenny beim Tischtennis zugeschaut. Diana macht samstags einen Tanzkurs. Ihr Bruder Stefan spielt Gitarre in einer Musikgruppe, uebt zweimal pro Woche. Elisabeth reitet jeden Sonntag. Oskar faehrt Fahrrad, weil Skifahren zu teuer ist.",
-        "Verkaeufer: Die Bluse ohne Arm gibt es nur noch in M, in S nur noch mit kurzem Arm, das Maedchen nimmt M.",
-        "Junge und Maedchen: Sie wollte einen Hamburger, hat aber im Fischrestaurant Haehnchen genommen.",
-        "Onkel und Lisa: Kunstunterricht macht Spass aber viele Hausaufgaben, ihr Lieblingsfach ist jetzt Chemie, Erdkunde findet sie langweilig.",
-        "Kevin: Ich wuerde gerne mit dem Fahrrad fahren, aber es ist zu weit, die Bahn ist voll aber schneller als das Auto.",
+        "Mädchen: Danke Onkel Jakob für das tolle Geschenk, genau diese Fahrradtasche wollte ich haben.",
+        "Schulleiter: Alle Schülerinnen und Schüler der Klassen zehn bis dreizehn, die einen Ferienjob suchen, gehen bitte in die Bibliothek.",
+        "Julia und Leon: Julia war Tennis spielen mit ihrem Bruder, danach Jenny beim Tischtennis zugeschaut. Diana macht samstags einen Tanzkurs. Ihr Bruder Stefan spielt Gitarre in einer Musikgruppe, übt zweimal pro Woche. Elisabeth reitet jeden Sonntag. Oskar fährt Fahrrad, weil Skifahren zu teuer ist.",
+        "Verkäufer: Die Bluse ohne Arm gibt es nur noch in M, in S nur noch mit kurzem Arm, das Mädchen nimmt M.",
+        "Junge und Mädchen: Sie wollte einen Hamburger, hat aber im Fischrestaurant Hähnchen genommen.",
+        "Onkel und Lisa: Kunstunterricht macht Spaß aber viele Hausaufgaben, ihr Lieblingsfach ist jetzt Chemie, Erdkunde findet sie langweilig.",
+        "Kevin: Ich würde gerne mit dem Fahrrad fahren, aber es ist zu weit, die Bahn ist voll aber schneller als das Auto.",
         "Mann und Frau: Der Sportraum ist im dritten Stock, im zweiten der Friseur, im dritten auch ein Cafe und eine Bar, das Restaurant ist im ersten Stock.",
-        "Interview mit Katja: Ihre Mutter spielt Tennis, mit fuenf bekam sie einen Tennislehrer, in der Schule spielen sie Volleyball aber sie macht nicht mit, spielt viermal pro Woche zwei Stunden ausser mittwochs, laeuft zweimal pro Woche, isst manchmal Pizza und Eis, am Wochenende Kino oder Musik mit Freunden."
+        "Interview mit Katja: Ihre Mutter spielt Tennis, mit fünf bekam sie einen Tennislehrer, in der Schule spielen sie Volleyball aber sie macht nicht mit, spielt viermal pro Woche zwei Stunden außer mittwochs, läuft zweimal pro Woche, isst manchmal Pizza und Eis, am Wochenende Kino oder Musik mit Freunden."
       ]
     },
     "schreiben": {
@@ -517,13 +517,13 @@
       "parts": [
         {
           "part_number": 1,
-          "task_instructions": "Du bist unterwegs in der Stadt und schreibst eine SMS an deine Freundin Ekaterini. Entschuldige dich, dass du zu spaet kommst, schreib warum, und nenn einen neuen Ort und eine neue Uhrzeit fuer das Treffen. Schreib 20-30 Woerter zu allen drei Punkten.",
-          "task_prompt": "SMS an Ekaterini: Entschuldigung fuer Verspaetung, Grund nennen, neuer Ort und neue Uhrzeit vorschlagen."
+          "task_instructions": "Du bist unterwegs in der Stadt und schreibst eine SMS an deine Freundin Ekaterini. Entschuldige dich, dass du zu spät kommst, schreib warum, und nenn einen neuen Ort und eine neue Uhrzeit für das Treffen. Schreib 20-30 Wörter zu allen drei Punkten.",
+          "task_prompt": "SMS an Ekaterini: Entschuldigung für Verspätung, Grund nennen, neuer Ort und neue Uhrzeit vorschlagen."
         },
         {
           "part_number": 2,
-          "task_instructions": "Du bist neu in der Klasse. Deine Deutschlehrerin, Frau Gross, laedt dich ein, am Freitagnachmittag mit anderen Schuelerinnen und Schuelern eine Party im Sportzentrum zu feiern. Schreib Frau Gross eine E-Mail: Sag danke und sage, dass du kommst. Informiere, wie du helfen willst. Frag nach dem Weg. Schreib 30-40 Woerter zu allen drei Punkten.",
-          "task_prompt": "E-Mail an Frau Gross: Danken und Zusage, Hilfe anbieten, nach dem Weg fragen."
+          "task_instructions": "Du bist neu in der Klasse. Deine Deutschlehrerin, Frau Groß, lädt dich ein, am Freitagnachmittag mit anderen Schülerinnen und Schülern eine Party im Sportzentrum zu feiern. Schreib Frau Groß eine E-Mail: Sag danke und sage, dass du kommst. Informiere, wie du helfen willst. Frag nach dem Weg. Schreib 30-40 Wörter zu allen drei Punkten.",
+          "task_prompt": "E-Mail an Frau Groß: Danken und Zusage, Hilfe anbieten, nach dem Weg fragen."
         }
       ]
     },
@@ -541,9 +541,9 @@
         },
         {
           "part_number": 2,
-          "topic": "Von sich erzaehlen",
+          "topic": "Von sich erzählen",
           "example_questions": [
-            "Was machst du mit deinem Taschengeld? Spiele, Buecher, Ausgehen, Sparen, Kleidung.",
+            "Was machst du mit deinem Taschengeld? Spiele, Bücher, Ausgehen, Sparen, Kleidung.",
             "Was machst du oft am Wochenende? Jemanden besuchen, mit wem, wo, Sport?"
           ]
         },
@@ -551,7 +551,7 @@
           "part_number": 3,
           "topic": "Etwas zusammen planen",
           "example_questions": [
-            "Ihr wollt zusammen fuer Julias Geburtstagsfeier ein Geschenk kaufen. Findet mit eurem Partner einen gemeinsamen Termin anhand der beiden Wochenplaene."
+            "Ihr wollt zusammen für Julias Geburtstagsfeier ein Geschenk kaufen. Findet mit eurem Partner einen gemeinsamen Termin anhand der beiden Wochenpläne."
           ]
         }
       ]
